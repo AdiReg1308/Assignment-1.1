@@ -1,0 +1,1011 @@
+Script started on 2022-08-18 16:43:09+05:30 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="211" LINES="49"]
+]0;aditya1308@TIGER03848: ~/my_project[01;32maditya1308@TIGER03848[00m:[01;34m~/my_project[00m$ cd /[K/
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ cd /mnt [K/c/[K
+]0;aditya1308@TIGER03848: /mnt/c[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c[00m$ cd users[K[K[K[K[KUsers
+]0;aditya1308@TIGER03848: /mnt/c/Users[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/Users[00m$ la
+ [0m[01;34mAdmin[0m  [01;36m'All Users'[0m   [01;34mDefault[0m  [01;36m'Default User'[0m   [34;42mPublic[0m   [34;42maditya.regundwar[0m   [01;32mdesktop.ini[0m   [01;34mgaia[0m
+]0;aditya1308@TIGER03848: /mnt/c/Users[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/Users[00m$ cd aditya.regundwar/
+]0;aditya1308@TIGER03848: /mnt/c/Users/aditya.regundwar[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/Users/aditya.regundwar[00m$ la[K[Kcd dow[K[K[KDownloads/
+]0;aditya1308@TIGER03848: /mnt/c/Users/aditya.regundwar/Downloads[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/Users/aditya.regundwar/Downloads[00m$ mv [K[K[Kbash m[KMiniconda3-py39_4.12.0-Linux-x86_64.sh 
+
+Welcome to Miniconda3 py39_4.12.0
+
+In order to continue the installation process, please review the license
+agreement.
+Please, press ENTER to continue
+>>> 
+======================================
+End User License Agreement - Miniconda
+======================================
+
+Copyright 2015-2022, Anaconda, Inc.
+
+All rights reserved under the 3-clause BSD License:
+
+This End User License Agreement (the "Agreement") is a legal agreement between you and Anaconda, Inc. ("Anaconda") and governs your use of Miniconda.
+
+Subject to the terms of this Agreement, Anaconda hereby grants you a non-exclusive, non-transferable license to:
+
+  * Install and use the Miniconda,
+  * Modify and create derivative works of sample source code delivered in Miniconda subject to the Terms of Service for the Repository (as defined hereinafter) available at https://www.anaconda.com/terms-of-serv
+ice, and
+  * Redistribute code files in source (if provided to you by Anaconda as source) and binary forms, with or without modification subject to the requirements set forth below.
+
+Anaconda may, at its option, make available patches, workarounds or other updates to Miniconda. Unless the updates are provided with their separate governing terms, they are deemed part of Miniconda licensed to 
+you as provided in this Agreement. This Agreement does not entitle you to any support for Miniconda.
+
+Anaconda reserves all rights not expressly granted to you in this Agreement.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+  * Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+  * Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+  * Neither the name of Anaconda nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+You acknowledge that, as between you and Anaconda, Anaconda owns all right, title, and interest, including all intellectual property rights, in and to Miniconda and, with respect to third-party products distribu
+ted with or through Miniconda, the applicable third-party licensors own all right, title and interest, including all intellectual property rights, in and to such products. If you send or transmit any communicati
+ons or materials to Anaconda suggesting or recommending changes to the software or documentation, including without limitation, new features or functionality relating thereto, or any comments, questions, suggest
+ions or the like ("Feedback"), Anaconda is free to use such Feedback. You hereby assign to Anaconda all right, title, and interest in, and Anaconda is free to use, without any attribution or compensation to any 
+party, any ideas, know-how, concepts, techniques or other intellectual property rights contained in the Feedback, for any purpose whatsoever, although Anaconda is not required to use any Feedback.
+
+DISCLAIMER
+==========
+
+THIS SOFTWARE IS PROVIDED BY ANACONDA AND ITS CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PUR
+POSE ARE DISCLAIMED. IN NO EVENT SHALL ANACONDA BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SER
+VICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WA
+Y OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, ANACONDA AND ITS AFFILIATES SHALL NOT BE LIABLE FOR ANY SPECIAL, INCIDENTAL, PUNITIVE OR CONSEQUENTIAL DAMAGES, OR ANY LOST PROFITS, LOSS OF USE, LOSS OF DATA OR LOSS OF G
+OODWILL, OR THE COSTS OF PROCURING SUBSTITUTE PRODUCTS, ARISING OUT OF OR IN CONNECTION WITH THIS AGREEMENT OR THE USE OR PERFORMANCE OF MINICONDA, WHETHER SUCH LIABILITY ARISES FROM ANY CLAIM BASED UPON BREACH 
+OF CONTRACT, BREACH OF WARRANTY, TORT (INCLUDING NEGLIGENCE), PRODUCT LIABILITY OR ANY OTHER CAUSE OF ACTION OR THEORY OF LIABILITY. IN NO EVENT WILL THE TOTAL CUMULATIVE LIABILITY OF ANACONDA AND ITS AFFILIATES
+ UNDER OR ARISING OUT OF THIS AGREEMENT EXCEED US0.00.
+
+Miscellaneous
+[7m--More--[27m=============
+[7m--More--[27m[K
+[7m--More--[27mIf you want to terminate this Agreement, you may do so by discontinuing use of Miniconda. Anaconda may, at any time, terminate this Agreement and the license granted hereunder if you fail to comply with any term
+[7m--More--[27m of this Agreement. Upon any termination of this Agreement, you agree to promptly discontinue use of the Miniconda and destroy all copies in your possession or control. Upon any termination of this Agreement all
+[7m--More--[27m provisions survive except for the licenses granted to you.
+[7m--More--[27m[K
+[7m--More--[27mThis Agreement is governed by and construed in accordance with the internal laws of the State of Texas without giving effect to any choice or conflict of law provision or rule that would require or permit the ap
+[7m--More--[27mplication of the laws of any jurisdiction other than those of the State of Texas. Any legal suit, action, or proceeding arising out of or related to this Agreement or the licenses granted hereunder by you must b
+[7m--More--[27me instituted exclusively in the federal courts of the United States or the courts of the State of Texas in each case located in Travis County, Texas, and you irrevocably submit to the jurisdiction of such courts
+[7m--More--[27m in any such suit, action, or proceeding.
+[7m--More--[27m[K
+[7m--More--[27mNotice of Third Party Software Licenses
+[7m--More--[27m=======================================
+[7m--More--[27m[K
+[7m--More--[27mMiniconda provides access to a repository (the "Repository") which contains software packages or tools licensed on an open source basis from third parties and binary packages of these third party tools. These th
+[7m--More--[27mird party software packages or tools are provided on an "as is" basis and are subject to their respective license agreements as well as this Agreement and the Terms of Service for the Repository located at https
+[7m--More--[27m://www.anaconda.com/terms-of-service; provided, however, no restriction contained in the Terms of Service shall be construed so as to limit Your ability to download the packages contained in Miniconda provided y
+[7m--More--[27mou comply with the license for each such package. These licenses may be accessed from within the Miniconda software[1] or https://www.anaconda.com/legal. Information regarding which license is applicable is avai
+[7m--More--[27mlable from within many of the third party software packages and tools and at https://repo.anaconda.com/pkgs/main/ and https://repo.anaconda.com/pkgs/r/. Anaconda reserves the right, in its sole discretion, to ch
+[7m--More--[27mange which third party tools are included in the Repository accessible through Miniconda.
+[7m--More--[27m[K
+[7m--More--[27m[K
+[7m--More--[27mIntel Math Kernel Library
+[7m--More--[27m-------------------------
+[7m--More--[27m[K
+[7m--More--[27mMiniconda provides access to re-distributable, run-time, shared-library files from the Intel Math Kernel Library ("MKL binaries").
+[7m--More--[27m[K
+[7m--More--[27mCopyright 2018 Intel Corporation. License available at https://software.intel.com/en-us/license/intel-simplified-software-license (the "MKL License").
+[7m--More--[27m[K
+[7m--More--[27mYou may use and redistribute the MKL binaries, without modification, provided the following conditions are met:
+[7m--More--[27m[K
+[7m--More--[27m  * Redistributions must reproduce the above copyright notice and the following terms of use in the MKL binaries and in the documentation and/or other materials provided with the distribution.
+[7m--More--[27m  * Neither the name of Intel nor the names of its suppliers may be used to endorse or promote products derived from the MKL binaries without specific prior written permission.
+[7m--More--[27m  * No reverse engineering, decompilation, or disassembly of the MKL binaries is permitted.
+[7m--More--[27m[K
+[7m--More--[27mYou are specifically authorized to use and redistribute the MKL binaries with your installation of Miniconda subject to the terms set forth in the MKL License. You are also authorized to redistribute the MKL bin
+[7m--More--[27maries with Miniconda or in the Anaconda package that contains the MKL binaries. If needed, instructions for removing the MKL binaries after installation of Miniconda are available at https://docs.anaconda.com.
+[7m--More--[27m[K
+[7m--More--[27mcuDNN Software
+[7m--More--[27m--------------
+[7m--More--[27m[K
+[7m--More--[27mMiniconda also provides access to cuDNN software binaries ("cuDNN binaries") from NVIDIA Corporation. You are specifically authorized to use the cuDNN binaries with your installation of Miniconda subject to your
+[7m--More--[27m compliance with the license agreement located at https://docs.nvidia.com/deeplearning/sdk/cudnn-sla/index.html. You are also authorized to redistribute the cuDNN binaries with an Miniconda package that contains
+[7m--More--[27m the cuDNN binaries. You can add or remove the cuDNN binaries utilizing the install and uninstall features in Miniconda.
+[7m--More--[27m[K
+[7m--More--[27mcuDNN binaries contain source code provided by NVIDIA Corporation.
+[7m--More--[27m[K
+[7m--More--[27mArm Performance Libraries
+[7m--More--[27m-------------------------
+[7m--More--[27m[K
+[7m--More--[27mArm Performance Libraries (Free Version): Anaconda provides access to software and related documentation from the Arm Performance Libraries ("Arm PL") provided by Arm Limited. By installing or otherwise accessin
+[7m--More--[27mg the Arm PL, you acknowledge and agree that use and distribution of the Arm PL is subject to your compliance with the Arm PL end user license agreement located at: https://developer.arm.com/tools-and-software/s
+[7m--More--[27merver-and-hpc/downloads/arm-performance-libraries/eula.
+[7m--More--[27m[K
+[7m--More--[27mExport; Cryptography Notice
+[7m--More--[27m===========================
+[7m--More--[27m[K
+[7m--More--[27mYou must comply with all domestic and international export laws and regulations that apply to the software, which include restrictions on destinations, end users, and end use. Miniconda includes cryptographic so
+[7m--More--[27mftware. The country in which you currently reside may have restrictions on the import, possession, use, and/or re-export to another country, of encryption software. BEFORE using any encryption software, please c
+[7m--More--[27mheck your country's laws, regulations and policies concerning the import, possession, or use, and re-export of encryption software, to see if this is permitted. See the Wassenaar Arrangement http://www.wassenaar
+[7m--More--[27m.org/ for more information.
+[7m--More--[27m[K
+[7m--More--[27mAnaconda has self-classified this software as Export Commodity Control Number (ECCN) EAR99, which includes mass market information security software using or performing cryptographic functions with asymmetric al
+[7m--More--[27mgorithms. No license is required for export of this software to non-embargoed countries.
+[7m--More--[27m[K
+[7m--More--[27mThe Intel Math Kernel Library contained in Miniconda is classified by Intel as ECCN 5D992.c with no license required for export to non-embargoed countries.
+[7m--More--[27m[K
+[7m--More--[27mThe following packages listed on https://www.anaconda.com/cryptography are included in the Repository accessible through Miniconda that relate to cryptography.
+[7m--More--[27m[K
+[7m--More--[27mLast updated March 21, 2022
+
+Do you accept the license terms? [yes|no]
+[no] >>> 
+Please answer 'yes' or 'no':'
+>>> yes
+
+Miniconda3 will now be installed into this location:
+/home/aditya1308/miniconda3
+
+  - Press ENTER to confirm the location
+  - Press CTRL-C to abort the installation
+  - Or specify a different location below
+
+[/home/aditya1308/miniconda3] >>> 
+PREFIX=/home/aditya1308/miniconda3
+Unpacking payload ...
+  0%|                                                                                                                                                                                       | 0/40 [00:00<?, ?it/s]Extracting : six-1.16.0-pyhd3eb1b0_1.conda:   0%|                                                                                                                                           | 0/40 [00:00<?, ?it/s]Extracting : brotlipy-0.7.0-py39h27cfd23_1003.conda:   2%|███                                                                                                                       | 1/40 [00:00<00:01, 21.16it/s]Extracting : openssl-1.1.1n-h7f8727e_0.conda:   5%|██████▍                                                                                                                          | 2/40 [00:00<00:01, 21.10it/s]Extracting : pycparser-2.21-pyhd3eb1b0_0.conda:   8%|█████████▌                                                                                                                     | 3/40 [00:00<00:02, 12.53it/s]Extracting : pycparser-2.21-pyhd3eb1b0_0.conda:  10%|████████████▋                                                                                                                  | 4/40 [00:00<00:02, 16.68it/s]Extracting : ld_impl_linux-64-2.35.1-h7274673_9.conda:  10%|████████████                                                                                                            | 4/40 [00:00<00:02, 16.68it/s]Extracting : colorama-0.4.4-pyhd3eb1b0_0.conda:  12%|███████████████▉                                                                                                               | 5/40 [00:00<00:02, 16.68it/s]Extracting : cffi-1.15.0-py39hd667e15_1.conda:  15%|███████████████████▏                                                                                                            | 6/40 [00:00<00:02, 16.68it/s]Extracting : tk-8.6.11-h1ccaba5_0.conda:  18%|███████████████████████▍                                                                                                              | 7/40 [00:00<00:01, 16.68it/s]Extracting : sqlite-3.38.2-hc218d9a_0.conda:  20%|██████████████████████████                                                                                                        | 8/40 [00:00<00:01, 16.68it/s]Extracting : conda-content-trust-0.1.1-pyhd3eb1b0_0.conda:  22%|██████████████████████████                                                                                          | 9/40 [00:00<00:01, 16.68it/s]Extracting : libstdcxx-ng-9.3.0-hd4cf53a_17.conda:  25%|██████████████████████████████▊                                                                                            | 10/40 [00:00<00:01, 16.68it/s]Extracting : tzdata-2022a-hda174b7_0.conda:  28%|███████████████████████████████████▊                                                                                              | 11/40 [00:00<00:01, 16.68it/s]Extracting : python-3.9.12-h12debd9_0.conda:  30%|██████████████████████████████████████▋                                                                                          | 12/40 [00:00<00:01, 16.68it/s]Extracting : python-3.9.12-h12debd9_0.conda:  32%|█████████████████████████████████████████▉                                                                                       | 13/40 [00:00<00:01, 25.02it/s]Extracting : libgomp-9.3.0-h5101ec6_17.conda:  32%|█████████████████████████████████████████▌                                                                                      | 13/40 [00:00<00:01, 25.02it/s]Extracting : conda-package-handling-1.8.1-py39h7f8727e_0.conda:  35%|██████████████████████████████████████▌                                                                       | 14/40 [00:00<00:01, 25.02it/s]Extracting : requests-2.27.1-pyhd3eb1b0_0.conda:  38%|██████████████████████████████████████████████▉                                                                              | 15/40 [00:00<00:00, 25.02it/s]Extracting : zlib-1.2.12-h7f8727e_1.conda:  40%|████████████████████████████████████████████████████▍                                                                              | 16/40 [00:00<00:00, 25.02it/s]Extracting : libgcc-ng-9.3.0-h5101ec6_17.conda:  42%|█████████████████████████████████████████████████████▌                                                                        | 17/40 [00:00<00:00, 25.02it/s]Extracting : libffi-3.3-he6710b0_2.conda:  45%|███████████████████████████████████████████████████████████▍                                                                        | 18/40 [00:00<00:00, 25.02it/s]Extracting : readline-8.1.2-h7f8727e_1.conda:  48%|████████████████████████████████████████████████████████████▊                                                                   | 19/40 [00:00<00:00, 25.02it/s]Extracting : ncurses-6.3-h7f8727e_2.conda:  50%|█████████████████████████████████████████████████████████████████▌                                                                 | 20/40 [00:00<00:00, 25.02it/s]Extracting : certifi-2021.10.8-py39h06a4308_2.conda:  52%|███████████████████████████████████████████████████████████████▌                                                         | 21/40 [00:00<00:00, 25.02it/s]Extracting : pycosat-0.6.3-py39h27cfd23_0.conda:  55%|████████████████████████████████████████████████████████████████████▊                                                        | 22/40 [00:00<00:00, 25.02it/s]Extracting : setuptools-61.2.0-py39h06a4308_0.conda:  57%|█████████████████████████████████████████████████████████████████████▌                                                   | 23/40 [00:00<00:00, 25.02it/s]Extracting : ruamel_yaml-0.15.100-py39h27cfd23_0.conda:  60%|██████████████████████████████████████████████████████████████████████▊                                               | 24/40 [00:00<00:00, 25.02it/s]Extracting : pysocks-1.7.1-py39h06a4308_0.conda:  62%|██████████████████████████████████████████████████████████████████████████████▏                                              | 25/40 [00:00<00:00, 25.02it/s]Extracting : _libgcc_mutex-0.1-main.conda:  65%|█████████████████████████████████████████████████████████████████████████████████████▏                                             | 26/40 [00:00<00:00, 25.02it/s]Extracting : pyopenssl-22.0.0-pyhd3eb1b0_0.conda:  68%|███████████████████████████████████████████████████████████████████████████████████▋                                        | 27/40 [00:00<00:00, 25.02it/s]Extracting : pip-21.2.4-py39h06a4308_0.conda:  70%|█████████████████████████████████████████████████████████████████████████████████████████▌                                      | 28/40 [00:00<00:00, 25.02it/s]Extracting : urllib3-1.26.8-pyhd3eb1b0_0.conda:  72%|███████████████████████████████████████████████████████████████████████████████████████████▎                                  | 29/40 [00:00<00:00, 25.02it/s]Extracting : idna-3.3-pyhd3eb1b0_0.conda:  75%|███████████████████████████████████████████████████████████████████████████████████████████████████                                 | 30/40 [00:00<00:00, 25.02it/s]Extracting : charset-normalizer-2.0.4-pyhd3eb1b0_0.conda:  78%|█████████████████████████████████████████████████████████████████████████████████████████▉                          | 31/40 [00:00<00:00, 25.02it/s]Extracting : tqdm-4.63.0-pyhd3eb1b0_0.conda:  80%|███████████████████████████████████████████████████████████████████████████████████████████████████████▏                         | 32/40 [00:00<00:00, 25.02it/s]Extracting : ca-certificates-2022.3.29-h06a4308_1.conda:  82%|████████████████████████████████████████████████████████████████████████████████████████████████▌                    | 33/40 [00:00<00:00, 25.02it/s]Extracting : yaml-0.2.5-h7b6447c_0.conda:  85%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                   | 34/40 [00:00<00:00, 25.02it/s]Extracting : wheel-0.37.1-pyhd3eb1b0_0.conda:  88%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████                | 35/40 [00:00<00:00, 25.02it/s]Extracting : xz-5.2.5-h7b6447c_0.conda:  90%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌             | 36/40 [00:00<00:00, 25.02it/s]Extracting : conda-4.12.0-py39h06a4308_0.conda:  92%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌         | 37/40 [00:00<00:00, 25.02it/s]Extracting : conda-4.12.0-py39h06a4308_0.conda:  95%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋      | 38/40 [00:00<00:00, 72.78it/s]Extracting : cryptography-36.0.0-py39h9ce1e76_0.conda:  95%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████      | 38/40 [00:00<00:00, 72.78it/s]Extracting : _openmp_mutex-4.5-1_gnu.tar.bz2:  98%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊   | 39/40 [00:00<00:00, 72.78it/s]                                                                                                                                                                                                                   Collecting package metadata (current_repodata.json): - done
+Solving environment: | / done
+
+## Package Plan ##
+
+  environment location: /home/aditya1308/miniconda3
+
+  added / updated specs:
+    - _libgcc_mutex==0.1=main
+    - _openmp_mutex==4.5=1_gnu
+    - brotlipy==0.7.0=py39h27cfd23_1003
+    - ca-certificates==2022.3.29=h06a4308_1
+    - certifi==2021.10.8=py39h06a4308_2
+    - cffi==1.15.0=py39hd667e15_1
+    - charset-normalizer==2.0.4=pyhd3eb1b0_0
+    - colorama==0.4.4=pyhd3eb1b0_0
+    - conda-content-trust==0.1.1=pyhd3eb1b0_0
+    - conda-package-handling==1.8.1=py39h7f8727e_0
+    - conda==4.12.0=py39h06a4308_0
+    - cryptography==36.0.0=py39h9ce1e76_0
+    - idna==3.3=pyhd3eb1b0_0
+    - ld_impl_linux-64==2.35.1=h7274673_9
+    - libffi==3.3=he6710b0_2
+    - libgcc-ng==9.3.0=h5101ec6_17
+    - libgomp==9.3.0=h5101ec6_17
+    - libstdcxx-ng==9.3.0=hd4cf53a_17
+    - ncurses==6.3=h7f8727e_2
+    - openssl==1.1.1n=h7f8727e_0
+    - pip==21.2.4=py39h06a4308_0
+    - pycosat==0.6.3=py39h27cfd23_0
+    - pycparser==2.21=pyhd3eb1b0_0
+    - pyopenssl==22.0.0=pyhd3eb1b0_0
+    - pysocks==1.7.1=py39h06a4308_0
+    - python==3.9.12=h12debd9_0
+    - readline==8.1.2=h7f8727e_1
+    - requests==2.27.1=pyhd3eb1b0_0
+    - ruamel_yaml==0.15.100=py39h27cfd23_0
+    - setuptools==61.2.0=py39h06a4308_0
+    - six==1.16.0=pyhd3eb1b0_1
+    - sqlite==3.38.2=hc218d9a_0
+    - tk==8.6.11=h1ccaba5_0
+    - tqdm==4.63.0=pyhd3eb1b0_0
+    - tzdata==2022a=hda174b7_0
+    - urllib3==1.26.8=pyhd3eb1b0_0
+    - wheel==0.37.1=pyhd3eb1b0_0
+    - xz==5.2.5=h7b6447c_0
+    - yaml==0.2.5=h7b6447c_0
+    - zlib==1.2.12=h7f8727e_1
+
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      pkgs/main/linux-64::_libgcc_mutex-0.1-main
+  _openmp_mutex      pkgs/main/linux-64::_openmp_mutex-4.5-1_gnu
+  brotlipy           pkgs/main/linux-64::brotlipy-0.7.0-py39h27cfd23_1003
+  ca-certificates    pkgs/main/linux-64::ca-certificates-2022.3.29-h06a4308_1
+  certifi            pkgs/main/linux-64::certifi-2021.10.8-py39h06a4308_2
+  cffi               pkgs/main/linux-64::cffi-1.15.0-py39hd667e15_1
+  charset-normalizer pkgs/main/noarch::charset-normalizer-2.0.4-pyhd3eb1b0_0
+  colorama           pkgs/main/noarch::colorama-0.4.4-pyhd3eb1b0_0
+  conda              pkgs/main/linux-64::conda-4.12.0-py39h06a4308_0
+  conda-content-tru~ pkgs/main/noarch::conda-content-trust-0.1.1-pyhd3eb1b0_0
+  conda-package-han~ pkgs/main/linux-64::conda-package-handling-1.8.1-py39h7f8727e_0
+  cryptography       pkgs/main/linux-64::cryptography-36.0.0-py39h9ce1e76_0
+  idna               pkgs/main/noarch::idna-3.3-pyhd3eb1b0_0
+  ld_impl_linux-64   pkgs/main/linux-64::ld_impl_linux-64-2.35.1-h7274673_9
+  libffi             pkgs/main/linux-64::libffi-3.3-he6710b0_2
+  libgcc-ng          pkgs/main/linux-64::libgcc-ng-9.3.0-h5101ec6_17
+  libgomp            pkgs/main/linux-64::libgomp-9.3.0-h5101ec6_17
+  libstdcxx-ng       pkgs/main/linux-64::libstdcxx-ng-9.3.0-hd4cf53a_17
+  ncurses            pkgs/main/linux-64::ncurses-6.3-h7f8727e_2
+  openssl            pkgs/main/linux-64::openssl-1.1.1n-h7f8727e_0
+  pip                pkgs/main/linux-64::pip-21.2.4-py39h06a4308_0
+  pycosat            pkgs/main/linux-64::pycosat-0.6.3-py39h27cfd23_0
+  pycparser          pkgs/main/noarch::pycparser-2.21-pyhd3eb1b0_0
+  pyopenssl          pkgs/main/noarch::pyopenssl-22.0.0-pyhd3eb1b0_0
+  pysocks            pkgs/main/linux-64::pysocks-1.7.1-py39h06a4308_0
+  python             pkgs/main/linux-64::python-3.9.12-h12debd9_0
+  readline           pkgs/main/linux-64::readline-8.1.2-h7f8727e_1
+  requests           pkgs/main/noarch::requests-2.27.1-pyhd3eb1b0_0
+  ruamel_yaml        pkgs/main/linux-64::ruamel_yaml-0.15.100-py39h27cfd23_0
+  setuptools         pkgs/main/linux-64::setuptools-61.2.0-py39h06a4308_0
+  six                pkgs/main/noarch::six-1.16.0-pyhd3eb1b0_1
+  sqlite             pkgs/main/linux-64::sqlite-3.38.2-hc218d9a_0
+  tk                 pkgs/main/linux-64::tk-8.6.11-h1ccaba5_0
+  tqdm               pkgs/main/noarch::tqdm-4.63.0-pyhd3eb1b0_0
+  tzdata             pkgs/main/noarch::tzdata-2022a-hda174b7_0
+  urllib3            pkgs/main/noarch::urllib3-1.26.8-pyhd3eb1b0_0
+  wheel              pkgs/main/noarch::wheel-0.37.1-pyhd3eb1b0_0
+  xz                 pkgs/main/linux-64::xz-5.2.5-h7b6447c_0
+  yaml               pkgs/main/linux-64::yaml-0.2.5-h7b6447c_0
+  zlib               pkgs/main/linux-64::zlib-1.2.12-h7f8727e_1
+
+
+Preparing transaction: \ | / done
+Executing transaction: \ | / - \ | / - \ done
+installation finished.
+Do you wish the installer to initialize Miniconda3
+by running conda init? [yes|no]
+[no] >>> yes
+no change     /home/aditya1308/miniconda3/condabin/conda
+no change     /home/aditya1308/miniconda3/bin/conda
+no change     /home/aditya1308/miniconda3/bin/conda-env
+no change     /home/aditya1308/miniconda3/bin/activate
+no change     /home/aditya1308/miniconda3/bin/deactivate
+no change     /home/aditya1308/miniconda3/etc/profile.d/conda.sh
+no change     /home/aditya1308/miniconda3/etc/fish/conf.d/conda.fish
+no change     /home/aditya1308/miniconda3/shell/condabin/Conda.psm1
+no change     /home/aditya1308/miniconda3/shell/condabin/conda-hook.ps1
+no change     /home/aditya1308/miniconda3/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /home/aditya1308/miniconda3/etc/profile.d/conda.csh
+modified      /home/aditya1308/.bashrc
+
+==> For changes to take effect, close and re-open your current shell. <==
+
+If you'd prefer that conda's base environment not be activated on startup, 
+   set the auto_activate_base parameter to false: 
+
+conda config --set auto_activate_base false
+
+Thank you for installing Miniconda3!
+]0;aditya1308@TIGER03848: /mnt/c/Users/aditya.regundwar/Downloads[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/Users/aditya.regundwar/Downloads[00m$ conda --vesr[K[Krsion
+conda: command not found
+]0;aditya1308@TIGER03848: /mnt/c/Users/aditya.regundwar/Downloads[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/Users/aditya.regundwar/Downloads[00m$ e[Kconda config --set auto_activate_base false
+conda: command not found
+]0;aditya1308@TIGER03848: /mnt/c/Users/aditya.regundwar/Downloads[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/Users/aditya.regundwar/Downloads[00m$ exit
+exit
+
+Script done on 2022-08-18 16:48:48+05:30 [COMMAND_EXIT_CODE="127"]
+Script started on 2022-08-18 16:49:49+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="211" LINES="49"]
+(base) ]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ conda[C[10Preverse-i-search)`':[C[C[C[C[C[C ': script -a ~/my_miniconda_session.txt[C[6@failed reverse-i-search)`[C[C[C[C[C[C[C[C[C[C[C[C(base) ]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ script -a ~/my_miniconda_session.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C^C
+(base) ]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ ^C
+(base) ]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ conda --vesion[K[K[K[Krsion
+conda 4.12.0
+(base) ]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ la
+.bash_history  .bashrc  .gitconfig  [0m[01;34m.local[0m       .profile                   .viminfo    my_git_session.txt        [01;34mmy_project[0m
+.bash_logout   [01;34m.conda[0m   [01;34m.landscape[0m  .motd_shown  .sudo_as_admin_successful  [01;34mminiconda3[0m  my_miniconda_session.txt  my_unix_session.txt
+(base) ]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ wc my_miniconda_session.txt
+  279  2456 35345 my_miniconda_session.txt
+(base) ]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ conda create --name snowflakes biopython[C[1P biopython[1P biopython[1P biopython[1P biopython[1P biopython[1P biopython[1P biopython[1P biopython[1P biopython[1P biopythonm biopythony biopython_ biopythone biopythonn biopythonv biopython
+Collecting package metadata (current_repodata.json): - \ | / - \ | / - \ | / - \ | / - \ done
+Solving environment: / - \ | done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.12.0
+  latest version: 4.13.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+## Package Plan ##
+
+  environment location: /home/aditya1308/miniconda3/envs/my_env
+
+  added / updated specs:
+    - biopython
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    _openmp_mutex-5.1          |            1_gnu          21 KB
+    biopython-1.78             |  py310h7f8727e_0         2.4 MB
+    blas-1.0                   |              mkl           6 KB
+    bzip2-1.0.8                |       h7b6447c_0          78 KB
+    ca-certificates-2022.07.19 |       h06a4308_0         124 KB
+    certifi-2022.6.15          |  py310h06a4308_0         153 KB
+    intel-openmp-2021.4.0      |    h06a4308_3561         4.2 MB
+    ld_impl_linux-64-2.38      |       h1181459_1         654 KB
+    libgcc-ng-11.2.0           |       h1234567_1         5.3 MB
+    libgomp-11.2.0             |       h1234567_1         474 KB
+    libstdcxx-ng-11.2.0        |       h1234567_1         4.7 MB
+    libuuid-1.0.3              |       h7f8727e_2          17 KB
+    mkl-2021.4.0               |     h06a4308_640       142.6 MB
+    mkl-service-2.4.0          |  py310h7f8727e_0         177 KB
+    mkl_fft-1.3.1              |  py310hd6ae3a3_0         567 KB
+    mkl_random-1.2.2           |  py310h00e6091_0        1009 KB
+    ncurses-6.3                |       h5eee18b_3         781 KB
+    numpy-1.23.1               |  py310h1794996_0          11 KB
+    numpy-base-1.23.1          |  py310hcba007f_0        14.3 MB
+    openssl-1.1.1q             |       h7f8727e_0         2.5 MB
+    pip-22.1.2                 |  py310h06a4308_0         2.5 MB
+    python-3.10.4              |       h12debd9_0        24.2 MB
+    setuptools-61.2.0          |  py310h06a4308_0        1019 KB
+    sqlite-3.39.2              |       h5082296_0         1.1 MB
+    tk-8.6.12                  |       h1ccaba5_0         3.0 MB
+    xz-5.2.5                   |       h7f8727e_1         339 KB
+    zlib-1.2.12                |       h7f8727e_2         106 KB
+    ------------------------------------------------------------
+                                           Total:       212.2 MB
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      pkgs/main/linux-64::_libgcc_mutex-0.1-main
+  _openmp_mutex      pkgs/main/linux-64::_openmp_mutex-5.1-1_gnu
+  biopython          pkgs/main/linux-64::biopython-1.78-py310h7f8727e_0
+  blas               pkgs/main/linux-64::blas-1.0-mkl
+  bzip2              pkgs/main/linux-64::bzip2-1.0.8-h7b6447c_0
+  ca-certificates    pkgs/main/linux-64::ca-certificates-2022.07.19-h06a4308_0
+  certifi            pkgs/main/linux-64::certifi-2022.6.15-py310h06a4308_0
+  intel-openmp       pkgs/main/linux-64::intel-openmp-2021.4.0-h06a4308_3561
+  ld_impl_linux-64   pkgs/main/linux-64::ld_impl_linux-64-2.38-h1181459_1
+  libffi             pkgs/main/linux-64::libffi-3.3-he6710b0_2
+  libgcc-ng          pkgs/main/linux-64::libgcc-ng-11.2.0-h1234567_1
+  libgomp            pkgs/main/linux-64::libgomp-11.2.0-h1234567_1
+  libstdcxx-ng       pkgs/main/linux-64::libstdcxx-ng-11.2.0-h1234567_1
+  libuuid            pkgs/main/linux-64::libuuid-1.0.3-h7f8727e_2
+  mkl                pkgs/main/linux-64::mkl-2021.4.0-h06a4308_640
+  mkl-service        pkgs/main/linux-64::mkl-service-2.4.0-py310h7f8727e_0
+  mkl_fft            pkgs/main/linux-64::mkl_fft-1.3.1-py310hd6ae3a3_0
+  mkl_random         pkgs/main/linux-64::mkl_random-1.2.2-py310h00e6091_0
+  ncurses            pkgs/main/linux-64::ncurses-6.3-h5eee18b_3
+  numpy              pkgs/main/linux-64::numpy-1.23.1-py310h1794996_0
+  numpy-base         pkgs/main/linux-64::numpy-base-1.23.1-py310hcba007f_0
+  openssl            pkgs/main/linux-64::openssl-1.1.1q-h7f8727e_0
+  pip                pkgs/main/linux-64::pip-22.1.2-py310h06a4308_0
+  python             pkgs/main/linux-64::python-3.10.4-h12debd9_0
+  readline           pkgs/main/linux-64::readline-8.1.2-h7f8727e_1
+  setuptools         pkgs/main/linux-64::setuptools-61.2.0-py310h06a4308_0
+  six                pkgs/main/noarch::six-1.16.0-pyhd3eb1b0_1
+  sqlite             pkgs/main/linux-64::sqlite-3.39.2-h5082296_0
+  tk                 pkgs/main/linux-64::tk-8.6.12-h1ccaba5_0
+  tzdata             pkgs/main/noarch::tzdata-2022a-hda174b7_0
+  wheel              pkgs/main/noarch::wheel-0.37.1-pyhd3eb1b0_0
+  xz                 pkgs/main/linux-64::xz-5.2.5-h7f8727e_1
+  zlib               pkgs/main/linux-64::zlib-1.2.12-h7f8727e_2
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+ncurses-6.3          | 781 KB    |                                                                                                                                                                          |   0% ncurses-6.3          | 781 KB    | ###4                                                                                                                                                                     |   2% ncurses-6.3          | 781 KB    | ########################################################################2                                                                                                |  43% ncurses-6.3          | 781 KB    | ######################################################################################################################################################################## | 100% ncurses-6.3          | 781 KB    | ######################################################################################################################################################################## | 100% 
+tk-8.6.12            | 3.0 MB    |                                                                                                                                                                          |   0% tk-8.6.12            | 3.0 MB    | ###########################7                                                                                                                                             |  17% tk-8.6.12            | 3.0 MB    | ###########################################################################################9                                                                             |  55% tk-8.6.12            | 3.0 MB    | #############################################################################################################################################3                           |  84% tk-8.6.12            | 3.0 MB    | ######################################################################################################################################################################## | 100% 
+bzip2-1.0.8          | 78 KB     |                                                                                                                                                                          |   0% bzip2-1.0.8          | 78 KB     | ######################################################################################################################################################################## | 100% 
+biopython-1.78       | 2.4 MB    |                                                                                                                                                                          |   0% biopython-1.78       | 2.4 MB    | #################################2                                                                                                                                       |  20% biopython-1.78       | 2.4 MB    | ##########################################################################3                                                                                              |  44% biopython-1.78       | 2.4 MB    | ######################################################################################################################################################################## | 100% biopython-1.78       | 2.4 MB    | ######################################################################################################################################################################## | 100% 
+setuptools-61.2.0    | 1019 KB   |                                                                                                                                                                          |   0% setuptools-61.2.0    | 1019 KB   | ############################################################################4                                                                                            |  46% setuptools-61.2.0    | 1019 KB   | ######################################################################################################################################################################## | 100% 
+mkl-2021.4.0         | 142.6 MB  |                                                                                                                                                                          |   0% mkl-2021.4.0         | 142.6 MB  | 1                                                                                                                                                                        |   0% mkl-2021.4.0         | 142.6 MB  | #7                                                                                                                                                                       |   1% mkl-2021.4.0         | 142.6 MB  | ##2                                                                                                                                                                      |   1% mkl-2021.4.0         | 142.6 MB  | ##9                                                                                                                                                                      |   2% mkl-2021.4.0         | 142.6 MB  | ####2                                                                                                                                                                    |   3% mkl-2021.4.0         | 142.6 MB  | #####                                                                                                                                                                    |   3% mkl-2021.4.0         | 142.6 MB  | #####7                                                                                                                                                                   |   3% mkl-2021.4.0         | 142.6 MB  | ######4                                                                                                                                                                  |   4% mkl-2021.4.0         | 142.6 MB  | ######9                                                                                                                                                                  |   4% mkl-2021.4.0         | 142.6 MB  | #######4                                                                                                                                                                 |   4% mkl-2021.4.0         | 142.6 MB  | ########                                                                                                                                                                 |   5% mkl-2021.4.0         | 142.6 MB  | ########6                                                                                                                                                                |   5% mkl-2021.4.0         | 142.6 MB  | #########1                                                                                                                                                               |   5% mkl-2021.4.0         | 142.6 MB  | #########7                                                                                                                                                               |   6% mkl-2021.4.0         | 142.6 MB  | ##########2                                                                                                                                                              |   6% mkl-2021.4.0         | 142.6 MB  | ##########8                                                                                                                                                              |   6% mkl-2021.4.0         | 142.6 MB  | ###########3                                                                                                                                                             |   7% mkl-2021.4.0         | 142.6 MB  | ###########8                                                                                                                                                             |   7% mkl-2021.4.0         | 142.6 MB  | ############4                                                                                                                                                            |   7% mkl-2021.4.0         | 142.6 MB  | ############9                                                                                                                                                            |   8% mkl-2021.4.0         | 142.6 MB  | #############5                                                                                                                                                           |   8% mkl-2021.4.0         | 142.6 MB  | ##############                                                                                                                                                           |   8% mkl-2021.4.0         | 142.6 MB  | ##############7                                                                                                                                                          |   9% mkl-2021.4.0         | 142.6 MB  | ###############6                                                                                                                                                         |   9% mkl-2021.4.0         | 142.6 MB  | ################2                                                                                                                                                        |  10% mkl-2021.4.0         | 142.6 MB  | #################3                                                                                                                                                       |  10% mkl-2021.4.0         | 142.6 MB  | ##################1                                                                                                                                                      |  11% mkl-2021.4.0         | 142.6 MB  | ##################9                                                                                                                                                      |  11% mkl-2021.4.0         | 142.6 MB  | ###################6                                                                                                                                                     |  12% mkl-2021.4.0         | 142.6 MB  | ####################2                                                                                                                                                    |  12% mkl-2021.4.0         | 142.6 MB  | ####################9                                                                                                                                                    |  12% mkl-2021.4.0         | 142.6 MB  | ######################                                                                                                                                                   |  13% mkl-2021.4.0         | 142.6 MB  | ######################7                                                                                                                                                  |  14% mkl-2021.4.0         | 142.6 MB  | #######################2                                                                                                                                                 |  14% mkl-2021.4.0         | 142.6 MB  | ########################3                                                                                                                                                |  14% mkl-2021.4.0         | 142.6 MB  | ########################9                                                                                                                                                |  15% mkl-2021.4.0         | 142.6 MB  | #########################5                                                                                                                                               |  15% mkl-2021.4.0         | 142.6 MB  | ##########################                                                                                                                                               |  16% mkl-2021.4.0         | 142.6 MB  | ##########################6                                                                                                                                              |  16% mkl-2021.4.0         | 142.6 MB  | ###########################1                                                                                                                                             |  16% mkl-2021.4.0         | 142.6 MB  | ###########################6                                                                                                                                             |  16% mkl-2021.4.0         | 142.6 MB  | ############################1                                                                                                                                            |  17% mkl-2021.4.0         | 142.6 MB  | ############################6                                                                                                                                            |  17% mkl-2021.4.0         | 142.6 MB  | #############################                                                                                                                                            |  17% mkl-2021.4.0         | 142.6 MB  | #############################5                                                                                                                                           |  18% mkl-2021.4.0         | 142.6 MB  | ##############################2                                                                                                                                          |  18% mkl-2021.4.0         | 142.6 MB  | ##############################7                                                                                                                                          |  18% mkl-2021.4.0         | 142.6 MB  | ###############################2                                                                                                                                         |  19% mkl-2021.4.0         | 142.6 MB  | ################################2                                                                                                                                        |  19% mkl-2021.4.0         | 142.6 MB  | ################################8                                                                                                                                        |  20% mkl-2021.4.0         | 142.6 MB  | #################################5                                                                                                                                       |  20% mkl-2021.4.0         | 142.6 MB  | ##################################1                                                                                                                                      |  20% mkl-2021.4.0         | 142.6 MB  | ##################################5                                                                                                                                      |  21% mkl-2021.4.0         | 142.6 MB  | #####################################1                                                                                                                                   |  22% mkl-2021.4.0         | 142.6 MB  | ######################################1                                                                                                                                  |  23% mkl-2021.4.0         | 142.6 MB  | #######################################                                                                                                                                  |  23% mkl-2021.4.0         | 142.6 MB  | #######################################8                                                                                                                                 |  24% mkl-2021.4.0         | 142.6 MB  | ########################################8                                                                                                                                |  24% mkl-2021.4.0         | 142.6 MB  | #########################################5                                                                                                                               |  25% mkl-2021.4.0         | 142.6 MB  | ##########################################1                                                                                                                              |  25% mkl-2021.4.0         | 142.6 MB  | ##########################################7                                                                                                                              |  25% mkl-2021.4.0         | 142.6 MB  | ###########################################3                                                                                                                             |  26% mkl-2021.4.0         | 142.6 MB  | ############################################2                                                                                                                            |  26% mkl-2021.4.0         | 142.6 MB  | ############################################8                                                                                                                            |  27% mkl-2021.4.0         | 142.6 MB  | #############################################4                                                                                                                           |  27% mkl-2021.4.0         | 142.6 MB  | #############################################9                                                                                                                           |  27% mkl-2021.4.0         | 142.6 MB  | ##############################################5                                                                                                                          |  28% mkl-2021.4.0         | 142.6 MB  | ###############################################1                                                                                                                         |  28% mkl-2021.4.0         | 142.6 MB  | ###############################################7                                                                                                                         |  28% mkl-2021.4.0         | 142.6 MB  | ################################################3                                                                                                                        |  29% mkl-2021.4.0         | 142.6 MB  | #################################################                                                                                                                        |  29% mkl-2021.4.0         | 142.6 MB  | #################################################6                                                                                                                       |  30% mkl-2021.4.0         | 142.6 MB  | ##################################################5                                                                                                                      |  30% mkl-2021.4.0         | 142.6 MB  | ###################################################4                                                                                                                     |  31% mkl-2021.4.0         | 142.6 MB  | ####################################################1                                                                                                                    |  31% mkl-2021.4.0         | 142.6 MB  | ####################################################8                                                                                                                    |  31% mkl-2021.4.0         | 142.6 MB  | #####################################################5                                                                                                                   |  32% mkl-2021.4.0         | 142.6 MB  | ######################################################8                                                                                                                  |  33% mkl-2021.4.0         | 142.6 MB  | #######################################################6                                                                                                                 |  33% mkl-2021.4.0         | 142.6 MB  | ########################################################3                                                                                                                |  34% mkl-2021.4.0         | 142.6 MB  | ########################################################9                                                                                                                |  34% mkl-2021.4.0         | 142.6 MB  | #########################################################5                                                                                                               |  34% mkl-2021.4.0         | 142.6 MB  | ##########################################################1                                                                                                              |  35% mkl-2021.4.0         | 142.6 MB  | ##########################################################7                                                                                                              |  35% mkl-2021.4.0         | 142.6 MB  | ###########################################################3                                                                                                             |  35% mkl-2021.4.0         | 142.6 MB  | ###########################################################8                                                                                                             |  36% mkl-2021.4.0         | 142.6 MB  | ############################################################5                                                                                                            |  36% mkl-2021.4.0         | 142.6 MB  | #############################################################1                                                                                                           |  36% mkl-2021.4.0         | 142.6 MB  | #############################################################8                                                                                                           |  37% mkl-2021.4.0         | 142.6 MB  | ##############################################################5                                                                                                          |  37% mkl-2021.4.0         | 142.6 MB  | ###############################################################1                                                                                                         |  38% mkl-2021.4.0         | 142.6 MB  | ###############################################################8                                                                                                         |  38% mkl-2021.4.0         | 142.6 MB  | ################################################################4                                                                                                        |  38% mkl-2021.4.0         | 142.6 MB  | #################################################################1                                                                                                       |  39% mkl-2021.4.0         | 142.6 MB  | #################################################################7                                                                                                       |  39% mkl-2021.4.0         | 142.6 MB  | ##################################################################3                                                                                                      |  40% mkl-2021.4.0         | 142.6 MB  | ###################################################################                                                                                                      |  40% mkl-2021.4.0         | 142.6 MB  | ###################################################################7                                                                                                     |  40% mkl-2021.4.0         | 142.6 MB  | ####################################################################3                                                                                                    |  41% mkl-2021.4.0         | 142.6 MB  | #####################################################################                                                                                                    |  41% mkl-2021.4.0         | 142.6 MB  | #####################################################################7                                                                                                   |  42% mkl-2021.4.0         | 142.6 MB  | ######################################################################3                                                                                                  |  42% mkl-2021.4.0         | 142.6 MB  | #######################################################################                                                                                                  |  42% mkl-2021.4.0         | 142.6 MB  | #######################################################################5                                                                                                 |  43% mkl-2021.4.0         | 142.6 MB  | ########################################################################2                                                                                                |  43% mkl-2021.4.0         | 142.6 MB  | ########################################################################8                                                                                                |  43% mkl-2021.4.0         | 142.6 MB  | #########################################################################7                                                                                               |  44% mkl-2021.4.0         | 142.6 MB  | ##########################################################################3                                                                                              |  44% mkl-2021.4.0         | 142.6 MB  | ###########################################################################                                                                                              |  45% mkl-2021.4.0         | 142.6 MB  | ###########################################################################7                                                                                             |  45% mkl-2021.4.0         | 142.6 MB  | ############################################################################2                                                                                            |  45% mkl-2021.4.0         | 142.6 MB  | ############################################################################9                                                                                            |  46% mkl-2021.4.0         | 142.6 MB  | #############################################################################5                                                                                           |  46% mkl-2021.4.0         | 142.6 MB  | ##############################################################################2                                                                                          |  47% mkl-2021.4.0         | 142.6 MB  | ##############################################################################8                                                                                          |  47% mkl-2021.4.0         | 142.6 MB  | ###############################################################################5                                                                                         |  47% mkl-2021.4.0         | 142.6 MB  | ################################################################################1                                                                                        |  48% mkl-2021.4.0         | 142.6 MB  | ################################################################################7                                                                                        |  48% mkl-2021.4.0         | 142.6 MB  | #################################################################################8                                                                                       |  49% mkl-2021.4.0         | 142.6 MB  | ##################################################################################2                                                                                      |  49% mkl-2021.4.0         | 142.6 MB  | ##################################################################################9                                                                                      |  49% mkl-2021.4.0         | 142.6 MB  | ###################################################################################6                                                                                     |  50% mkl-2021.4.0         | 142.6 MB  | ####################################################################################4                                                                                    |  50% mkl-2021.4.0         | 142.6 MB  | #####################################################################################3                                                                                   |  51% mkl-2021.4.0         | 142.6 MB  | ######################################################################################2                                                                                  |  51% mkl-2021.4.0         | 142.6 MB  | #######################################################################################1                                                                                 |  52% mkl-2021.4.0         | 142.6 MB  | ########################################################################################2                                                                                |  53% mkl-2021.4.0         | 142.6 MB  | #########################################################################################                                                                                |  53% mkl-2021.4.0         | 142.6 MB  | #########################################################################################7                                                                               |  53% mkl-2021.4.0         | 142.6 MB  | ###########################################################################################3                                                                             |  54% mkl-2021.4.0         | 142.6 MB  | ############################################################################################2                                                                            |  55% mkl-2021.4.0         | 142.6 MB  | #############################################################################################                                                                            |  55% mkl-2021.4.0         | 142.6 MB  | #############################################################################################8                                                                           |  56% mkl-2021.4.0         | 142.6 MB  | ##############################################################################################4                                                                          |  56% mkl-2021.4.0         | 142.6 MB  | ###############################################################################################2                                                                         |  57% mkl-2021.4.0         | 142.6 MB  | ###############################################################################################8                                                                         |  57% mkl-2021.4.0         | 142.6 MB  | ################################################################################################6                                                                        |  58% mkl-2021.4.0         | 142.6 MB  | #################################################################################################2                                                                       |  58% mkl-2021.4.0         | 142.6 MB  | #################################################################################################8                                                                       |  58% mkl-2021.4.0         | 142.6 MB  | ##################################################################################################4                                                                      |  59% mkl-2021.4.0         | 142.6 MB  | ##################################################################################################9                                                                      |  59% mkl-2021.4.0         | 142.6 MB  | ###################################################################################################5                                                                     |  59% mkl-2021.4.0         | 142.6 MB  | ####################################################################################################1                                                                    |  60% mkl-2021.4.0         | 142.6 MB  | ####################################################################################################8                                                                    |  60% mkl-2021.4.0         | 142.6 MB  | #####################################################################################################4                                                                   |  60% mkl-2021.4.0         | 142.6 MB  | ######################################################################################################                                                                   |  61% mkl-2021.4.0         | 142.6 MB  | ######################################################################################################5                                                                  |  61% mkl-2021.4.0         | 142.6 MB  | #######################################################################################################1                                                                 |  61% mkl-2021.4.0         | 142.6 MB  | #######################################################################################################9                                                                 |  62% mkl-2021.4.0         | 142.6 MB  | ########################################################################################################4                                                                |  62% mkl-2021.4.0         | 142.6 MB  | #########################################################################################################                                                                |  63% mkl-2021.4.0         | 142.6 MB  | #########################################################################################################4                                                               |  63% mkl-2021.4.0         | 142.6 MB  | ##########################################################################################################4                                                              |  63% mkl-2021.4.0         | 142.6 MB  | ##########################################################################################################9                                                              |  64% mkl-2021.4.0         | 142.6 MB  | ###########################################################################################################7                                                             |  64% mkl-2021.4.0         | 142.6 MB  | ############################################################################################################3                                                            |  64% mkl-2021.4.0         | 142.6 MB  | #############################################################################################################2                                                           |  65% mkl-2021.4.0         | 142.6 MB  | #############################################################################################################8                                                           |  65% mkl-2021.4.0         | 142.6 MB  | ##############################################################################################################5                                                          |  66% mkl-2021.4.0         | 142.6 MB  | ###############################################################################################################1                                                         |  66% mkl-2021.4.0         | 142.6 MB  | ###############################################################################################################7                                                         |  67% mkl-2021.4.0         | 142.6 MB  | ################################################################################################################3                                                        |  67% mkl-2021.4.0         | 142.6 MB  | ################################################################################################################9                                                        |  67% mkl-2021.4.0         | 142.6 MB  | #################################################################################################################4                                                       |  68% mkl-2021.4.0         | 142.6 MB  | ##################################################################################################################                                                       |  68% mkl-2021.4.0         | 142.6 MB  | ##################################################################################################################5                                                      |  68% mkl-2021.4.0         | 142.6 MB  | ###################################################################################################################                                                      |  69% mkl-2021.4.0         | 142.6 MB  | ###################################################################################################################5                                                     |  69% mkl-2021.4.0         | 142.6 MB  | ####################################################################################################################3                                                    |  69% mkl-2021.4.0         | 142.6 MB  | #####################################################################################################################3                                                   |  70% mkl-2021.4.0         | 142.6 MB  | #####################################################################################################################9                                                   |  70% mkl-2021.4.0         | 142.6 MB  | ######################################################################################################################6                                                  |  71% mkl-2021.4.0         | 142.6 MB  | #######################################################################################################################2                                                 |  71% mkl-2021.4.0         | 142.6 MB  | ########################################################################################################################5                                                |  72% mkl-2021.4.0         | 142.6 MB  | #########################################################################################################################2                                               |  72% mkl-2021.4.0         | 142.6 MB  | ##########################################################################################################################2                                              |  73% mkl-2021.4.0         | 142.6 MB  | ##########################################################################################################################7                                              |  73% mkl-2021.4.0         | 142.6 MB  | ###########################################################################################################################2                                             |  73% mkl-2021.4.0         | 142.6 MB  | ###########################################################################################################################6                                             |  74% mkl-2021.4.0         | 142.6 MB  | ############################################################################################################################                                             |  74% mkl-2021.4.0         | 142.6 MB  | ############################################################################################################################4                                            |  74% mkl-2021.4.0         | 142.6 MB  | ############################################################################################################################8                                            |  74% mkl-2021.4.0         | 142.6 MB  | #############################################################################################################################1                                           |  75% mkl-2021.4.0         | 142.6 MB  | #############################################################################################################################5                                           |  75% mkl-2021.4.0         | 142.6 MB  | #############################################################################################################################8                                           |  75% mkl-2021.4.0         | 142.6 MB  | ##############################################################################################################################2                                          |  75% mkl-2021.4.0         | 142.6 MB  | ##############################################################################################################################5                                          |  75% mkl-2021.4.0         | 142.6 MB  | ##############################################################################################################################7                                          |  75% mkl-2021.4.0         | 142.6 MB  | ##############################################################################################################################9                                          |  76% mkl-2021.4.0         | 142.6 MB  | ###############################################################################################################################1                                         |  76% mkl-2021.4.0         | 142.6 MB  | ###############################################################################################################################6                                         |  76% mkl-2021.4.0         | 142.6 MB  | ###############################################################################################################################8                                         |  76% mkl-2021.4.0         | 142.6 MB  | ################################################################################################################################                                         |  76% mkl-2021.4.0         | 142.6 MB  | ################################################################################################################################2                                        |  76% mkl-2021.4.0         | 142.6 MB  | ################################################################################################################################4                                        |  76% mkl-2021.4.0         | 142.6 MB  | ################################################################################################################################8                                        |  77% mkl-2021.4.0         | 142.6 MB  | #################################################################################################################################1                                       |  77% mkl-2021.4.0         | 142.6 MB  | #################################################################################################################################3                                       |  77% mkl-2021.4.0         | 142.6 MB  | #################################################################################################################################5                                       |  77% mkl-2021.4.0         | 142.6 MB  | #################################################################################################################################8                                       |  77% mkl-2021.4.0         | 142.6 MB  | ##################################################################################################################################2                                      |  78% mkl-2021.4.0         | 142.6 MB  | ##################################################################################################################################4                                      |  78% mkl-2021.4.0         | 142.6 MB  | ##################################################################################################################################6                                      |  78% mkl-2021.4.0         | 142.6 MB  | ##################################################################################################################################8                                      |  78% mkl-2021.4.0         | 142.6 MB  | ###################################################################################################################################                                      |  78% mkl-2021.4.0         | 142.6 MB  | ###################################################################################################################################2                                     |  78% mkl-2021.4.0         | 142.6 MB  | ###################################################################################################################################4                                     |  78% mkl-2021.4.0         | 142.6 MB  | ###################################################################################################################################6                                     |  78% mkl-2021.4.0         | 142.6 MB  | ###################################################################################################################################8                                     |  78% mkl-2021.4.0         | 142.6 MB  | ####################################################################################################################################                                     |  79% mkl-2021.4.0         | 142.6 MB  | ####################################################################################################################################2                                    |  79% mkl-2021.4.0         | 142.6 MB  | ####################################################################################################################################4                                    |  79% mkl-2021.4.0         | 142.6 MB  | ####################################################################################################################################6                                    |  79% mkl-2021.4.0         | 142.6 MB  | ####################################################################################################################################8                                    |  79% mkl-2021.4.0         | 142.6 MB  | #####################################################################################################################################                                    |  79% mkl-2021.4.0         | 142.6 MB  | #####################################################################################################################################2                                   |  79% mkl-2021.4.0         | 142.6 MB  | #####################################################################################################################################4                                   |  79% mkl-2021.4.0         | 142.6 MB  | #####################################################################################################################################6                                   |  80% mkl-2021.4.0         | 142.6 MB  | #####################################################################################################################################8                                   |  80% mkl-2021.4.0         | 142.6 MB  | ######################################################################################################################################                                   |  80% mkl-2021.4.0         | 142.6 MB  | ######################################################################################################################################2                                  |  80% mkl-2021.4.0         | 142.6 MB  | ######################################################################################################################################5                                  |  80% mkl-2021.4.0         | 142.6 MB  | ######################################################################################################################################8                                  |  80% mkl-2021.4.0         | 142.6 MB  | #######################################################################################################################################                                  |  80% mkl-2021.4.0         | 142.6 MB  | #######################################################################################################################################3                                 |  81% mkl-2021.4.0         | 142.6 MB  | #######################################################################################################################################6                                 |  81% mkl-2021.4.0         | 142.6 MB  | #######################################################################################################################################9                                 |  81% mkl-2021.4.0         | 142.6 MB  | ########################################################################################################################################2                                |  81% mkl-2021.4.0         | 142.6 MB  | ########################################################################################################################################6                                |  81% mkl-2021.4.0         | 142.6 MB  | #########################################################################################################################################1                               |  82% mkl-2021.4.0         | 142.6 MB  | #########################################################################################################################################5                               |  82% mkl-2021.4.0         | 142.6 MB  | #########################################################################################################################################9                               |  82% mkl-2021.4.0         | 142.6 MB  | ##########################################################################################################################################4                              |  82% mkl-2021.4.0         | 142.6 MB  | ##########################################################################################################################################9                              |  83% mkl-2021.4.0         | 142.6 MB  | ###########################################################################################################################################4                             |  83% mkl-2021.4.0         | 142.6 MB  | ###########################################################################################################################################9                             |  83% mkl-2021.4.0         | 142.6 MB  | ############################################################################################################################################5                            |  84% mkl-2021.4.0         | 142.6 MB  | #############################################################################################################################################2                           |  84% mkl-2021.4.0         | 142.6 MB  | #############################################################################################################################################9                           |  84% mkl-2021.4.0         | 142.6 MB  | ##############################################################################################################################################6                          |  85% mkl-2021.4.0         | 142.6 MB  | ###############################################################################################################################################5                         |  85% mkl-2021.4.0         | 142.6 MB  | ################################################################################################################################################4                        |  86% mkl-2021.4.0         | 142.6 MB  | #################################################################################################################################################3                       |  87% mkl-2021.4.0         | 142.6 MB  | ##################################################################################################################################################1                      |  87% mkl-2021.4.0         | 142.6 MB  | ###################################################################################################################################################1                     |  88% mkl-2021.4.0         | 142.6 MB  | ####################################################################################################################################################                     |  88% mkl-2021.4.0         | 142.6 MB  | #####################################################################################################################################################                    |  89% mkl-2021.4.0         | 142.6 MB  | #######################################################################################################################################################4                 |  90% mkl-2021.4.0         | 142.6 MB  | ########################################################################################################################################################5                |  91% mkl-2021.4.0         | 142.6 MB  | #########################################################################################################################################################4               |  91% mkl-2021.4.0         | 142.6 MB  | ##########################################################################################################################################################2              |  92% mkl-2021.4.0         | 142.6 MB  | ##########################################################################################################################################################9              |  92% mkl-2021.4.0         | 142.6 MB  | ###########################################################################################################################################################6             |  93% mkl-2021.4.0         | 142.6 MB  | ############################################################################################################################################################4            |  93% mkl-2021.4.0         | 142.6 MB  | #############################################################################################################################################################1           |  94% mkl-2021.4.0         | 142.6 MB  | #############################################################################################################################################################9           |  94% mkl-2021.4.0         | 142.6 MB  | ##############################################################################################################################################################5          |  94% mkl-2021.4.0         | 142.6 MB  | ###############################################################################################################################################################1         |  95% mkl-2021.4.0         | 142.6 MB  | ###############################################################################################################################################################7         |  95% mkl-2021.4.0         | 142.6 MB  | ################################################################################################################################################################2        |  95% mkl-2021.4.0         | 142.6 MB  | ################################################################################################################################################################8        |  96% mkl-2021.4.0         | 142.6 MB  | #################################################################################################################################################################3       |  96% mkl-2021.4.0         | 142.6 MB  | ##################################################################################################################################################################1      |  97% mkl-2021.4.0         | 142.6 MB  | ##################################################################################################################################################################7      |  97% mkl-2021.4.0         | 142.6 MB  | ###################################################################################################################################################################2     |  97% mkl-2021.4.0         | 142.6 MB  | ###################################################################################################################################################################9     |  98% mkl-2021.4.0         | 142.6 MB  | ####################################################################################################################################################################8    |  98% mkl-2021.4.0         | 142.6 MB  | #####################################################################################################################################################################4   |  98% mkl-2021.4.0         | 142.6 MB  | ######################################################################################################################################################################4  |  99% mkl-2021.4.0         | 142.6 MB  | #######################################################################################################################################################################1 | 100% mkl-2021.4.0         | 142.6 MB  | #######################################################################################################################################################################8 | 100% mkl-2021.4.0         | 142.6 MB  | ######################################################################################################################################################################## | 100% 
+blas-1.0             | 6 KB      |                                                                                                                                                                          |   0% blas-1.0             | 6 KB      | ######################################################################################################################################################################## | 100% 
+libuuid-1.0.3        | 17 KB     |                                                                                                                                                                          |   0% libuuid-1.0.3        | 17 KB     | ######################################################################################################################################################################## | 100% 
+mkl-service-2.4.0    | 177 KB    |                                                                                                                                                                          |   0% mkl-service-2.4.0    | 177 KB    | ######################################################################################################################################################################## | 100% 
+ca-certificates-2022 | 124 KB    |                                                                                                                                                                          |   0% ca-certificates-2022 | 124 KB    | ######################################################################################################################################################################## | 100% 
+python-3.10.4        | 24.2 MB   |                                                                                                                                                                          |   0% python-3.10.4        | 24.2 MB   | ###                                                                                                                                                                      |   2% python-3.10.4        | 24.2 MB   | ########3                                                                                                                                                                |   5% python-3.10.4        | 24.2 MB   | ##############2                                                                                                                                                          |   8% python-3.10.4        | 24.2 MB   | ####################7                                                                                                                                                    |  12% python-3.10.4        | 24.2 MB   | ###########################7                                                                                                                                             |  16% python-3.10.4        | 24.2 MB   | #################################7                                                                                                                                       |  20% python-3.10.4        | 24.2 MB   | #######################################7                                                                                                                                 |  24% python-3.10.4        | 24.2 MB   | ############################################4                                                                                                                            |  26% python-3.10.4        | 24.2 MB   | #####################################################4                                                                                                                   |  32% python-3.10.4        | 24.2 MB   | ##########################################################8                                                                                                              |  35% python-3.10.4        | 24.2 MB   | ###############################################################9                                                                                                         |  38% python-3.10.4        | 24.2 MB   | ####################################################################4                                                                                                    |  41% python-3.10.4        | 24.2 MB   | ########################################################################4                                                                                                |  43% python-3.10.4        | 24.2 MB   | ###########################################################################8                                                                                             |  45% python-3.10.4        | 24.2 MB   | ################################################################################1                                                                                        |  48% python-3.10.4        | 24.2 MB   | ####################################################################################4                                                                                    |  50% python-3.10.4        | 24.2 MB   | #######################################################################################8                                                                                 |  52% python-3.10.4        | 24.2 MB   | ###########################################################################################6                                                                             |  55% python-3.10.4        | 24.2 MB   | ################################################################################################                                                                         |  57% python-3.10.4        | 24.2 MB   | ###################################################################################################6                                                                     |  59% python-3.10.4        | 24.2 MB   | #######################################################################################################2                                                                 |  61% python-3.10.4        | 24.2 MB   | ##########################################################################################################5                                                              |  63% python-3.10.4        | 24.2 MB   | #############################################################################################################7                                                           |  65% python-3.10.4        | 24.2 MB   | ################################################################################################################9                                                        |  67% python-3.10.4        | 24.2 MB   | ####################################################################################################################2                                                    |  69% python-3.10.4        | 24.2 MB   | ########################################################################################################################9                                                |  72% python-3.10.4        | 24.2 MB   | ############################################################################################################################9                                            |  74% python-3.10.4        | 24.2 MB   | ################################################################################################################################5                                        |  77% python-3.10.4        | 24.2 MB   | ###################################################################################################################################7                                     |  78% python-3.10.4        | 24.2 MB   | ##########################################################################################################################################4                              |  82% python-3.10.4        | 24.2 MB   | ###############################################################################################################################################8                         |  86% python-3.10.4        | 24.2 MB   | ###################################################################################################################################################7                     |  88% python-3.10.4        | 24.2 MB   | #######################################################################################################################################################3                 |  90% python-3.10.4        | 24.2 MB   | ############################################################################################################################################################             |  93% python-3.10.4        | 24.2 MB   | ###############################################################################################################################################################8         |  95% python-3.10.4        | 24.2 MB   | ###################################################################################################################################################################1     |  97% python-3.10.4        | 24.2 MB   | ######################################################################################################################################################################8  |  99% python-3.10.4        | 24.2 MB   | ######################################################################################################################################################################## | 100% 
+mkl_fft-1.3.1        | 567 KB    |                                                                                                                                                                          |   0% mkl_fft-1.3.1        | 567 KB    | ########################################################9                                                                                                                |  34% mkl_fft-1.3.1        | 567 KB    | ######################################################################################################################################################################## | 100% mkl_fft-1.3.1        | 567 KB    | ######################################################################################################################################################################## | 100% 
+certifi-2022.6.15    | 153 KB    |                                                                                                                                                                          |   0% certifi-2022.6.15    | 153 KB    | ######################################################################################################################################################################## | 100% certifi-2022.6.15    | 153 KB    | ######################################################################################################################################################################## | 100% 
+openssl-1.1.1q       | 2.5 MB    |                                                                                                                                                                          |   0% openssl-1.1.1q       | 2.5 MB    | ################6                                                                                                                                                        |  10% openssl-1.1.1q       | 2.5 MB    | ###############################################7                                                                                                                         |  28% openssl-1.1.1q       | 2.5 MB    | ##############################################################################9                                                                                          |  47% openssl-1.1.1q       | 2.5 MB    | ###########################################################################################################                                                              |  64% openssl-1.1.1q       | 2.5 MB    | ##########################################################################################################################################1                              |  82% openssl-1.1.1q       | 2.5 MB    | ######################################################################################################################################################################## | 100% openssl-1.1.1q       | 2.5 MB    | ######################################################################################################################################################################## | 100% 
+libstdcxx-ng-11.2.0  | 4.7 MB    |                                                                                                                                                                          |   0% libstdcxx-ng-11.2.0  | 4.7 MB    | ########3                                                                                                                                                                |   5% libstdcxx-ng-11.2.0  | 4.7 MB    | ########################6                                                                                                                                                |  15% libstdcxx-ng-11.2.0  | 4.7 MB    | ############################################1                                                                                                                            |  26% libstdcxx-ng-11.2.0  | 4.7 MB    | ################################################################3                                                                                                        |  38% libstdcxx-ng-11.2.0  | 4.7 MB    | #######################################################################################2                                                                                 |  52% libstdcxx-ng-11.2.0  | 4.7 MB    | ################################################################################################################4                                                        |  67% libstdcxx-ng-11.2.0  | 4.7 MB    | ##########################################################################################################################################7                              |  83% libstdcxx-ng-11.2.0  | 4.7 MB    | ######################################################################################################################################################################## | 100% libstdcxx-ng-11.2.0  | 4.7 MB    | ######################################################################################################################################################################## | 100% 
+mkl_random-1.2.2     | 1009 KB   |                                                                                                                                                                          |   0% mkl_random-1.2.2     | 1009 KB   | ###############################################################################9                                                                                         |  48% mkl_random-1.2.2     | 1009 KB   | ######################################################################################################################################################################## | 100% 
+ld_impl_linux-64-2.3 | 654 KB    |                                                                                                                                                                          |   0% ld_impl_linux-64-2.3 | 654 KB    | ####################5                                                                                                                                                    |  12% ld_impl_linux-64-2.3 | 654 KB    | ######################################################################################################################################################################## | 100% 
+_openmp_mutex-5.1    | 21 KB     |                                                                                                                                                                          |   0% _openmp_mutex-5.1    | 21 KB     | ######################################################################################################################################################################## | 100% 
+pip-22.1.2           | 2.5 MB    |                                                                                                                                                                          |   0% pip-22.1.2           | 2.5 MB    | ########################################6                                                                                                                                |  24% pip-22.1.2           | 2.5 MB    | ########################################################################################################2                                                                |  62% pip-22.1.2           | 2.5 MB    | ######################################################################################################################################################################## | 100% pip-22.1.2           | 2.5 MB    | ######################################################################################################################################################################## | 100% 
+sqlite-3.39.2        | 1.1 MB    |                                                                                                                                                                          |   0% sqlite-3.39.2        | 1.1 MB    | ##################################################################5                                                                                                      |  40% sqlite-3.39.2        | 1.1 MB    | ######################################################################################################################################################################## | 100% sqlite-3.39.2        | 1.1 MB    | ######################################################################################################################################################################## | 100% 
+numpy-base-1.23.1    | 14.3 MB   |                                                                                                                                                                          |   0% numpy-base-1.23.1    | 14.3 MB   | 1                                                                                                                                                                        |   0% numpy-base-1.23.1    | 14.3 MB   | ###############7                                                                                                                                                         |   9% numpy-base-1.23.1    | 14.3 MB   | #####################                                                                                                                                                    |  13% numpy-base-1.23.1    | 14.3 MB   | ################################################                                                                                                                         |  29% numpy-base-1.23.1    | 14.3 MB   | #########################################################8                                                                                                               |  34% numpy-base-1.23.1    | 14.3 MB   | ##################################################################5                                                                                                      |  40% numpy-base-1.23.1    | 14.3 MB   | ##########################################################################3                                                                                              |  44% numpy-base-1.23.1    | 14.3 MB   | #################################################################################3                                                                                       |  48% numpy-base-1.23.1    | 14.3 MB   | ########################################################################################3                                                                                |  53% numpy-base-1.23.1    | 14.3 MB   | ###############################################################################################                                                                          |  57% numpy-base-1.23.1    | 14.3 MB   | ####################################################################################################7                                                                    |  60% numpy-base-1.23.1    | 14.3 MB   | ##############################################################################################################6                                                          |  66% numpy-base-1.23.1    | 14.3 MB   | #######################################################################################################################2                                                 |  71% numpy-base-1.23.1    | 14.3 MB   | ##############################################################################################################################                                           |  75% numpy-base-1.23.1    | 14.3 MB   | ####################################################################################################################################                                     |  79% numpy-base-1.23.1    | 14.3 MB   | ##########################################################################################################################################8                              |  83% numpy-base-1.23.1    | 14.3 MB   | #################################################################################################################################################1                       |  86% numpy-base-1.23.1    | 14.3 MB   | #######################################################################################################################################################1                 |  90% numpy-base-1.23.1    | 14.3 MB   | ##############################################################################################################################################################1          |  94% numpy-base-1.23.1    | 14.3 MB   | ###################################################################################################################################################################9     |  98% numpy-base-1.23.1    | 14.3 MB   | ######################################################################################################################################################################## | 100% 
+zlib-1.2.12          | 106 KB    |                                                                                                                                                                          |   0% zlib-1.2.12          | 106 KB    | ######################################################################################################################################################################## | 100% 
+libgomp-11.2.0       | 474 KB    |                                                                                                                                                                          |   0% libgomp-11.2.0       | 474 KB    | ##########################################################################################7                                                                              |  54% libgomp-11.2.0       | 474 KB    | ######################################################################################################################################################################## | 100% 
+numpy-1.23.1         | 11 KB     |                                                                                                                                                                          |   0% numpy-1.23.1         | 11 KB     | ######################################################################################################################################################################## | 100% 
+xz-5.2.5             | 339 KB    |                                                                                                                                                                          |   0% xz-5.2.5             | 339 KB    | ###############################################################################1                                                                                         |  47% xz-5.2.5             | 339 KB    | ######################################################################################################################################################################## | 100% 
+intel-openmp-2021.4. | 4.2 MB    |                                                                                                                                                                          |   0% intel-openmp-2021.4. | 4.2 MB    | ###########9                                                                                                                                                             |   7% intel-openmp-2021.4. | 4.2 MB    | #########################################5                                                                                                                               |  25% intel-openmp-2021.4. | 4.2 MB    | ########################################################################4                                                                                                |  43% intel-openmp-2021.4. | 4.2 MB    | ############################################################################################################3                                                            |  65% intel-openmp-2021.4. | 4.2 MB    | ##################################################################################################################################################1                      |  87% intel-openmp-2021.4. | 4.2 MB    | ######################################################################################################################################################################## | 100% 
+libgcc-ng-11.2.0     | 5.3 MB    |                                                                                                                                                                          |   0% libgcc-ng-11.2.0     | 5.3 MB    | ################7                                                                                                                                                        |  10% libgcc-ng-11.2.0     | 5.3 MB    | ###################################################                                                                                                                      |  30% libgcc-ng-11.2.0     | 5.3 MB    | ########################################################################2                                                                                                |  43% libgcc-ng-11.2.0     | 5.3 MB    | ########################################################################################9                                                                                |  53% libgcc-ng-11.2.0     | 5.3 MB    | ###########################################################################################################################################################2             |  92% libgcc-ng-11.2.0     | 5.3 MB    | ######################################################################################################################################################################## | 100% 
+Preparing transaction: - \ done
+Verifying transaction: / - \ | / - \ | done
+Executing transaction: - \ | / - \ | / - \ | done
+#
+# To activate this environment, use
+#
+#     $ conda activate my_env
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+(base) ]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ script -a ~/my_miniconda_session.txt
+Script started, file is /home/aditya1308/my_miniconda_session.txt
+(base) ]0;aditya1308@TIGER03848: ~[01;32madScript started on 2022-08-18 17:28:13+05:30 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="211" LINES="49"]
+(base) ]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ script -a ~/my_miniconda_session.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kconda activate my_env
+(my_env) ]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ conda install numpy
+Collecting package metadata (current_repodata.json): - \ | / - done
+Solving environment: | / done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.12.0
+  latest version: 4.13.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+# All requested packages already installed.
+
+(my_env) ]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ conda update conda
+
+PackageNotInstalledError: Package is not installed in prefix.
+  prefix: /home/aditya1308/miniconda3/envs/my_env
+  package name: conda
+
+
+(my_env) ]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$  conda update -n base -c defaults conda
+Collecting package metadata (current_repodata.json): - \ | / - \ | done
+Solving environment: - \ | / - done
+
+## Package Plan ##
+
+  environment location: /home/aditya1308/miniconda3
+
+  added / updated specs:
+    - conda
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    certifi-2022.6.15          |   py39h06a4308_0         153 KB
+    cffi-1.15.1                |   py39h74dc2b5_0         228 KB
+    conda-4.13.0               |   py39h06a4308_0         895 KB
+    cryptography-37.0.1        |   py39h9ce1e76_0         1.3 MB
+    pip-22.1.2                 |   py39h06a4308_0         2.5 MB
+    requests-2.28.1            |   py39h06a4308_0          92 KB
+    tqdm-4.64.0                |   py39h06a4308_0         126 KB
+    urllib3-1.26.11            |   py39h06a4308_0         182 KB
+    ------------------------------------------------------------
+                                           Total:         5.4 MB
+
+The following packages will be REMOVED:
+
+  colorama-0.4.4-pyhd3eb1b0_0
+  conda-content-trust-0.1.1-pyhd3eb1b0_0
+  six-1.16.0-pyhd3eb1b0_1
+
+The following packages will be UPDATED:
+
+  _openmp_mutex                                   4.5-1_gnu --> 5.1-1_gnu
+  ca-certificates                      2022.3.29-h06a4308_1 --> 2022.07.19-h06a4308_0
+  certifi                          2021.10.8-py39h06a4308_2 --> 2022.6.15-py39h06a4308_0
+  cffi                                1.15.0-py39hd667e15_1 --> 1.15.1-py39h74dc2b5_0
+  conda                               4.12.0-py39h06a4308_0 --> 4.13.0-py39h06a4308_0
+  cryptography                        36.0.0-py39h9ce1e76_0 --> 37.0.1-py39h9ce1e76_0
+  ld_impl_linux-64                        2.35.1-h7274673_9 --> 2.38-h1181459_1
+  libgcc-ng                               9.3.0-h5101ec6_17 --> 11.2.0-h1234567_1
+  libgomp                                 9.3.0-h5101ec6_17 --> 11.2.0-h1234567_1
+  libstdcxx-ng                            9.3.0-hd4cf53a_17 --> 11.2.0-h1234567_1
+  ncurses                                    6.3-h7f8727e_2 --> 6.3-h5eee18b_3
+  openssl                                 1.1.1n-h7f8727e_0 --> 1.1.1q-h7f8727e_0
+  pip                                 21.2.4-py39h06a4308_0 --> 22.1.2-py39h06a4308_0
+  requests           pkgs/main/noarch::requests-2.27.1-pyh~ --> pkgs/main/linux-64::requests-2.28.1-py39h06a4308_0
+  sqlite                                  3.38.2-hc218d9a_0 --> 3.39.2-h5082296_0
+  tk                                      8.6.11-h1ccaba5_0 --> 8.6.12-h1ccaba5_0
+  tqdm               pkgs/main/noarch::tqdm-4.63.0-pyhd3eb~ --> pkgs/main/linux-64::tqdm-4.64.0-py39h06a4308_0
+  urllib3            pkgs/main/noarch::urllib3-1.26.8-pyhd~ --> pkgs/main/linux-64::urllib3-1.26.11-pitya1308@TIGER03848[00m:[01;34m~[00m$ script -a ~/my_miniconda_session.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kconda activate my_env
+(my_env) ]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ conda install numpy
+Collecting package metadata (current_repodata.json): - \ | / - done
+Solving environment: | / done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.12.0
+  latest version: 4.13.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+# All requested packages already installed.
+
+(my_env) ]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ conda update conda
+
+PackageNotInstalledError: Package is not installed in prefix.
+  prefix: /home/aditya1308/miniconda3/envs/my_env
+  package name: conda
+
+
+(my_env) ]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$  conda update -n base -c defaults conda
+Collecting package metadata (current_repodata.json): - \ | / - \ | done
+Solving environment: - \ | / - done
+
+## Package Plan ##
+
+  environment location: /home/aditya1308/miniconda3
+
+  added / updated specs:
+    - conda
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    certifi-2022.6.15          |   py39h06a4308_0         153 KB
+    cffi-1.15.1                |   py39h74dc2b5_0         228 KB
+    conda-4.13.0               |   py39h06a4308_0         895 KB
+    cryptography-37.0.1        |   py39h9ce1e76_0         1.3 MB
+    pip-22.1.2                 |   py39h06a4308_0         2.5 MB
+    requests-2.28.1            |   py39h06a4308_0          92 KB
+    tqdm-4.64.0                |   py39h06a4308_0         126 KB
+    urllib3-1.26.11            |   py39h06a4308_0         182 KB
+    ------------------------------------------------------------
+                                           Total:         5.4 MB
+
+The following packages will be REMOVED:
+
+  colorama-0.4.4-pyhd3eb1b0_0
+  conda-content-trust-0.1.1-pyhd3eb1b0_0
+  six-1.16.0-pyhd3eb1b0_1
+
+The following packages will be UPDATED:
+
+  _openmp_mutex                                   4.5-1_gnu --> 5.1-1_gnu
+  ca-certificates                      2022.3.29-h06a4308_1 --> 2022.07.19-h06a4308_0
+  certifi                          2021.10.8-py39h06a4308_2 --> 2022.6.15-py39h06a4308_0
+  cffi                                1.15.0-py39hd667e15_1 --> 1.15.1-py39h74dc2b5_0
+  conda                               4.12.0-py39h06a4308_0 --> 4.13.0-py39h06a4308_0
+  cryptography                        36.0.0-py39h9ce1e76_0 --> 37.0.1-py39h9ce1e76_0
+  ld_impl_linux-64                        2.35.1-h7274673_9 --> 2.38-h1181459_1
+  libgcc-ng                               9.3.0-h5101ec6_17 --> 11.2.0-h1234567_1
+  libgomp                                 9.3.0-h5101ec6_17 --> 11.2.0-h1234567_1
+  libstdcxx-ng                            9.3.0-hd4cf53a_17 --> 11.2.0-h1234567_1
+  ncurses                                    6.3-h7f8727e_2 --> 6.3-h5eee18b_3
+  openssl                                 1.1.1n-h7f8727e_0 --> 1.1.1q-h7f8727e_0
+  pip                                 21.2.4-py39h06a4308_0 --> 22.1.2-py39h06a4308_0
+  requests           pkgs/main/noarch::requests-2.27.1-pyh~ --> pkgs/main/linux-64::requests-2.28.1-py39h06a4308_0
+  sqlite                                  3.38.2-hc218d9a_0 --> 3.39.2-h5082296_0
+  tk                                      8.6.11-h1ccaba5_0 --> 8.6.12-h1ccaba5_0
+  tqdm               pkgs/main/noarch::tqdm-4.63.0-pyhd3eb~ --> pkgs/main/linux-64::tqdm-4.64.0-py39h06a4308_0
+  urllib3            pkgs/main/noarch::urllib3-1.26.8-pyhd~ --> pkgs/main/linux-64::urllib3-1.26.11-py39h06a4308_0
+  xz                                       5.2.5-h7b6447c_0 --> 5.2.5-h7f8727e_1
+  zlib                                    1.2.12-h7f8727e_1y39h06a4308_0
+  xz                                       5.2.5-h7b6447c_0 --> 5.2.5-h7f8727e_1
+  zlib                                    1.2.12-h7f8727e_1 --> 1.2.12-h7f8727e_2
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+cryptography-37.0.1  | 1.3 MB    |                                                                                                                                                                          |   0% cryptography-37.0.1  | 1.3 MB    | ##                                                                                                                                                                       |   1% cryptography-37.0.1  | 1.3 MB    | ########1                                                                                                                                                                |   5% cryptography-37.0.1  | 1.3 MB    | ################2                                                                                                                                                        |  10% cryptography-37.0.1  | 1.3 MB    | ############################4                                                                                                                                            |  17% cryptography-37.0.1  | 1.3 MB    | ##########################################7                                                                                                                              |  25% cryptography-37.0.1  | 1.3 MB    | ####################################################9                                                                                                                    |  32% cryptography-37.0.1  | 1.3 MB    | ###############################################################1                                                                                                         |  38% cryptography-37.0.1  | 1.3 MB    | #########################################################################2                                                                                               |  44% cryptography-37.0.1  | 1.3 MB    | #####################################################################################4                                                                                   |  51% cryptography-37.0.1  | 1.3 MB    | #####################################################################################################7                                                                   |  61% cryptography-37.0.1  | 1.3 MB    | ##########################################################################################################################################4                              |  82% cryptography-37.0.1  | 1.3 MB    | ######################################################################################################################################################################## | 100% 
+requests-2.28.1      | 92 KB     |                                                                                                                                                                          |   0% requests-2.28.1      | 92 KB     | ######################################################################################################################################################################## | 100% 
+conda-4.13.0         | 895 KB    |                                                                                                                                                                          |   0% conda-4.13.0         | 895 KB    | ######################################################################################################                                                                   |  61% conda-4.13.0         | 895 KB    | ######################################################################################################################################################################## | 100% 
+pip-22.1.2           | 2.5 M --> 1.2.12-h7f8727e_2
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+cryptography-37.0.1  | 1.3 MB    |                                                                                                                                                                          |   0% cryptography-37.0.1  | 1.3 MB    | ##                                                                                                                                                                       |   1% cryptography-37.0.1  | 1.3 MB    | ########1                                                                                                                                                                |   5% cryptography-37.0.1  | 1.3 MB    | ################2                                                                                                                                                        |  10% cryptography-37.0.1  | 1.3 MB    | ############################4                                                                                                                                            |  17% cryptography-37.0.1  | 1.3 MB    | ##########################################7                                                                                                                              |  25% cryptography-37.0.1  | 1.3 MB    | ####################################################9                                                                                                                    |  32% cryptography-37.0.1  | 1.3 MB    | ###############################################################1                                                                                                         |  38% cryptography-37.0.1  | 1.3 MB    | #########################################################################2                                                                                               |  44% cryptography-37.0.1  | 1.3 MB    | #####################################################################################4                                                                                   |  51% cryptography-37.0.1  | 1.3 MB    | #####################################################################################################7                                                                   |  61% cryptography-37.0.1  | 1.3 MB    | ##########################################################################################################################################4                              |  82% cryptography-37.0.1  | 1.3 MB    | ######################################################################################################################################################################## | 100% 
+requests-2.28.1      | 92 KB     |                                                                                                                                                                          |   0% requests-2.28.1      | 92 KB     | ######################################################################################################################################################################## | 100% 
+conda-4.13.0         | 895 KB    |                                                                                                                                                                          |   0% conda-4.13.0         | 895 KB    | ######################################################################################################                                                                   |  61% conda-4.13.0         | 895 KB    | ######################################################################################################################################################################## | 100% 
+pip-22.1.2           | 2.5 MB    |                                                                                                                                                      B    |                                                                                                                                                                          |   0% pip-22.1.2           | 2.5 MB    | ####2                                                                                                                                                                    |   3% pip-22.1.2           | 2.5 MB    | ##################################2                                                                                                                                      |  20% pip-22.1.2           | 2.5 MB    | ################################################1                                                                                                                        |  29% pip-22.1.2           | 2.5 MB    | ######################################################################################################################################################################## | 100% pip-22.1.2           | 2.5 MB    | ######################################################################################################################################################################## | 100% 
+urllib3-1.26.11      | 182 KB    |                                                                                                                                                                          |   0% urllib3-1.26.11      | 182 KB    | ##############7                                                                                                                                                          |   9% urllib3-1.26.11      | 182 KB    | ######################################################################################################################################################################## | 100% 
+certifi-2022.6.15    | 153 KB    |                                                                                                                                                                          |   0% certifi-2022.6.15    | 153 KB    | #################5                                                                                                                                                       |  10% certifi-2022.6.15    | 153 KB    | ######################################################################################################################################################################## | 100% 
+cffi-1.15.1          | 228 KB    |                                                                                                                                                                          |   0% cffi-1.15.1          | 228 KB    | ######################################################################6                                                                                                  |  42% cffi-1.15.1          | 228 KB    | ######################################################################################################################################################################## | 100% 
+tqdm-4.64.0          | 126 KB    |                                                                                                                                                                          |   0% tqdm-4.64.0          | 126 KB    | ######################################################################################################################################################################## | 100% tqdm-4.64.0          | 126 KB    | ######################################################################################################################################################################## | 100% 
+Preparing transaction: | / done
+Verifying transaction: \ | / - done
+Executing transaction: | / - \ | done
+(my_env) ]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ conda info --envs
+# conda environments:
+#
+base                     /home/adi                    |   0% pip-22.1.2           | 2.5 MB    | ####2                                                                                                                                                                    |   3% pip-22.1.2           | 2.5 MB    | ##################################2                                                                                                                                      |  20% pip-22.1.2           | 2.5 MB    | ################################################1                                                                                                                        |  29% pip-22.1.2           | 2.5 MB    | ######################################################################################################################################################################## | 100% pip-22.1.2           | 2.5 MB    | ######################################################################################################################################################################## | 100% 
+urllib3-1.26.11      | 182 KB    |                                                                                                                                                                          |   0% urllib3-1.26.11      | 182 KB    | ##############7                                                                                                                                                          |   9% urllib3-1.26.11      | 182 KB    | ######################################################################################################################################################################## | 100% 
+certifi-2022.6.15    | 153 KB    |                                                                                                                                                                          |   0% certifi-2022.6.15    | 153 KB    | #################5                                                                                                                                                       |  10% certifi-2022.6.15    | 153 KB    | ######################################################################################################################################################################## | 100% 
+cffi-1.15.1          | 228 KB    |                                                                                                                                                                          |   0% cffi-1.15.1          | 228 KB    | ######################################################################6                                                                                                  |  42% cffi-1.15.1          | 228 KB    | ######################################################################################################################################################################## | 100% 
+tqdm-4.64.0          | 126 KB    |                                                                                                                                                                          |   0% tqdm-4.64.0          | 126 KB    | ######################################################################################################################################################################## | 100% tqdm-4.64.0          | 126 KB    | ######################################################################################################################################################################## | 100% 
+Preparing transaction: | / done
+Verifying transaction: \ | / - done
+Executing transaction: | / - \ | done
+(my_env) ]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ conda info --envs
+# conda environments:
+#
+base                     /home/aditya1308/miniconda3
+my_env                *  /home/aditya1308/miniconda3/envs/my_env
+
+(my_env) ]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848tya1308/miniconda3
+my_env                *  /home/aditya1308/miniconda3/envs/my_env
+
+(my_env) ]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ source activate
+bash: activate: No such file or directory
+(my_env) ]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ conda create --name snakes python=3.9[C[1P python=3.9[1P python=3.9[1P python=3.9[1P python=3.9[1P python=3.9[1P python=3.9m python=3.9y python=3.9_ python=3.9e python=3.9n python=3.9v python=3.92 python=3.9
+Collecting package metadata (current_repodata.json): - \ | / - done
+Solving environment: | done
+
+## Package Plan ##
+
+  environment location: /home/aditya1308/miniconda3/envs/my_env2
+
+  added / updated specs:
+    - python=3.9
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    python-3.9.12              |       h12debd9_1        19.2 MB
+    ------------------------------------------------------------
+                                           Total:        19.2 MB
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      pkgs/main/linux-64::_libgcc_mutex-0.1-main
+  _openmp_mutex      pkgs/main/linux-64::_openmp_mutex-5.1-1_gnu
+  ca-certificates    pkgs/main/linux-64::ca-certificates-2022.07.19-h06a4308_0
+  certifi            pkgs/main/linux-64::certifi-2022.6.15-py39h06a4308_0
+  ld_impl_linux-64   pkgs/main/linux-64::ld_impl_linux-64-2.38-h1181459_1
+  libffi             pkgs/main/linux-64::libffi-3.3-he6710b0_2
+  libgcc-ng          pkgs/main/linux-64::libgcc-ng-11.2.0-h1234567_1
+  libgomp            pkgs/main/linux-64::libgomp-11.2.0-h1234567_1
+  libstdcxx-ng       pkgs/main/linux-64::libstdcxx-ng-11.2.0-h1234567_1
+  ncurses            pkgs/main/linux-64::ncurses-6.3-h5eee18b_3
+  openssl            pkgs/main/linux-64::openssl-1.1.1q-h7f8727e_0
+  pip                pkgs/main/linux-64::pip-22.1.2-py39h06a4308_0
+  python             pkgs/main/linux-64::python-3.9.12-h12debd9_1
+  readline           pkgs/main/linux-64::readline-8.1.2-h7f8727e_1
+  setuptools         pkgs/main/linux-64::setuptools-61.2.0-py39h06a4308_0
+  sqlite             pkgs/main/linux-64::sqlite-3.39.2-h5082296_0
+  tk                 pkgs/main/linux-64::tk-8.6.12-h1ccaba5_0
+  tzdata             pkgs/main/noarch::tzdata-2022a-hda174b7_0
+  wheel              pkgs/main/noarch::wheel-0.37.1-pyhd3eb1b0_0
+  xz                 pkgs/main/linux-64::xz-5.2.5-h7f8727e_1
+  zlib               pkgs/main/linux-64::zlib-1.2.12-h7f8727e_2
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+python-3.9.12        | 19.2 MB   |                                                                                                                                                                          |   0% python-3.9.12        | 19.2 MB   | 1                                                                                                                                                                        |   0% python-3.9.12        | 19.2 MB   | ###1                                                                                                                                                                     |   2% python-3.9.12        | 19.2 MB   | ############3                                                                                                                                                            |   7% python-3.9.12        | 19.2 MB   | #####################7                                                                                                                                                   |  13% python-3.9.12        | 19.2 MB   | ############################6                                                                                                                          [00m:[01;34m~[00m$ source activate
+bash: activate: No such file or directory
+(my_env) ]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ conda create --name snakes python=3.9[C[1P python=3.9[1P python=3.9[1P python=3.9[1P python=3.9[1P python=3.9[1P python=3.9m python=3.9y python=3.9_ python=3.9e python=3.9n python=3.9v python=3.92 python=3.9
+Collecting package metadata (current_repodata.json): - \ | / - done
+Solving environment: | done
+
+## Package Plan ##
+
+  environment location: /home/aditya1308/miniconda3/envs/my_env2
+
+  added / updated specs:
+    - python=3.9
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    python-3.9.12              |       h12debd9_1        19.2 MB
+    ------------------------------------------------------------
+                                           Total:        19.2 MB
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      pkgs/main/linux-64::_libgcc_mutex-0.1-main
+  _openmp_mutex      pkgs/main/linux-64::_openmp_mutex-5.1-1_gnu
+  ca-certificates    pkgs/main/linux-64::ca-certificates-2022.07.19-h06a4308_0
+  certifi            pkgs/main/linux-64::certifi-2022.6.15-py39h06a4308_0
+  ld_impl_linux-64   pkgs/main/linux-64::ld_impl_linux-64-2.38-h1181459_1
+  libffi             pkgs/main/linux-64::libffi-3.3-he6710b0_2
+  libgcc-ng          pkgs/main/linux-64::libgcc-ng-11.2.0-h1234567_1
+  libgomp            pkgs/main/linux-64::libgomp-11.2.0-h1234567_1
+  libstdcxx-ng       pkgs/main/linux-64::libstdcxx-ng-11.2.0-h1234567_1
+  ncurses            pkgs/main/linux-64::ncurses-6.3-h5eee18b_3
+  openssl            pkgs/main/linux-64::openssl-1.1.1q-h7f8727e_0
+  pip                pkgs/main/linux-64::pip-22.1.2-py39h06a4308_0
+  python             pkgs/main/linux-64::python-3.9.12-h12debd9_1
+  readline           pkgs/main/linux-64::readline-8.1.2-h7f8727e_1
+  setuptools         pkgs/main/linux-64::setuptools-61.2.0-py39h06a4308_0
+  sqlite             pkgs/main/linux-64::sqlite-3.39.2-h5082296_0
+  tk                 pkgs/main/linux-64::tk-8.6.12-h1ccaba5_0
+  tzdata             pkgs/main/noarch::tzdata-2022a-hda174b7_0
+  wheel              pkgs/main/noarch::wheel-0.37.1-pyhd3eb1b0_0
+  xz                 pkgs/main/linux-64::xz-5.2.5-h7f8727e_1
+  zlib               pkgs/main/linux-64::zlib-1.2.12-h7f8727e_2
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+python-3.9.12        | 19.2 MB   |                                                                                                                                                                          |   0% python-3.9.12        | 19.2 MB   | 1                                                                                                                                                                        |   0% python-3.9.12        | 19.2 MB   | ###1                                                                                                                                                                     |   2% python-3.9.12        | 19.2 MB   | ############3                                                                                                                                                            |   7% python-3.9.12        | 19.2 MB   | #####################7                                                                                                                                                   |  13% python-3.9.12        | 19.2 MB   | ############################6                                                                                                                                            |  17% python-3.9.12        | 19.2 MB   | ########################################9                                                                        |  17% python-3.9.12        | 19.2 MB   | ########################################9                                                                                                                                |  24% python-3.9.12        | 19.2 MB   | #################################################1                                                                                                                       |  29% python-3.9.12        | 19.2 MB   | #############################################################3                                                                                                           |  37% python-3.9.12        | 19.2 MB   | ###################################################################6                                                                                                     |  40% python-3.9.12        | 19.2 MB   | #########################################################################7                                                                                               |  44% python-3.9.12        | 19.2 MB   | ###############################################################################3                                                                                         |  47% python-3.9.12        | 19.2 MB   | ####################################################################################4                                                                                    |  50% python-3.9.12        | 19.2 MB   | #########################################################################################                                                                                |  53% python-3.9.12        | 19.2 MB   | #############################################################################################4                                                                           |  56% python-3.9.12        | 19.2 MB   | #################################################################################################7                                                                       |  58% python-3.9.12        | 19.2 MB   | #####################################################################################################5                                                                   |  60% python-3.9.12        | 19.2 MB   | #########################################################################################################6                                                               |  63% python-3.9.12        | 19.2 MB   | #############################################################################################################6                                                           |  65% python-3.9.12        | 19.2 MB   | #################################################################################################################4                                                       |  68% python-3.9.12        | 19.2 MB   | #######################################################################################################################                                                  |  71% python-3.9.12        | 19.2 MB   | ###########################################################################################################################3                                             |  73% python-3.9.12        | 19.2 MB   | ###############################################################################################################################5                                         |  76% python-3.9.12        | 19.2 MB   | ###################################################################################################################################5                                     |  78% python-3.9.12        | 19.2 MB   | #######################################################################################################################################8                                 |  81% python-3.9.12        | 19.2 MB   | #######                                                                          |  24% python-3.9.12        | 19.2 MB   | #################################################1                                                                                                                       |  29% python-3.9.12        | 19.2 MB   | #############################################################3                                                                                                           |  37% python-3.9.12        | 19.2 MB   | ###################################################################6                                                                                                     |  40% python-3.9.12        | 19.2 MB   | #########################################################################7                                                                                               |  44% python-3.9.12        | 19.2 MB   | ###############################################################################3                                                                                         |  47% python-3.9.12        | 19.2 MB   | ####################################################################################4                                                                                    |  50% python-3.9.12        | 19.2 MB   | #########################################################################################                                                                                |  53% python-3.9.12        | 19.2 MB   | #############################################################################################4                                                                           |  56% python-3.9.12        | 19.2 MB   | #################################################################################################7                                                                       |  58% python-3.9.12        | 19.2 MB   | #####################################################################################################5                                                                   |  60% python-3.9.12        | 19.2 MB   | #########################################################################################################6                                                               |  63% python-3.9.12        | 19.2 MB   | #############################################################################################################6                                                           |  65% python-3.9.12        | 19.2 MB   | #################################################################################################################4                                                       |  68% python-3.9.12        | 19.2 MB   | #######################################################################################################################                                                  |  71% python-3.9.12        | 19.2 MB   | ###########################################################################################################################3                                             |  73% python-3.9.12        | 19.2 MB   | ###############################################################################################################################5                                         |  76% python-3.9.12        | 19.2 MB   | ###################################################################################################################################5                                     |  78% python-3.9.12        | 19.2 MB   | #######################################################################################################################################8                                 |  81% python-3.9.12        | 19.2 MB   | ############################################################################################################################################3                      #####################################################################################################################################3                            |  84% python-3.9.12        | 19.2 MB   | ##################################################################################################################################################3                      |  87% python-3.9.12        | 19.2 MB   | #######################################################################################################################################################9                 |  90% python-3.9.12        | 19.2 MB   | #############################################################################################################################################################3           |  94% python-3.9.12        | 19.2 MB   | #################################################################################################################################################################8       |  96% python-3.9.12        | 19.2 MB   | ######################################################################################################################################################################2  |  99% python-3.9.12        | 19.2 MB   | ######################################################################################################################################################################## | 100% 
+Preparing transaction: - \ done
+Verifying transaction: / - \ | / - \ done
+Executing transaction: / - \ | / - \ | / - done
+#
+# To activate this environment, use
+#
+#     $ conda activate my_env2
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+(my_env) ]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ conda deactivate
+(base) ]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ python --version
+Python 3.9.12
+(base) ]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ conda list
+# packages in environment at /home/aditya1308/miniconda3:
+#
+# Name                    Version                   Build  Channel
+_libgcc_mutex             0.1                        main  
+_openmp_mutex             5.1                       1_gnu  
+brotlipy                  0.7.0           py39h27cfd23_1003  
+ca-certificates           2022.07.19           h06a4308_0  
+certifi                   2022.6.15        py39h06a4308_0  
+cffi                      1.15.1           py39h74dc2b5_0  
+charset-normalizer        2.0.4              pyhd3eb1b0_0  
+conda                     4.13.0           py39h06a4308_0  
+conda-package-handling    1.8.1            py39h7f8727e_0  
+cryptography              37.0.1           py39h9ce1e76_0  
+idna                      3.3                pyhd3eb1b0_0  
+ld_impl_linux-64          2.38                 h1181459_1  
+libffi                    3.3                  he6710b0_2  
+libgcc-ng                 11.2.0               h1234567_1  
+libgomp                   11.2.0               h1234567_1  
+libstdcxx-ng              11.2.0               h1234567_1  
+ncurses                   6.3                  h5eee18b_3  
+openssl                   1.1.1q               h7f8727e_0  
+pip                       22.1.2           py39h06a4308_0  
+pycosat                   0.6.3            py39h27cfd23_0  
+pycparser                 2.21               pyhd3eb1b0_0  
+pyopenssl                 22.0.0             pyhd3eb1b0_0  
+pysocks                   1.7.1            py39h06a4308_0  
+python                    3.9.12               h12debd9_0  
+readline                  8.1.2                h7f8727e_1  
+requests                  2.28.1           py39h06a4308_0  
+ruamel_yaml               0.15.100         py39h27cfd23_0  
+setuptools                61.2.0           py39h06a4308_0  
+sqlite                    3.39.2               h5082296_0  
+tk                        8.6.12               h1ccaba5_0  
+tqdm                      4.64.0           py39h0      |  84% python-3.9.12        | 19.2 MB   | ##################################################################################################################################################3                      |  87% python-3.9.12        | 19.2 MB   | #######################################################################################################################################################9                 |  90% python-3.9.12        | 19.2 MB   | #############################################################################################################################################################3           |  94% python-3.9.12        | 19.2 MB   | #################################################################################################################################################################8       |  96% python-3.9.12        | 19.2 MB   | ######################################################################################################################################################################2  |  99% python-3.9.12        | 19.2 MB   | ######################################################################################################################################################################## | 100% 
+Preparing transaction: - \ done
+Verifying transaction: / - \ | / - \ done
+Executing transaction: / - \ | / - \ | / - done
+#
+# To activate this environment, use
+#
+#     $ conda activate my_env2
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+(my_env) ]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ conda deactivate
+(base) ]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ python --version
+Python 3.9.12
+(base) ]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ conda list
+# packages in environment at /home/aditya1308/miniconda3:
+#
+# Name                    Version                   Build  Channel
+_libgcc_mutex             0.1                        main  
+_openmp_mutex             5.1                       1_gnu  
+brotlipy                  0.7.0           py39h27cfd23_1003  
+ca-certificates           2022.07.19           h06a4308_0  
+certifi                   2022.6.15        py39h06a4308_0  
+cffi                      1.15.1           py39h74dc2b5_0  
+charset-normalizer        2.0.4              pyhd3eb1b0_0  
+conda                     4.13.0           py39h06a4308_0  
+conda-package-handling    1.8.1            py39h7f8727e_0  
+cryptography              37.0.1           py39h9ce1e76_0  
+idna                      3.3                pyhd3eb1b0_0  
+ld_impl_linux-64          2.38                 h1181459_1  
+libffi                    3.3                  he6710b0_2  
+libgcc-ng                 11.2.0               h1234567_1  
+libgomp                   11.2.0               h1234567_1  
+libstdcxx-ng              11.2.0               h1234567_1  
+ncurses                   6.3                  h5eee18b_3  
+openssl                   1.1.1q               h7f8727e_0  
+pip                       22.1.2           py39h06a4308_0  
+pycosat                   0.6.3            py39h27cfd23_0  
+pycparser                 2.21               pyhd3eb1b0_0  
+pyopenssl                 22.0.0             pyhd3eb1b0_0  
+pysocks                   1.7.1            py39h06a4308_0  
+python                    3.9.12               h12debd9_0  
+readline                  8.1.2                h7f8727e_1  
+requests                  2.28.1           py39h06a4308_0  
+ruamel_yaml               0.15.100         py39h27cfd23_0  
+setuptools                61.2.0           py39h06a4308_0  
+sqlite                    3.39.2               h5082296_0  
+tk                        8.6.12               h1ccaba5_0  
+tqdm                      4.64.0           py39h06a4308_0  
+tzdata                    2022a                hda174b7_0  
+urllib3                   1.26.11          py39h06a4308_0  
+wheel                 6a4308_0  
+tzdata                    2022a                hda174b7_0  
+urllib3                   1.26.11          py39h06a4308_0  
+wheel                     0.37.1             pyhd3eb1b0_0  
+xz                        5.2.5                h7f8727e_1  
+yaml                      0.2.5                h7b6447c_0  
+zlib                      1.2.12               h7f8727e_2  
+(base) ]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ conda info
+
+     active environment : base
+    active env location : /home/aditya1308/miniconda3
+            shell level : 1
+       user config file : /home/aditya1308/.condarc
+ populated config files : 
+          conda version : 4.13.0
+    conda-build version : not installed
+         python version : 3.9.12.final.0
+       virtual packages : __linux=5.10.16.3=0
+                          __glibc=2.31=0
+                          __unix=0=0
+                          __archspec=1=x86_64
+       base environment : /home/aditya1308/miniconda3  (writable)
+      conda av data dir : /home/aditya1308/miniconda3/etc/conda
+  conda av metadata url : None
+           channel URLs : https://repo.anaconda.com/pkgs/main/linux-64
+                          https://repo.anaconda.com/pkgs/main/noarch
+                          https://repo.anaconda.com/pkgs/r/linux-64
+                          https://repo.anaconda.com/pkgs/r/noarch
+          package cache : /home/aditya1308/miniconda3/pkgs
+                          /home/aditya1308/.conda/pkgs
+       envs directories : /home/aditya1308/miniconda3/envs
+                          /home/aditya1308/.conda/envs
+               platform : linux-64
+             user-agent : conda/4.13.0 requests/2.28.1 CPython/3.9.12 Linux/5.10.16.3-microsoft-standard-WSL2 ubuntu/20.04.4 glibc/2.31
+                UID:GID : 1000:1000
+             netrc file : None
+           offline mode : False
+
+(base) ]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ conda install argcomplete
+Collecting package metadata (current_repodata.json): - \ | / - \ | / done
+Solving environment: \ | done
+
+## Package Plan ##
+
+  environment location: /home/aditya1308/miniconda3
+
+  added / updated specs:
+    - argcomplete
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    argcomplete-1.12.3         |     pyhd3eb1b0_0          35 KB
+    importlib-metadata-4.11.3  |   py39h06a4308_0          40 KB
+    importlib_metadata-4.11.3  |       hd3eb1b0_0          12 KB
+    zipp-3.8.0                 |   py39h06a4308_0          15 KB
+    ------------------------------------------------------------
+                                           Total:         102 KB
+
+The following NEW packages will be INSTALLED:
+
+  argcomplete        pkgs/main/noarch::argcomplete-1.12.3-pyhd3eb1b0_0
+  importlib-metadata pkgs/main/linux-64::importlib-metadata-4.11.3-py39h06a4308_0
+  importlib_metadata pkgs/main/noarch::importlib_metadata-4.11.3-hd3eb1b0_0
+  zipp               pkgs/main/linux-64::zipp-3.8.0-py39h06a4308_0
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+argcomplete-1.12.3   | 35 KB     |                                                                                                                                                                          |   0% argcomplete-1.12.3   | 35 KB     | #############################################################################3                                                                                           |  46% argcomplete-1.12.3   | 35 KB     | ######################################################################################################################################################################## | 100% 
+zipp-3.8.0           | 15 KB     |                                                                                                                                                                          |   0%     0.37.1             pyhd3eb1b0_0  
+xz                        5.2.5                h7f8727e_1  
+yaml                      0.2.5                h7b6447c_0  
+zlib                      1.2.12               h7f8727e_2  
+(base) ]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ conda info
+
+     active environment : base
+    active env location : /home/aditya1308/miniconda3
+            shell level : 1
+       user config file : /home/aditya1308/.condarc
+ populated config files : 
+          conda version : 4.13.0
+    conda-build version : not installed
+         python version : 3.9.12.final.0
+       virtual packages : __linux=5.10.16.3=0
+                          __glibc=2.31=0
+                          __unix=0=0
+                          __archspec=1=x86_64
+       base environment : /home/aditya1308/miniconda3  (writable)
+      conda av data dir : /home/aditya1308/miniconda3/etc/conda
+  conda av metadata url : None
+           channel URLs : https://repo.anaconda.com/pkgs/main/linux-64
+                          https://repo.anaconda.com/pkgs/main/noarch
+                          https://repo.anaconda.com/pkgs/r/linux-64
+                          https://repo.anaconda.com/pkgs/r/noarch
+          package cache : /home/aditya1308/miniconda3/pkgs
+                          /home/aditya1308/.conda/pkgs
+       envs directories : /home/aditya1308/miniconda3/envs
+                          /home/aditya1308/.conda/envs
+               platform : linux-64
+             user-agent : conda/4.13.0 requests/2.28.1 CPython/3.9.12 Linux/5.10.16.3-microsoft-standard-WSL2 ubuntu/20.04.4 glibc/2.31
+                UID:GID : 1000:1000
+             netrc file : None
+           offline mode : False
+
+(base) ]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ conda install argcomplete
+Collecting package metadata (current_repodata.json): - \ | / - \ | / done
+Solving environment: \ | done
+
+## Package Plan ##
+
+  environment location: /home/aditya1308/miniconda3
+
+  added / updated specs:
+    - argcomplete
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    argcomplete-1.12.3         |     pyhd3eb1b0_0          35 KB
+    importlib-metadata-4.11.3  |   py39h06a4308_0          40 KB
+    importlib_metadata-4.11.3  |       hd3eb1b0_0          12 KB
+    zipp-3.8.0                 |   py39h06a4308_0          15 KB
+    ------------------------------------------------------------
+                                           Total:         102 KB
+
+The following NEW packages will be INSTALLED:
+
+  argcomplete        pkgs/main/noarch::argcomplete-1.12.3-pyhd3eb1b0_0
+  importlib-metadata pkgs/main/linux-64::importlib-metadata-4.11.3-py39h06a4308_0
+  importlib_metadata pkgs/main/noarch::importlib_metadata-4.11.3-hd3eb1b0_0
+  zipp               pkgs/main/linux-64::zipp-3.8.0-py39h06a4308_0
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+argcomplete-1.12.3   | 35 KB     |                                                                                                                                                                          |   0% argcomplete-1.12.3   | 35 KB     | #############################################################################3                                                                                           |  46% argcomplete-1.12.3   | 35 KB     | ######################################################################################################################################################################## | 100% 
+zipp-3.8.0           | 15 KB     |                                                                                                                                                                          |   0% zipp-3.8.0           | 15 KB     | ########################################################################################################################zipp-3.8.0           | 15 KB     | ######################################################################################################################################################################## | 100% 
+importlib-metadata-4 | 40 KB     |                                                                                                                                                                          |   0% importlib-metadata-4 | 40 KB     | ######################################################################################################################################################################## | 100% importlib-metadata-4 | 40 KB     | ######################################################################################################################################################################## | 100% 
+importlib_metadata-4 | 12 KB     |                                                                                                                                                                          |   0% importlib_metadata-4 | 12 KB     | ######################################################################################################################################################################## | 100% 
+Preparing transaction: - done
+Verifying transaction: | done
+Executing transaction: - \ | / - \ done
+(base) ]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ eval "$(register-python-argcomplete conda)"
+(base) ]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ condan[K ins[K[K[K[K[K[K[K[K[Kexit
+exit
+
+Script done on 2022-08-18 18:06:42+05:30 [COMMAND_EXIT_CODE="0"]
+Script started on 2022-08-18 18:21:56+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="211" LINES="49"]
+(base) ]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ wc  my_miniconda_session.txt[1Pmy_miniconda_session.txt
+   996   9219 192740 my_miniconda_session.txt
+(base) ]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ conda instal; [K[Kl argcomplete
+Collecting package metadata (current_repodata.json): - \ | / - \ | done
+Solving environment: - \ done
+
+# All requested packages already installed.
+
+(base) ]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ eval "$(register-python-argcomplete conda)"
+(base) ]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ conda config --set pip_interop_enabled True
+(base) ]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2022-08-18 19:15:42+05:30 [COMMAND_EXIT_CODE="0"]

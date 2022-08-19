@@ -1,0 +1,392 @@
+Script started on 2022-08-18 14:53:54+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="211" LINES="49"]
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ sudo apt get install git
+[sudo] password for aditya1308: 
+[1;31mE: [0mInvalid operation get[0m
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ sudo apt get install git
+[1;31mE: [0mInvalid operation get[0m
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ sudo apt-get install git
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+git is already the newest version (1:2.25.1-1ubuntu3.5).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ sudo apt install git-all
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+[1;31mE: [0mUnable to locate package git-all[0m
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ git
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone             Clone a repository into a new directory
+   init              Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add               Add file contents to the index
+   mv                Move or rename a file, a directory, or a symlink
+   restore           Restore working tree files
+   rm                Remove files from the working tree and from the index
+   sparse-checkout   Initialize and modify the sparse-checkout
+
+examine the history and state (see also: git help revisions)
+   bisect            Use binary search to find the commit that introduced a bug
+   diff              Show changes between commits, commit and working tree, etc
+   grep              Print lines matching a pattern
+   log               Show commit logs
+   show              Show various types of objects
+   status            Show the working tree status
+
+grow, mark and tweak your common history
+   branch            List, create, or delete branches
+   commit            Record changes to the repository
+   merge             Join two or more development histories together
+   rebase            Reapply commits on top of another base tip
+   reset             Reset current HEAD to the specified state
+   switch            Switch branches
+   tag               Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch             Download objects and refs from another repository
+   pull              Fetch from and integrate with another repository or a local branch
+   push              Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ git --ves[Krsion
+git version 2.25.1
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ git config --list --show-origin
+[?1h=[K[?1l>]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$  git config user.name
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ git config --global user.name "John Doe"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"A"d"i"R"e"g"1"3"0"8"
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ git config --global user.email johndoe@example.com[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kaditya.regundwar@tigeranalytics.com
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ git config --global init.defaultBranch main
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ git config --list
+[?1h=user.name=AdiReg1308[m
+user.email=aditya.regundwar@tigeranalytics.com[m
+init.defaultbranch=main[m
+[K[?1l>]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ git config user.name
+AdiReg1308
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ git help config
+[?1049h[22;0;0t[?1h=GIT-CONFIG(1)                                                                                     Git Manual                                                                                    GIT-CONFIG(1)[m
+[m
+[1mNAME[0m[m
+       git-config - Get and set repository or global options[m
+[m
+[1mSYNOPSIS[0m[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--show-origin] [-z|--null] name [value [value_regex]][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] --add name value[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] --replace-all name value [value_regex][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--show-origin] [-z|--null] --get name [value_regex][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--show-origin] [-z|--null] --get-all name [value_regex][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--show-origin] [-z|--null] [--name-only] --get-regexp name_regex [value_regex][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [-z|--null] --get-urlmatch name URL[m
+       [4mgit[24m [4mconfig[24m [<file-option>] --unset name [value_regex][m
+       [4mgit[24m [4mconfig[24m [<file-option>] --unset-all name [value_regex][m
+       [4mgit[24m [4mconfig[24m [<file-option>] --rename-section old_name new_name[m
+       [4mgit[24m [4mconfig[24m [<file-option>] --remove-section name[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--show-origin] [-z|--null] [--name-only] -l | --list[m
+       [4mgit[24m [4mconfig[24m [<file-option>] --get-color name [default][m
+       [4mgit[24m [4mconfig[24m [<file-option>] --get-colorbool name [stdout-is-tty][m
+       [4mgit[24m [4mconfig[24m [<file-option>] -e | --edit[m
+[m
+[1mDESCRIPTION[0m[m
+       You can query/set/replace/unset options with this command. The name is actually the section and the key separated by a dot, and the value will be escaped.[m
+[m
+       Multiple lines can be added to an option by using the [1m--add[0m option. If you want to update or unset an option which can occur on multiple lines, a POSIX regexp [1mvalue_regex[0m needs to be given. Only the[m
+       existing values that match the regexp are updated or unset. If you want to handle the lines that do [1mnot[0m match the regex, just prepend a single exclamation mark in front (see also the section called[m
+       “EXAMPLES”).[m
+[m
+       The [1m--type=<type>[0m option instructs [4mgit[24m [4mconfig[24m to ensure that incoming and outgoing values are canonicalize-able under the given <type>. If no [1m--type=<type>[0m is given, no canonicalization will be[m
+       performed. Callers may unset an existing [1m--type[0m specifier with [1m--no-type[0m.[m
+[m
+       When reading, the values are read from the system, global and repository local configuration files by default, and options [1m--system[0m, [1m--global[0m, [1m--local[0m, [1m--worktree[0m and [1m--file[0m [1m<filename>[0m can be used[m
+       to tell the command to read from only that location (see the section called “FILES”).[m
+[m
+       When writing, the new value is written to the repository local configuration file by default, and options [1m--system[0m, [1m--global[0m, [1m--worktree[0m, [1m--file[0m [1m<filename>[0m can be used to tell the command to write[m
+       to that location (you can say [1m--local[0m but that is the default).[m
+[m
+       This command will fail with non-zero status upon error. Some exit codes are:[m
+[m
+       •   The section or key is invalid (ret=1),[m
+[m
+       •   no section or name was provided (ret=2),[m
+[m
+       •   the config file is invalid (ret=3),[m
+[m
+       •   the config file cannot be written (ret=4),[m
+[m
+[7m Manual page git-config(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ ls
+my_git_session.txt  my_unix_session.txt
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ pwd
+/home/aditya1308
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ cd /home/user/my_project
+bash: cd: /home/user/my_project: No such file or directory
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ mkdir my_project
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ ls
+my_git_session.txt  [0m[01;34mmy_project[0m  my_unix_session.txt
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ pwd
+/home/aditya1308
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ cd my_project
+]0;aditya1308@TIGER03848: ~/my_project[01;32maditya1308@TIGER03848[00m:[01;34m~/my_project[00m$ exit[K[K[K[Kgit init
+Initialized empty Git repository in /home/aditya1308/my_project/.git/
+]0;aditya1308@TIGER03848: ~/my_project[01;32maditya1308@TIGER03848[00m:[01;34m~/my_project[00m$ git add *.c
+fatal: pathspec '*.c' did not match any files
+]0;aditya1308@TIGER03848: ~/my_project[01;32maditya1308@TIGER03848[00m:[01;34m~/my_project[00m$ git add LICENSE
+fatal: pathspec 'LICENSE' did not match any files
+]0;aditya1308@TIGER03848: ~/my_project[01;32maditya1308@TIGER03848[00m:[01;34m~/my_project[00m$ ls
+]0;aditya1308@TIGER03848: ~/my_project[01;32maditya1308@TIGER03848[00m:[01;34m~/my_project[00m$ pwd
+/home/aditya1308/my_project
+]0;aditya1308@TIGER03848: ~/my_project[01;32maditya1308@TIGER03848[00m:[01;34m~/my_project[00m$ la
+[0m[01;34m.git[0m
+]0;aditya1308@TIGER03848: ~/my_project[01;32maditya1308@TIGER03848[00m:[01;34m~/my_project[00m$ ls
+]0;aditya1308@TIGER03848: ~/my_project[01;32maditya1308@TIGER03848[00m:[01;34m~/my_project[00m$ script -a ~/my_unix_session.txt[1P_session.txt[1P_session.txt[1P_session.txt[1P_session.txtm_session.txti_session.txtn_session.txti_session.txtc_session.txto_session.txtn_session.txtd_session.txta_session.txt
+Script started, file is /home/aditya1308/my_miniconda_session.txt
+]0;aditya1308@TIGER03848: ~/my_project[01;32maditya1308@TIGER03848[00m:[01;34m~/my_project[00m$ cd /[K/
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ cd /mnt [K/c/[K
+]0;aditya1308@TIGER03848: /mnt/c[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c[00m$ cd users[K[K[K[K[KUsers
+]0;aditya1308@TIGER03848: /mnt/c/Users[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/Users[00m$ la
+ [0m[01;34mAdmin[0m  [01;36m'All Users'[0m   [01;34mDefault[0m  [01;36m'Default User'[0m   [34;42mPublic[0m   [34;42maditya.regundwar[0m   [01;32mdesktop.ini[0m   [01;34mgaia[0m
+]0;aditya1308@TIGER03848: /mnt/c/Users[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/Users[00m$ cd aditya.regundwar/
+]0;aditya1308@TIGER03848: /mnt/c/Users/aditya.regundwar[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/Users/aditya.regundwar[00m$ la[K[Kcd dow[K[K[KDownloads/
+]0;aditya1308@TIGER03848: /mnt/c/Users/aditya.regundwar/Downloads[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/Users/aditya.regundwar/Downloads[00m$ mv [K[K[Kbash m[KMiniconda3-py39_4.12.0-Linux-x86_64.sh 
+
+Welcome to Miniconda3 py39_4.12.0
+
+In order to continue the installation process, please review the license
+agreement.
+Please, press ENTER to continue
+>>> 
+======================================
+End User License Agreement - Miniconda
+======================================
+
+Copyright 2015-2022, Anaconda, Inc.
+
+All rights reserved under the 3-clause BSD License:
+
+This End User License Agreement (the "Agreement") is a legal agreement between you and Anaconda, Inc. ("Anaconda") and governs your use of Miniconda.
+
+Subject to the terms of this Agreement, Anaconda hereby grants you a non-exclusive, non-transferable license to:
+
+  * Install and use the Miniconda,
+  * Modify and create derivative works of sample source code delivered in Miniconda subject to the Terms of Service for the Repository (as defined hereinafter) available at https://www.anaconda.com/terms-of-serv
+ice, and
+  * Redistribute code files in source (if provided to you by Anaconda as source) and binary forms, with or without modification subject to the requirements set forth below.
+
+Anaconda may, at its option, make available patches, workarounds or other updates to Miniconda. Unless the updates are provided with their separate governing terms, they are deemed part of Miniconda licensed to 
+you as provided in this Agreement. This Agreement does not entitle you to any support for Miniconda.
+
+Anaconda reserves all rights not expressly granted to you in this Agreement.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+  * Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+  * Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+  * Neither the name of Anaconda nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+You acknowledge that, as between you and Anaconda, Anaconda owns all right, title, and interest, including all intellectual property rights, in and to Miniconda and, with respect to third-party products distribu
+ted with or through Miniconda, the applicable third-party licensors own all right, title and interest, including all intellectual property rights, in and to such products. If you send or transmit any communicati
+ons or materials to Anaconda suggesting or recommending changes to the software or documentation, including without limitation, new features or functionality relating thereto, or any comments, questions, suggest
+ions or the like ("Feedback"), Anaconda is free to use such Feedback. You hereby assign to Anaconda all right, title, and interest in, and Anaconda is free to use, without any attribution or compensation to any 
+party, any ideas, know-how, concepts, techniques or other intellectual property rights contained in the Feedback, for any purpose whatsoever, although Anaconda is not required to use any Feedback.
+
+DISCLAIMER
+==========
+
+THIS SOFTWARE IS PROVIDED BY ANACONDA AND ITS CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PUR
+POSE ARE DISCLAIMED. IN NO EVENT SHALL ANACONDA BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SER
+VICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WA
+Y OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, ANACONDA AND ITS AFFILIATES SHALL NOT BE LIABLE FOR ANY SPECIAL, INCIDENTAL, PUNITIVE OR CONSEQUENTIAL DAMAGES, OR ANY LOST PROFITS, LOSS OF USE, LOSS OF DATA OR LOSS OF G
+OODWILL, OR THE COSTS OF PROCURING SUBSTITUTE PRODUCTS, ARISING OUT OF OR IN CONNECTION WITH THIS AGREEMENT OR THE USE OR PERFORMANCE OF MINICONDA, WHETHER SUCH LIABILITY ARISES FROM ANY CLAIM BASED UPON BREACH 
+OF CONTRACT, BREACH OF WARRANTY, TORT (INCLUDING NEGLIGENCE), PRODUCT LIABILITY OR ANY OTHER CAUSE OF ACTION OR THEORY OF LIABILITY. IN NO EVENT WILL THE TOTAL CUMULATIVE LIABILITY OF ANACONDA AND ITS AFFILIATES
+ UNDER OR ARISING OUT OF THIS AGREEMENT EXCEED US0.00.
+
+Miscellaneous
+[7m--More--[27m=============
+[7m--More--[27m[K
+[7m--More--[27mIf you want to terminate this Agreement, you may do so by discontinuing use of Miniconda. Anaconda may, at any time, terminate this Agreement and the license granted hereunder if you fail to comply with any term
+[7m--More--[27m of this Agreement. Upon any termination of this Agreement, you agree to promptly discontinue use of the Miniconda and destroy all copies in your possession or control. Upon any termination of this Agreement all
+[7m--More--[27m provisions survive except for the licenses granted to you.
+[7m--More--[27m[K
+[7m--More--[27mThis Agreement is governed by and construed in accordance with the internal laws of the State of Texas without giving effect to any choice or conflict of law provision or rule that would require or permit the ap
+[7m--More--[27mplication of the laws of any jurisdiction other than those of the State of Texas. Any legal suit, action, or proceeding arising out of or related to this Agreement or the licenses granted hereunder by you must b
+[7m--More--[27me instituted exclusively in the federal courts of the United States or the courts of the State of Texas in each case located in Travis County, Texas, and you irrevocably submit to the jurisdiction of such courts
+[7m--More--[27m in any such suit, action, or proceeding.
+[7m--More--[27m[K
+[7m--More--[27mNotice of Third Party Software Licenses
+[7m--More--[27m=======================================
+[7m--More--[27m[K
+[7m--More--[27mMiniconda provides access to a repository (the "Repository") which contains software packages or tools licensed on an open source basis from third parties and binary packages of these third party tools. These th
+[7m--More--[27mird party software packages or tools are provided on an "as is" basis and are subject to their respective license agreements as well as this Agreement and the Terms of Service for the Repository located at https
+[7m--More--[27m://www.anaconda.com/terms-of-service; provided, however, no restriction contained in the Terms of Service shall be construed so as to limit Your ability to download the packages contained in Miniconda provided y
+[7m--More--[27mou comply with the license for each such package. These licenses may be accessed from within the Miniconda software[1] or https://www.anaconda.com/legal. Information regarding which license is applicable is avai
+[7m--More--[27mlable from within many of the third party software packages and tools and at https://repo.anaconda.com/pkgs/main/ and https://repo.anaconda.com/pkgs/r/. Anaconda reserves the right, in its sole discretion, to ch
+[7m--More--[27mange which third party tools are included in the Repository accessible through Miniconda.
+[7m--More--[27m[K
+[7m--More--[27m[K
+[7m--More--[27mIntel Math Kernel Library
+[7m--More--[27m-------------------------
+[7m--More--[27m[K
+[7m--More--[27mMiniconda provides access to re-distributable, run-time, shared-library files from the Intel Math Kernel Library ("MKL binaries").
+[7m--More--[27m[K
+[7m--More--[27mCopyright 2018 Intel Corporation. License available at https://software.intel.com/en-us/license/intel-simplified-software-license (the "MKL License").
+[7m--More--[27m[K
+[7m--More--[27mYou may use and redistribute the MKL binaries, without modification, provided the following conditions are met:
+[7m--More--[27m[K
+[7m--More--[27m  * Redistributions must reproduce the above copyright notice and the following terms of use in the MKL binaries and in the documentation and/or other materials provided with the distribution.
+[7m--More--[27m  * Neither the name of Intel nor the names of its suppliers may be used to endorse or promote products derived from the MKL binaries without specific prior written permission.
+[7m--More--[27m  * No reverse engineering, decompilation, or disassembly of the MKL binaries is permitted.
+[7m--More--[27m[K
+[7m--More--[27mYou are specifically authorized to use and redistribute the MKL binaries with your installation of Miniconda subject to the terms set forth in the MKL License. You are also authorized to redistribute the MKL bin
+[7m--More--[27maries with Miniconda or in the Anaconda package that contains the MKL binaries. If needed, instructions for removing the MKL binaries after installation of Miniconda are available at https://docs.anaconda.com.
+[7m--More--[27m[K
+[7m--More--[27mcuDNN Software
+[7m--More--[27m--------------
+[7m--More--[27m[K
+[7m--More--[27mMiniconda also provides access to cuDNN software binaries ("cuDNN binaries") from NVIDIA Corporation. You are specifically authorized to use the cuDNN binaries with your installation of Miniconda subject to your
+[7m--More--[27m compliance with the license agreement located at https://docs.nvidia.com/deeplearning/sdk/cudnn-sla/index.html. You are also authorized to redistribute the cuDNN binaries with an Miniconda package that contains
+[7m--More--[27m the cuDNN binaries. You can add or remove the cuDNN binaries utilizing the install and uninstall features in Miniconda.
+[7m--More--[27m[K
+[7m--More--[27mcuDNN binaries contain source code provided by NVIDIA Corporation.
+[7m--More--[27m[K
+[7m--More--[27mArm Performance Libraries
+[7m--More--[27m-------------------------
+[7m--More--[27m[K
+[7m--More--[27mArm Performance Libraries (Free Version): Anaconda provides access to software and related documentation from the Arm Performance Libraries ("Arm PL") provided by Arm Limited. By installing or otherwise accessin
+[7m--More--[27mg the Arm PL, you acknowledge and agree that use and distribution of the Arm PL is subject to your compliance with the Arm PL end user license agreement located at: https://developer.arm.com/tools-and-software/s
+[7m--More--[27merver-and-hpc/downloads/arm-performance-libraries/eula.
+[7m--More--[27m[K
+[7m--More--[27mExport; Cryptography Notice
+[7m--More--[27m===========================
+[7m--More--[27m[K
+[7m--More--[27mYou must comply with all domestic and international export laws and regulations that apply to the software, which include restrictions on destinations, end users, and end use. Miniconda includes cryptographic so
+[7m--More--[27mftware. The country in which you currently reside may have restrictions on the import, possession, use, and/or re-export to another country, of encryption software. BEFORE using any encryption software, please c
+[7m--More--[27mheck your country's laws, regulations and policies concerning the import, possession, or use, and re-export of encryption software, to see if this is permitted. See the Wassenaar Arrangement http://www.wassenaar
+[7m--More--[27m.org/ for more information.
+[7m--More--[27m[K
+[7m--More--[27mAnaconda has self-classified this software as Export Commodity Control Number (ECCN) EAR99, which includes mass market information security software using or performing cryptographic functions with asymmetric al
+[7m--More--[27mgorithms. No license is required for export of this software to non-embargoed countries.
+[7m--More--[27m[K
+[7m--More--[27mThe Intel Math Kernel Library contained in Miniconda is classified by Intel as ECCN 5D992.c with no license required for export to non-embargoed countries.
+[7m--More--[27m[K
+[7m--More--[27mThe following packages listed on https://www.anaconda.com/cryptography are included in the Repository accessible through Miniconda that relate to cryptography.
+[7m--More--[27m[K
+[7m--More--[27mLast updated March 21, 2022
+
+Do you accept the license terms? [yes|no]
+[no] >>> 
+Please answer 'yes' or 'no':'
+>>> yes
+
+Miniconda3 will now be installed into this location:
+/home/aditya1308/miniconda3
+
+  - Press ENTER to confirm the location
+  - Press CTRL-C to abort the installation
+  - Or specify a different location below
+
+[/home/aditya1308/miniconda3] >>> 
+PREFIX=/home/aditya1308/miniconda3
+Unpacking payload ...
+  0%|                                                                                                                                                                                       | 0/40 [00:00<?, ?it/s]Extracting : six-1.16.0-pyhd3eb1b0_1.conda:   0%|                                                                                                                                           | 0/40 [00:00<?, ?it/s]Extracting : brotlipy-0.7.0-py39h27cfd23_1003.conda:   2%|███                                                                                                                       | 1/40 [00:00<00:01, 21.16it/s]Extracting : openssl-1.1.1n-h7f8727e_0.conda:   5%|██████▍                                                                                                                          | 2/40 [00:00<00:01, 21.10it/s]Extracting : pycparser-2.21-pyhd3eb1b0_0.conda:   8%|█████████▌                                                                                                                     | 3/40 [00:00<00:02, 12.53it/s]Extracting : pycparser-2.21-pyhd3eb1b0_0.conda:  10%|████████████▋                                                                                                                  | 4/40 [00:00<00:02, 16.68it/s]Extracting : ld_impl_linux-64-2.35.1-h7274673_9.conda:  10%|████████████                                                                                                            | 4/40 [00:00<00:02, 16.68it/s]Extracting : colorama-0.4.4-pyhd3eb1b0_0.conda:  12%|███████████████▉                                                                                                               | 5/40 [00:00<00:02, 16.68it/s]Extracting : cffi-1.15.0-py39hd667e15_1.conda:  15%|███████████████████▏                                                                                                            | 6/40 [00:00<00:02, 16.68it/s]Extracting : tk-8.6.11-h1ccaba5_0.conda:  18%|███████████████████████▍                                                                                                              | 7/40 [00:00<00:01, 16.68it/s]Extracting : sqlite-3.38.2-hc218d9a_0.conda:  20%|██████████████████████████                                                                                                        | 8/40 [00:00<00:01, 16.68it/s]Extracting : conda-content-trust-0.1.1-pyhd3eb1b0_0.conda:  22%|██████████████████████████                                                                                          | 9/40 [00:00<00:01, 16.68it/s]Extracting : libstdcxx-ng-9.3.0-hd4cf53a_17.conda:  25%|██████████████████████████████▊                                                                                            | 10/40 [00:00<00:01, 16.68it/s]Extracting : tzdata-2022a-hda174b7_0.conda:  28%|███████████████████████████████████▊                                                                                              | 11/40 [00:00<00:01, 16.68it/s]Extracting : python-3.9.12-h12debd9_0.conda:  30%|██████████████████████████████████████▋                                                                                          | 12/40 [00:00<00:01, 16.68it/s]Extracting : python-3.9.12-h12debd9_0.conda:  32%|█████████████████████████████████████████▉                                                                                       | 13/40 [00:00<00:01, 25.02it/s]Extracting : libgomp-9.3.0-h5101ec6_17.conda:  32%|█████████████████████████████████████████▌                                                                                      | 13/40 [00:00<00:01, 25.02it/s]Extracting : conda-package-handling-1.8.1-py39h7f8727e_0.conda:  35%|██████████████████████████████████████▌                                                                       | 14/40 [00:00<00:01, 25.02it/s]Extracting : requests-2.27.1-pyhd3eb1b0_0.conda:  38%|██████████████████████████████████████████████▉                                                                              | 15/40 [00:00<00:00, 25.02it/s]Extracting : zlib-1.2.12-h7f8727e_1.conda:  40%|████████████████████████████████████████████████████▍                                                                              | 16/40 [00:00<00:00, 25.02it/s]Extracting : libgcc-ng-9.3.0-h5101ec6_17.conda:  42%|█████████████████████████████████████████████████████▌                                                                        | 17/40 [00:00<00:00, 25.02it/s]Extracting : libffi-3.3-he6710b0_2.conda:  45%|███████████████████████████████████████████████████████████▍                                                                        | 18/40 [00:00<00:00, 25.02it/s]Extracting : readline-8.1.2-h7f8727e_1.conda:  48%|████████████████████████████████████████████████████████████▊                                                                   | 19/40 [00:00<00:00, 25.02it/s]Extracting : ncurses-6.3-h7f8727e_2.conda:  50%|█████████████████████████████████████████████████████████████████▌                                                                 | 20/40 [00:00<00:00, 25.02it/s]Extracting : certifi-2021.10.8-py39h06a4308_2.conda:  52%|███████████████████████████████████████████████████████████████▌                                                         | 21/40 [00:00<00:00, 25.02it/s]Extracting : pycosat-0.6.3-py39h27cfd23_0.conda:  55%|████████████████████████████████████████████████████████████████████▊                                                        | 22/40 [00:00<00:00, 25.02it/s]Extracting : setuptools-61.2.0-py39h06a4308_0.conda:  57%|█████████████████████████████████████████████████████████████████████▌                                                   | 23/40 [00:00<00:00, 25.02it/s]Extracting : ruamel_yaml-0.15.100-py39h27cfd23_0.conda:  60%|██████████████████████████████████████████████████████████████████████▊                                               | 24/40 [00:00<00:00, 25.02it/s]Extracting : pysocks-1.7.1-py39h06a4308_0.conda:  62%|██████████████████████████████████████████████████████████████████████████████▏                                              | 25/40 [00:00<00:00, 25.02it/s]Extracting : _libgcc_mutex-0.1-main.conda:  65%|█████████████████████████████████████████████████████████████████████████████████████▏                                             | 26/40 [00:00<00:00, 25.02it/s]Extracting : pyopenssl-22.0.0-pyhd3eb1b0_0.conda:  68%|███████████████████████████████████████████████████████████████████████████████████▋                                        | 27/40 [00:00<00:00, 25.02it/s]Extracting : pip-21.2.4-py39h06a4308_0.conda:  70%|█████████████████████████████████████████████████████████████████████████████████████████▌                                      | 28/40 [00:00<00:00, 25.02it/s]Extracting : urllib3-1.26.8-pyhd3eb1b0_0.conda:  72%|███████████████████████████████████████████████████████████████████████████████████████████▎                                  | 29/40 [00:00<00:00, 25.02it/s]Extracting : idna-3.3-pyhd3eb1b0_0.conda:  75%|███████████████████████████████████████████████████████████████████████████████████████████████████                                 | 30/40 [00:00<00:00, 25.02it/s]Extracting : charset-normalizer-2.0.4-pyhd3eb1b0_0.conda:  78%|█████████████████████████████████████████████████████████████████████████████████████████▉                          | 31/40 [00:00<00:00, 25.02it/s]Extracting : tqdm-4.63.0-pyhd3eb1b0_0.conda:  80%|███████████████████████████████████████████████████████████████████████████████████████████████████████▏                         | 32/40 [00:00<00:00, 25.02it/s]Extracting : ca-certificates-2022.3.29-h06a4308_1.conda:  82%|████████████████████████████████████████████████████████████████████████████████████████████████▌                    | 33/40 [00:00<00:00, 25.02it/s]Extracting : yaml-0.2.5-h7b6447c_0.conda:  85%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                   | 34/40 [00:00<00:00, 25.02it/s]Extracting : wheel-0.37.1-pyhd3eb1b0_0.conda:  88%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████                | 35/40 [00:00<00:00, 25.02it/s]Extracting : xz-5.2.5-h7b6447c_0.conda:  90%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌             | 36/40 [00:00<00:00, 25.02it/s]Extracting : conda-4.12.0-py39h06a4308_0.conda:  92%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌         | 37/40 [00:00<00:00, 25.02it/s]Extracting : conda-4.12.0-py39h06a4308_0.conda:  95%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋      | 38/40 [00:00<00:00, 72.78it/s]Extracting : cryptography-36.0.0-py39h9ce1e76_0.conda:  95%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████      | 38/40 [00:00<00:00, 72.78it/s]Extracting : _openmp_mutex-4.5-1_gnu.tar.bz2:  98%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊   | 39/40 [00:00<00:00, 72.78it/s]                                                                                                                                                                                                                   Collecting package metadata (current_repodata.json): - done
+Solving environment: | / done
+
+## Package Plan ##
+
+  environment location: /home/aditya1308/miniconda3
+
+  added / updated specs:
+    - _libgcc_mutex==0.1=main
+    - _openmp_mutex==4.5=1_gnu
+    - brotlipy==0.7.0=py39h27cfd23_1003
+    - ca-certificates==2022.3.29=h06a4308_1
+    - certifi==2021.10.8=py39h06a4308_2
+    - cffi==1.15.0=py39hd667e15_1
+    - charset-normalizer==2.0.4=pyhd3eb1b0_0
+    - colorama==0.4.4=pyhd3eb1b0_0
+    - conda-content-trust==0.1.1=pyhd3eb1b0_0
+    - conda-package-handling==1.8.1=py39h7f8727e_0
+    - conda==4.12.0=py39h06a4308_0
+    - cryptography==36.0.0=py39h9ce1e76_0
+    - idna==3.3=pyhd3eb1b0_0
+    - ld_impl_linux-64==2.35.1=h7274673_9
+    - libffi==3.3=he6710b0_2
+    - libgcc-ng==9.3.0=h5101ec6_17
+    - libgomp==9.3.0=h5101ec6_17
+    - libstdcxx-ng==9.3.0=hd4cf53a_17
+    - ncurses==6.3=h7f8727e_2
+    - openssl==1.1.1n=h7f8727e_0
+    - pip==21.2.4=py39h06a4308_0
+    - pycosat==0.6.3=py39h27cfd23_0
+    - pycparser==2.21=pyhd3eb1b0_0
+    - pyopenssl==22.0.0=pyhd3eb1b0_0
+    - pysocks==1.7.1=py39h06a4308_0
+    - python==3.9.12=h12debd9_0
+    - readline==8.1.2=h7f8727e_1
+    - requests==2.27.1=pyhd3eb1b0_0
+    - ruamel_yaml==0.15.100=py39h27cfd23_0
+    - setuptools==61.2.0=py39h06a4308_0
+    - six==1.16.0=pyhd3eb1b0_1
+    - sqlite==3.38.2=hc218d9a_0
+    - tk==8.6.11=h1ccaba5_0
+    - tqdm==4.63.0=pyhd3eb1b0_0
+    - tzdata==2022a=hda174b7_0
+    - urllib3==1.26.8=pyhd3eb1b0_0
+    - wheel==0.37.1=pyhd3eb1b0_0
+    - xz==5.2.5=h7b6447c_0
+    - yaml==0.2.5=h7b6447c_0
+    - zlib==1.2.12=h7f8727e_1
+
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      pkgs/main/linux-64::_libgcc_mutex-0.1-main
+  _openmp_mutex      pkgs/main/linux-64::_openmp_mutex-4.5-1_gnu
+  brotlipy           pkgs/main/linux-64::brotlipy-0.7.0-py39h27cfd23_1003
+  ca-certificates    pkgs/main/linux-64::ca-certificates-2022.3.29-h06a4308_1
+  certifi            pkgs/main/linux-64::certifi-2021.10.8-py39h06a4308_2
+  cffi               pkgs/main/linux-64::cffi-1.15.0-py39hd667e15_1
+  charset-normalizer pkgs/main/noarch::charset-normalizer-2.0.4-pyhd3eb1b0_0
+  colorama           pkgs/main/noarch::colorama-0.4.4-pyhd3eb1b0_0
+  conda              pkgs/main/linux-64::conda-4.12.0-py39h06a4308_0
+  conda-content-tru~ pkgs/main/noarch::conda-content-trust-0.1.1-pyhd3eb1b0_0
+  conda-package-han~ pkgs/main/linux-64::conda-package-handling-1.8.1-py39h7f8727e_0
+  cryptography       pkgs/main/linux-64::cryptography-36.0.0-py39h9ce1e76_0
+  idna               pkgs/main/noarch::idna-3.3-pyhd3eb1b0_0
+  ld_impl_linux-64   pkgs/main/linux-64::ld_impl_linux-64-2.35.1-h7274673_9
+  libffi             pkgs/main/linux-64::libffi-3.3-he6710b0_2
+  libgcc-ng          pkgs/main/linux-64::libgcc-ng-9.3.0-h5101ec6_17
+  libgomp            pkgs/main/linux-64::libgomp-9.3.0-h5101ec6_17
+  libstdcxx-ng       pkgs/main/linux-64::libstdcxx-ng-9.3.0-hd4cf53a_17
+  ncurses            pkgs/main/linux-64::ncurses-6.3-h7f8727e_2
+  openssl            pkgs/main/linux-64::openssl-1.1.1n-h7f8727e_0
+  pip                pkgs/main/linux-64::pip-21.2.4-py39h06a4308_0
+  pycosat            pkgs/main/linux-64::pycosat-0.6.3-py39h27cfd23_0
+  pycparser          pkgs/main/noarch::pycparser-2.21-pyhd3eb1b0_0
+  pyopenssl          pkgs/main/noarch::pyopenssl-22.0.0-pyhd3eb1b0_0
+  pysocks            pkgs/main/linux-64::pysocks-1.7.1-py39h06a4308_0
+  python             pkgs/main/linux-64::python-3.9.12-h12debd9_0
+  readline           pkgs/main/linux-64::readline-8.1.2-h7f8727e_1
+  requests           pkgs/main/noarch::requests-2.27.1-pyhd3eb1b0_0
+  ruamel_yaml        pkgs/main/linux-64::ruamel_yaml-0.15.100-py39h27cfd23_0
+  setuptools         pkgs/main/linux-64::setuptools-61.2.0-py39h06a4308_0
+  six                pkgs/main/noarch::six-1.16.0-pyhd3eb1b0_1
+  sqlite             pkgs/main/linux-64::sqlite-3.38.2-hc218d9a_0
+  tk                 pkgs/main/linux-64::tk-8.6.11-h1ccaba5_0
+  tqdm               pkgs/main/noarch::tqdm-4.63.0-pyhd3eb1b0_0
+  tzdata             pkgs/main/noarch::tzdata-2022a-hda174b7_0
+  urllib3            pkgs/main/noarch::urllib3-1.26.8-pyhd3eb1b0_0
+  wheel              pkgs/main/noarch::wheel-0.37.1-pyhd3eb1b0_0
+  xz                 pkgs/main/linux-64::xz-5.2.5-h7b6447c_0
+  yaml               pkgs/main/linux-64::yaml-0.2.5-h7b6447c_0
+  zlib               

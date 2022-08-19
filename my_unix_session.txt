@@ -1,0 +1,830 @@
+:wq 
+started on 2022-08-16 12:21:39+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="211" LINES="49"]
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ cd
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ ls
+my_unix_session.txt
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ pwd
+/home/aditya1308
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2022-08-16 12:21:58+05:30 [COMMAND_EXIT_CODE="0"]
+Script started on 2022-08-16 12:23:42+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="211" LINES="49"]
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ ls
+my_unix_session.txt
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ cd ..
+]0;aditya1308@TIGER03848: /home[01;32maditya1308@TIGER03848[00m:[01;34m/home[00m$ ls
+[0m[01;34maditya1308[0m
+]0;aditya1308@TIGER03848: /home[01;32maditya1308@TIGER03848[00m:[01;34m/home[00m$ pw[K[Kcd /
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ ls
+[0m[01;36mbin[0m  [01;34mboot[0m  [01;34mdev[0m  [01;34metc[0m  [01;34mhome[0m  [01;32minit[0m  [01;36mlib[0m  [01;36mlib32[0m  [01;36mlib64[0m  [01;36mlibx32[0m  [01;34mlost+found[0m  [01;34mmedia[0m  [01;34mmnt[0m  [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m  [01;34mrun[0m  [01;36msbin[0m  [01;34msnap[0m  [01;34msrv[0m  [01;34msys[0m  [30;42mtmp[0m  [01;34musr[0m  [01;34mvar[0m
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ ls _f[K[K-F
+[0m[01;36mbin[0m@  [01;34mboot[0m/  [01;34mdev[0m/  [01;34metc[0m/  [01;34mhome[0m/  [01;32minit[0m*  [01;36mlib[0m@  [01;36mlib32[0m@  [01;36mlib64[0m@  [01;36mlibx32[0m@  [01;34mlost+found[0m/  [01;34mmedia[0m/  [01;34mmnt[0m/  [01;34mopt[0m/  [01;34mproc[0m/  [01;34mroot[0m/  [01;34mrun[0m/  [01;36msbin[0m@  [01;34msnap[0m/  [01;34msrv[0m/  [01;34msys[0m/  [30;42mtmp[0m/  [01;34musr[0m/  [01;34mvar[0m/
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ ls --help
+Usage: ls [OPTION]... [FILE]...
+List information about the FILEs (the current directory by default).
+Sort entries alphabetically if none of -cftuvSUX nor --sort is specified.
+
+Mandatory arguments to long options are mandatory for short options too.
+  -a, --all                  do not ignore entries starting with .
+  -A, --almost-all           do not list implied . and ..
+      --author               with -l, print the author of each file
+  -b, --escape               print C-style escapes for nongraphic characters
+      --block-size=SIZE      with -l, scale sizes by SIZE when printing them;
+                               e.g., '--block-size=M'; see SIZE format below
+  -B, --ignore-backups       do not list implied entries ending with ~
+  -c                         with -lt: sort by, and show, ctime (time of last
+                               modification of file status information);
+                               with -l: show ctime and sort by name;
+                               otherwise: sort by ctime, newest first
+  -C                         list entries by columns
+      --color[=WHEN]         colorize the output; WHEN can be 'always' (default
+                               if omitted), 'auto', or 'never'; more info below
+  -d, --directory            list directories themselves, not their contents
+  -D, --dired                generate output designed for Emacs' dired mode
+  -f                         do not sort, enable -aU, disable -ls --color
+  -F, --classify             append indicator (one of */=>@|) to entries
+      --file-type            likewise, except do not append '*'
+      --format=WORD          across -x, commas -m, horizontal -x, long -l,
+                               single-column -1, verbose -l, vertical -C
+      --full-time            like -l --time-style=full-iso
+  -g                         like -l, but do not list owner
+      --group-directories-first
+                             group directories before files;
+                               can be augmented with a --sort option, but any
+                               use of --sort=none (-U) disables grouping
+  -G, --no-group             in a long listing, don't print group names
+  -h, --human-readable       with -l and -s, print sizes like 1K 234M 2G etc.
+      --si                   likewise, but use powers of 1000 not 1024
+  -H, --dereference-command-line
+                             follow symbolic links listed on the command line
+      --dereference-command-line-symlink-to-dir
+                             follow each command line symbolic link
+                               that points to a directory
+      --hide=PATTERN         do not list implied entries matching shell PATTERN
+                               (overridden by -a or -A)
+      --hyperlink[=WHEN]     hyperlink file names; WHEN can be 'always'
+                               (default if omitted), 'auto', or 'never'
+      --indicator-style=WORD  append indicator with style WORD to entry names:
+                               none (default), slash (-p),
+                               file-type (--file-type), classify (-F)
+  -i, --inode                print the index number of each file
+  -I, --ignore=PATTERN       do not list implied entries matching shell PATTERN
+  -k, --kibibytes            default to 1024-byte blocks for disk usage;
+                               used only with -s and per directory totals
+  -l                         use a long listing format
+  -L, --dereference          when showing file information for a symbolic
+                               link, show information for the file the link
+                               references rather than for the link itself
+  -m                         fill width with a comma separated list of entries
+  -n, --numeric-uid-gid      like -l, but list numeric user and group IDs
+  -N, --literal              print entry names without quoting
+  -o                         like -l, but do not list group information
+  -p, --indicator-style=slash
+                             append / indicator to directories
+  -q, --hide-control-chars   print ? instead of nongraphic characters
+      --show-control-chars   show nongraphic characters as-is (the default,
+                               unless program is 'ls' and output is a terminal)
+  -Q, --quote-name           enclose entry names in double quotes
+      --quoting-style=WORD   use quoting style WORD for entry names:
+                               literal, locale, shell, shell-always,
+                               shell-escape, shell-escape-always, c, escape
+                               (overrides QUOTING_STYLE environment variable)
+  -r, --reverse              reverse order while sorting
+  -R, --recursive            list subdirectories recursively
+  -s, --size                 print the allocated size of each file, in blocks
+  -S                         sort by file size, largest first
+      --sort=WORD            sort by WORD instead of name: none (-U), size (-S),
+                               time (-t), version (-v), extension (-X)
+      --time=WORD            with -l, show time as WORD instead of default
+                               modification time: atime or access or use (-u);
+                               ctime or status (-c); also use specified time
+                               as sort key if --sort=time (newest first)
+      --time-style=TIME_STYLE  time/date format with -l; see TIME_STYLE below
+  -t                         sort by modification time, newest first
+  -T, --tabsize=COLS         assume tab stops at each COLS instead of 8
+  -u                         with -lt: sort by, and show, access time;
+                               with -l: show access time and sort by name;
+                               otherwise: sort by access time, newest first
+  -U                         do not sort; list entries in directory order
+  -v                         natural sort of (version) numbers within text
+  -w, --width=COLS           set output width to COLS.  0 means no limit
+  -x                         list entries by lines instead of by columns
+  -X                         sort alphabetically by entry extension
+  -Z, --context              print any security context of each file
+  -1                         list one file per line.  Avoid '\n' with -q or -b
+      --help     display this help and exit
+      --version  output version information and exit
+
+The SIZE argument is an integer and optional unit (example: 10K is 10*1024).
+Units are K,M,G,T,P,E,Z,Y (powers of 1024) or KB,MB,... (powers of 1000).
+
+The TIME_STYLE argument can be full-iso, long-iso, iso, locale, or +FORMAT.
+FORMAT is interpreted like in date(1).  If FORMAT is FORMAT1<newline>FORMAT2,
+then FORMAT1 applies to non-recent files and FORMAT2 to recent files.
+TIME_STYLE prefixed with 'posix-' takes effect only outside the POSIX locale.
+Also the TIME_STYLE environment variable sets the default style to use.
+
+Using color to distinguish file types is disabled both by default and
+with --color=never.  With --color=auto, ls emits color codes only when
+standard output is connected to a terminal.  The LS_COLORS environment
+variable can change the settings.  Use the dircolors command to set it.
+
+Exit status:
+ 0  if OK,
+ 1  if minor problems (e.g., cannot access subdirectory),
+ 2  if serious trouble (e.g., cannot access command-line argument).
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Report ls translation bugs to <https://translationproject.org/team/>
+Full documentation at: <https://www.gnu.org/software/coreutils/ls>
+or available locally via: info '(coreutils) ls invocation'
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ ls -a
+[0m[01;34m.[0m  [01;34m..[0m  [01;36mbin[0m  [01;34mboot[0m  [01;34mdev[0m  [01;34metc[0m  [01;34mhome[0m  [01;32minit[0m  [01;36mlib[0m  [01;36mlib32[0m  [01;36mlib64[0m  [01;36mlibx32[0m  [01;34mlost+found[0m  [01;34mmedia[0m  [01;34mmnt[0m  [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m  [01;34mrun[0m  [01;36msbin[0m  [01;34msnap[0m  [01;34msrv[0m  [01;34msys[0m  [30;42mtmp[0m  [01;34musr[0m  [01;34mvar[0m
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ ls -l
+total 1428
+lrwxrwxrwx   1 root root       7 Aug 10 13:38 [0m[01;36mbin[0m -> [01;34musr/bin[0m
+drwxr-xr-x   2 root root    4096 Aug 10 13:46 [01;34mboot[0m
+drwxr-xr-x   8 root root    2760 Aug 16 12:20 [01;34mdev[0m
+drwxr-xr-x  98 root root    4096 Aug 16 12:20 [01;34metc[0m
+drwxr-xr-x   3 root root    4096 Aug 16 10:30 [01;34mhome[0m
+-rwxr-xr-x   3 root root 1392928 May 28 13:54 [01;32minit[0m
+lrwxrwxrwx   1 root root       7 Aug 10 13:38 [01;36mlib[0m -> [01;34musr/lib[0m
+lrwxrwxrwx   1 root root       9 Aug 10 13:38 [01;36mlib32[0m -> [01;34musr/lib32[0m
+lrwxrwxrwx   1 root root       9 Aug 10 13:38 [01;36mlib64[0m -> [01;34musr/lib64[0m
+lrwxrwxrwx   1 root root      10 Aug 10 13:38 [01;36mlibx32[0m -> [01;34musr/libx32[0m
+drwx------   2 root root   16384 Apr 10  2019 [01;34mlost+found[0m
+drwxr-xr-x   2 root root    4096 Aug 10 13:38 [01;34mmedia[0m
+drwxr-xr-x   6 root root    4096 Aug 16 10:30 [01;34mmnt[0m
+drwxr-xr-x   2 root root    4096 Aug 10 13:38 [01;34mopt[0m
+dr-xr-xr-x 170 root root       0 Aug 16 12:20 [01;34mproc[0m
+drwx------   2 root root    4096 Aug 10 13:40 [01;34mroot[0m
+drwxr-xr-x   6 root root     120 Aug 16 12:20 [01;34mrun[0m
+lrwxrwxrwx   1 root root       8 Aug 10 13:38 [01;36msbin[0m -> [01;34musr/sbin[0m
+drwxr-xr-x   6 root root    4096 Aug 10 13:41 [01;34msnap[0m
+drwxr-xr-x   2 root root    4096 Aug 10 13:38 [01;34msrv[0m
+dr-xr-xr-x  11 root root       0 Aug 16 12:20 [01;34msys[0m
+drwxrwxrwt   2 root root    4096 Aug 16 12:23 [30;42mtmp[0m
+drwxr-xr-x  14 root root    4096 Aug 10 13:39 [01;34musr[0m
+drwxr-xr-x  13 root root    4096 Aug 10 13:40 [01;34mvar[0m
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ ls _a[K[K-A
+[0m[01;36mbin[0m  [01;34mboot[0m  [01;34mdev[0m  [01;34metc[0m  [01;34mhome[0m  [01;32minit[0m  [01;36mlib[0m  [01;36mlib32[0m  [01;36mlib64[0m  [01;36mlibx32[0m  [01;34mlost+found[0m  [01;34mmedia[0m  [01;34mmnt[0m  [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m  [01;34mrun[0m  [01;36msbin[0m  [01;34msnap[0m  [01;34msrv[0m  [01;34msys[0m  [30;42mtmp[0m  [01;34musr[0m  [01;34mvar[0m
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ la-[K[Ks -b
+[0m[01;36mbin[0m  [01;34mboot[0m  [01;34mdev[0m  [01;34metc[0m  [01;34mhome[0m  [01;32minit[0m  [01;36mlib[0m  [01;36mlib32[0m  [01;36mlib64[0m  [01;36mlibx32[0m  [01;34mlost+found[0m  [01;34mmedia[0m  [01;34mmnt[0m  [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m  [01;34mrun[0m  [01;36msbin[0m  [01;34msnap[0m  [01;34msrv[0m  [01;34msys[0m  [30;42mtmp[0m  [01;34musr[0m  [01;34mvar[0m
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ ls -B
+[0m[01;36mbin[0m  [01;34mboot[0m  [01;34mdev[0m  [01;34metc[0m  [01;34mhome[0m  [01;32minit[0m  [01;36mlib[0m  [01;36mlib32[0m  [01;36mlib64[0m  [01;36mlibx32[0m  [01;34mlost+found[0m  [01;34mmedia[0m  [01;34mmnt[0m  [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m  [01;34mrun[0m  [01;36msbin[0m  [01;34msnap[0m  [01;34msrv[0m  [01;34msys[0m  [30;42mtmp[0m  [01;34musr[0m  [01;34mvar[0m
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ ls -l
+total 1428
+lrwxrwxrwx   1 root root       7 Aug 10 13:38 [0m[01;36mbin[0m -> [01;34musr/bin[0m
+drwxr-xr-x   2 root root    4096 Aug 10 13:46 [01;34mboot[0m
+drwxr-xr-x   8 root root    2760 Aug 16 12:20 [01;34mdev[0m
+drwxr-xr-x  98 root root    4096 Aug 16 12:20 [01;34metc[0m
+drwxr-xr-x   3 root root    4096 Aug 16 10:30 [01;34mhome[0m
+-rwxr-xr-x   3 root root 1392928 May 28 13:54 [01;32minit[0m
+lrwxrwxrwx   1 root root       7 Aug 10 13:38 [01;36mlib[0m -> [01;34musr/lib[0m
+lrwxrwxrwx   1 root root       9 Aug 10 13:38 [01;36mlib32[0m -> [01;34musr/lib32[0m
+lrwxrwxrwx   1 root root       9 Aug 10 13:38 [01;36mlib64[0m -> [01;34musr/lib64[0m
+lrwxrwxrwx   1 root root      10 Aug 10 13:38 [01;36mlibx32[0m -> [01;34musr/libx32[0m
+drwx------   2 root root   16384 Apr 10  2019 [01;34mlost+found[0m
+drwxr-xr-x   2 root root    4096 Aug 10 13:38 [01;34mmedia[0m
+drwxr-xr-x   6 root root    4096 Aug 16 10:30 [01;34mmnt[0m
+drwxr-xr-x   2 root root    4096 Aug 10 13:38 [01;34mopt[0m
+dr-xr-xr-x 171 root root       0 Aug 16 12:20 [01;34mproc[0m
+drwx------   2 root root    4096 Aug 10 13:40 [01;34mroot[0m
+drwxr-xr-x   6 root root     120 Aug 16 12:20 [01;34mrun[0m
+lrwxrwxrwx   1 root root       8 Aug 10 13:38 [01;36msbin[0m -> [01;34musr/sbin[0m
+drwxr-xr-x   6 root root    4096 Aug 10 13:41 [01;34msnap[0m
+drwxr-xr-x   2 root root    4096 Aug 10 13:38 [01;34msrv[0m
+dr-xr-xr-x  11 root root       0 Aug 16 12:20 [01;34msys[0m
+drwxrwxrwt   2 root root    4096 Aug 16 12:23 [30;42mtmp[0m
+drwxr-xr-x  14 root root    4096 Aug 10 13:39 [01;34musr[0m
+drwxr-xr-x  13 root root    4096 Aug 10 13:40 [01;34mvar[0m
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ ls -c
+[0m[30;42mtmp[0m  [01;34metc[0m  [01;34mrun[0m  [01;34mdev[0m  [01;34mproc[0m  [01;34msys[0m  [01;34mhome[0m  [01;34mmnt[0m  [01;34mboot[0m  [01;34mmedia[0m  [01;34mopt[0m  [01;34mroot[0m  [01;34msnap[0m  [01;34msrv[0m  [01;34musr[0m  [01;34mvar[0m  [01;36mlib[0m  [01;36mlib32[0m  [01;36mlib64[0m  [01;36mlibx32[0m  [01;36msbin[0m  [01;36mbin[0m  [01;32minit[0m  [01;34mlost+found[0m
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ ls -lt
+total 1428
+drwxrwxrwt   2 root root    4096 Aug 16 12:23 [0m[30;42mtmp[0m
+drwxr-xr-x  98 root root    4096 Aug 16 12:20 [01;34metc[0m
+drwxr-xr-x   6 root root     120 Aug 16 12:20 [01;34mrun[0m
+drwxr-xr-x   8 root root    2760 Aug 16 12:20 [01;34mdev[0m
+dr-xr-xr-x 171 root root       0 Aug 16 12:20 [01;34mproc[0m
+dr-xr-xr-x  11 root root       0 Aug 16 12:20 [01;34msys[0m
+drwxr-xr-x   3 root root    4096 Aug 16 10:30 [01;34mhome[0m
+drwxr-xr-x   6 root root    4096 Aug 16 10:30 [01;34mmnt[0m
+drwxr-xr-x   2 root root    4096 Aug 10 13:46 [01;34mboot[0m
+drwxr-xr-x   6 root root    4096 Aug 10 13:41 [01;34msnap[0m
+drwxr-xr-x  13 root root    4096 Aug 10 13:40 [01;34mvar[0m
+drwx------   2 root root    4096 Aug 10 13:40 [01;34mroot[0m
+drwxr-xr-x  14 root root    4096 Aug 10 13:39 [01;34musr[0m
+drwxr-xr-x   2 root root    4096 Aug 10 13:38 [01;34mmedia[0m
+drwxr-xr-x   2 root root    4096 Aug 10 13:38 [01;34mopt[0m
+drwxr-xr-x   2 root root    4096 Aug 10 13:38 [01;34msrv[0m
+lrwxrwxrwx   1 root root       9 Aug 10 13:38 [01;36mlib64[0m -> [01;34musr/lib64[0m
+lrwxrwxrwx   1 root root      10 Aug 10 13:38 [01;36mlibx32[0m -> [01;34musr/libx32[0m
+lrwxrwxrwx   1 root root       7 Aug 10 13:38 [01;36mbin[0m -> [01;34musr/bin[0m
+lrwxrwxrwx   1 root root       7 Aug 10 13:38 [01;36mlib[0m -> [01;34musr/lib[0m
+lrwxrwxrwx   1 root root       9 Aug 10 13:38 [01;36mlib32[0m -> [01;34musr/lib32[0m
+lrwxrwxrwx   1 root root       8 Aug 10 13:38 [01;36msbin[0m -> [01;34musr/sbin[0m
+-rwxr-xr-x   3 root root 1392928 May 28 13:54 [01;32minit[0m
+drwx------   2 root root   16384 Apr 10  2019 [01;34mlost+found[0m
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ ls _[K-C
+[0m[01;36mbin[0m  [01;34mboot[0m  [01;34mdev[0m  [01;34metc[0m  [01;34mhome[0m  [01;32minit[0m  [01;36mlib[0m  [01;36mlib32[0m  [01;36mlib64[0m  [01;36mlibx32[0m  [01;34mlost+found[0m  [01;34mmedia[0m  [01;34mmnt[0m  [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m  [01;34mrun[0m  [01;36msbin[0m  [01;34msnap[0m  [01;34msrv[0m  [01;34msys[0m  [30;42mtmp[0m  [01;34musr[0m  [01;34mvar[0m
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ ls -d
+[0m[01;34m.[0m
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ ls -D
+[0m[01;36mbin[0m  [01;34mboot[0m  [01;34mdev[0m  [01;34metc[0m  [01;34mhome[0m  [01;32minit[0m  [01;36mlib[0m  [01;36mlib32[0m  [01;36mlib64[0m  [01;36mlibx32[0m  [01;34mlost+found[0m  [01;34mmedia[0m  [01;34mmnt[0m  [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m  [01;34mrun[0m  [01;36msbin[0m  [01;34msnap[0m  [01;34msrv[0m  [01;34msys[0m  [30;42mtmp[0m  [01;34musr[0m  [01;34mvar[0m
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ ls -f
+home  srv  etc  opt  root  lib  mnt  usr  media  lib64  sys  dev  sbin  boot  bin  run  lib32  libx32  init  proc  snap  tmp  var  lost+found  ..  .
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ ls -F
+[0m[01;36mbin[0m@  [01;34mboot[0m/  [01;34mdev[0m/  [01;34metc[0m/  [01;34mhome[0m/  [01;32minit[0m*  [01;36mlib[0m@  [01;36mlib32[0m@  [01;36mlib64[0m@  [01;36mlibx32[0m@  [01;34mlost+found[0m/  [01;34mmedia[0m/  [01;34mmnt[0m/  [01;34mopt[0m/  [01;34mproc[0m/  [01;34mroot[0m/  [01;34mrun[0m/  [01;36msbin[0m@  [01;34msnap[0m/  [01;34msrv[0m/  [01;34msys[0m/  [30;42mtmp[0m/  [01;34musr[0m/  [01;34mvar[0m/
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ ls -F Desktop
+ls: cannot access 'Desktop': No such file or directory
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ ls -f [K[K[K-F desj[Kktop
+ls: cannot access 'desktop': No such file or directory
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ ls
+[0m[01;36mbin[0m  [01;34mboot[0m  [01;34mdev[0m  [01;34metc[0m  [01;34mhome[0m  [01;32minit[0m  [01;36mlib[0m  [01;36mlib32[0m  [01;36mlib64[0m  [01;36mlibx32[0m  [01;34mlost+found[0m  [01;34mmedia[0m  [01;34mmnt[0m  [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m  [01;34mrun[0m  [01;36msbin[0m  [01;34msnap[0m  [01;34msrv[0m  [01;34msys[0m  [30;42mtmp[0m  [01;34musr[0m  [01;34mvar[0m
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ pwd
+/
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ cd ..
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ ls -F -a
+[0m[01;34m.[0m/  [01;34m..[0m/  [01;36mbin[0m@  [01;34mboot[0m/  [01;34mdev[0m/  [01;34metc[0m/  [01;34mhome[0m/  [01;32minit[0m*  [01;36mlib[0m@  [01;36mlib32[0m@  [01;36mlib64[0m@  [01;36mlibx32[0m@  [01;34mlost+found[0m/  [01;34mmedia[0m/  [01;34mmnt[0m/  [01;34mopt[0m/  [01;34mproc[0m/  [01;34mroot[0m/  [01;34mrun[0m/  [01;36msbin[0m@  [01;34msnap[0m/  [01;34msrv[0m/  [01;34msys[0m/  [30;42mtmp[0m/  [01;34musr[0m/  [01;34mvar[0m/
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ ls -F -a[Kc
+[0m[30;42mtmp[0m/  [01;34metc[0m/  [01;34mrun[0m/  [01;34mdev[0m/  [01;34mproc[0m/  [01;34msys[0m/  [01;34mhome[0m/  [01;34mmnt[0m/  [01;34mboot[0m/  [01;34mmedia[0m/  [01;34mopt[0m/  [01;34mroot[0m/  [01;34msnap[0m/  [01;34msrv[0m/  [01;34musr[0m/  [01;34mvar[0m/  [01;36mlib[0m@  [01;36mlib32[0m@  [01;36mlib64[0m@  [01;36mlibx32[0m@  [01;36msbin[0m@  [01;36mbin[0m@  [01;32minit[0m*  [01;34mlost+found[0m/
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ cd .
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ cd /hone[K[Kme
+]0;aditya1308@TIGER03848: /home[01;32maditya1308@TIGER03848[00m:[01;34m/home[00m$ ls
+[0m[01;34maditya1308[0m
+]0;aditya1308@TIGER03848: /home[01;32maditya1308@TIGER03848[00m:[01;34m/home[00m$ cd aditya1308
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ ls
+my_unix_session.txt
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ ls -r -F
+my_unix_session.txt
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ cd /
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ cd /ls -r -F
+[0m[01;34mvar[0m/  [01;34musr[0m/  [30;42mtmp[0m/  [01;34msys[0m/  [01;34msrv[0m/  [01;34msnap[0m/  [01;36msbin[0m@  [01;34mrun[0m/  [01;34mroot[0m/  [01;34mproc[0m/  [01;34mopt[0m/  [01;34mmnt[0m/  [01;34mmedia[0m/  [01;34mlost+found[0m/  [01;36mlibx32[0m@  [01;36mlib64[0m@  [01;36mlib32[0m@  [01;36mlib[0m@  [01;32minit[0m*  [01;34mhome[0m/  [01;34metc[0m/  [01;34mdev[0m/  [01;34mboot[0m/  [01;36mbin[0m@
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ ls north-pacific-gyre/
+ls: cannot access 'north-pacific-gyre/': No such file or directory
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ ls
+[0m[01;36mbin[0m  [01;34mboot[0m  [01;34mdev[0m  [01;34metc[0m  [01;34mhome[0m  [01;32minit[0m  [01;36mlib[0m  [01;36mlib32[0m  [01;36mlib64[0m  [01;36mlibx32[0m  [01;34mlost+found[0m  [01;34mmedia[0m  [01;34mmnt[0m  [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m  [01;34mrun[0m  [01;36msbin[0m  [01;34msnap[0m  [01;34msrv[0m  [01;34msys[0m  [30;42mtmp[0m  [01;34musr[0m  [01;34mvar[0m
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ ls home/[K[K[K[K[K[K[K[Kls
+[0m[01;36mbin[0m  [01;34mboot[0m  [01;34mdev[0m  [01;34metc[0m  [01;34mhome[0m  [01;32minit[0m  [01;36mlib[0m  [01;36mlib32[0m  [01;36mlib64[0m  [01;36mlibx32[0m  [01;34mlost+found[0m  [01;34mmedia[0m  [01;34mmnt[0m  [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m  [01;34mrun[0m  [01;36msbin[0m  [01;34msnap[0m  [01;34msrv[0m  [01;34msys[0m  [30;42mtmp[0m  [01;34musr[0m  [01;34mvar[0m
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ cd c
+bash: cd: c: No such file or directory
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ cd C
+bash: cd: C: No such file or directory
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ ls
+[0m[01;36mbin[0m  [01;34mboot[0m  [01;34mdev[0m  [01;34metc[0m  [01;34mhome[0m  [01;32minit[0m  [01;36mlib[0m  [01;36mlib32[0m  [01;36mlib64[0m  [01;36mlibx32[0m  [01;34mlost+found[0m  [01;34mmedia[0m  [01;34mmnt[0m  [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m  [01;34mrun[0m  [01;36msbin[0m  [01;34msnap[0m  [01;34msrv[0m  [01;34msys[0m  [30;42mtmp[0m  [01;34musr[0m  [01;34mvar[0m
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ cd home
+]0;aditya1308@TIGER03848: /home[01;32maditya1308@TIGER03848[00m:[01;34m/home[00m$ cd c
+bash: cd: c: No such file or directory
+]0;aditya1308@TIGER03848: /home[01;32maditya1308@TIGER03848[00m:[01;34m/home[00m$ cd /
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ ls
+[0m[01;36mbin[0m  [01;34mboot[0m  [01;34mdev[0m  [01;34metc[0m  [01;34mhome[0m  [01;32minit[0m  [01;36mlib[0m  [01;36mlib32[0m  [01;36mlib64[0m  [01;36mlibx32[0m  [01;34mlost+found[0m  [01;34mmedia[0m  [01;34mmnt[0m  [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m  [01;34mrun[0m  [01;36msbin[0m  [01;34msnap[0m  [01;34msrv[0m  [01;34msys[0m  [30;42mtmp[0m  [01;34musr[0m  [01;34mvar[0m
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ cd c
+bash: cd: c: No such file or directory
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ cd /mnt
+]0;aditya1308@TIGER03848: /mnt[01;32maditya1308@TIGER03848[00m:[01;34m/mnt[00m$ cd c
+]0;aditya1308@TIGER03848: /mnt/c[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c[00m$ cd [K[K[Kls
+ls: cannot access 'DumpStack.log.tmp': Permission denied
+ls: cannot access 'hiberfil.sys': Permission denied
+ls: cannot access 'pagefile.sys': Permission denied
+ls: cannot access 'swapfile.sys': Permission denied
+[0m[34;42m'$Recycle.Bin'[0m   [34;42mApps[0m         [34;42mDell[0m                      [34;42mDrivers[0m             [34;42mIntel[0m     [01;34m'Program Files'[0m         [34;42mProgramData[0m  [01;34m'System Volume Information'[0m   [01;34mWindows[0m    [34;42me-logo[0m         [34;42mkworking[0m       swapfile.sys
+[01;34m'$WinREAgent'[0m    [01;34mConfig.Msi[0m  [01;36m'Documents and Settings'[0m   DumpStack.log.tmp   [01;34mPerfLogs[0m  [01;34m'Program Files (x86)'[0m   [34;42mRecovery[0m      [01;34mUsers[0m                        [01;32mdell.sdr[0m   hiberfil.sys   pagefile.sys   [34;42mtemp[0m
+]0;aditya1308@TIGER03848: /mnt/c[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c[00m$ cd users
+]0;aditya1308@TIGER03848: /mnt/c/users[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users[00m$ cd desktop
+bash: cd: desktop: No such file or directory
+]0;aditya1308@TIGER03848: /mnt/c/users[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users[00m$ ls
+ [0m[01;34mAdmin[0m  [01;36m'All Users'[0m   [01;34mDefault[0m  [01;36m'Default User'[0m   [34;42mPublic[0m   [34;42maditya.regundwar[0m   [01;32mdesktop.ini[0m   [01;34mgaia[0m
+]0;aditya1308@TIGER03848: /mnt/c/users[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users[00m$ cd dell
+bash: cd: dell: No such file or directory
+]0;aditya1308@TIGER03848: /mnt/c/users[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users[00m$ cd aditya.regundwar
+]0;aditya1308@TIGER03848: /mnt/c/users/aditya.regundwar[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users/aditya.regundwar[00m$ cd desktop
+]0;aditya1308@TIGER03848: /mnt/c/users/aditya.regundwar/desktop[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users/aditya.regundwar/desktop[00m$ mkdire= [K[K[K aditya[K[K[K[K[K[Kpractice
+]0;aditya1308@TIGER03848: /mnt/c/users/aditya.regundwar/desktop[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users/aditya.regundwar/desktop[00m$ ls -F
+[0m[01;32m'Aditya - Chrome.lnk'[0m*   [01;32mdesktop.ini[0m*   [34;42mpractice[0m/
+]0;aditya1308@TIGER03848: /mnt/c/users/aditya.regundwar/desktop[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users/aditya.regundwar/desktop[00m$ cd practice
+]0;aditya1308@TIGER03848: /mnt/c/users/aditya.regundwar/desktop/practice[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users/aditya.regundwar/desktop/practice[00m$ ls
+]0;aditya1308@TIGER03848: /mnt/c/users/aditya.regundwar/desktop/practice[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users/aditya.regundwar/desktop/practice[00m$ nano draft.txt
+[?2004h[?1049h[22;0;0t[1;49r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[47;100H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.8                                                                                         draft.txt                                                                                                   [1;210H(B[m[48d(B[0;7m^G(B[m Get Help[18G(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut Text[69G(B[0;7m^J(B[m Justify[86G(B[0;7m^C(B[m Cur Pos[103G(B[0;7mM-U(B[m Undo[48;120H(B[0;7mM-A(B[m Mark Text    (B[0;7mM-](B[m To Bracket   (B[0;7mM-Q(B[m Previous     (B[0;7m^B(B[m Back[48;188H(B[0;7m^◀(B[m Prev Word[49d(B[0;7m^X(B[m Exit[49;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Paste Text    (B[0;7m^T(B[m To Spell[86G(B[0;7m^_(B[m Go To Line    (B[0;7mM-E(B[m Redo[49;120H(B[0;7mM-6(B[m Copy Text    (B[0;7m^Q(B[m Where Was     (B[0;7mM-W(B[m Next[49;171H(B[0;7m^F(B[m Forward[188G(B[0;7m^▶(B[m Next Word[47d[2d[39;49m(B[m[?12l[?25h[?25l[1;202H(B[0;7mModified(B[m[2dt[?12l[?25h[?25lh[?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25l [?12l[?25h[?25lp[?12l[?25h[?25lc[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25lr[?12l[?25h[?25la[?12l[?25h[?25lc[?12l[?25h[?25l [?12l[?25h[?25lc[?12l[?25h[?25lt[?12l[?25h[?25li[47d[K[2;19H[?12l[?25h[?25lc[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25ls[?12l[?25h[?25le[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25ls[?12l[?25h[?25ls[?12l[?25h[?25li[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l [?12l[?25h[?25l[3d[?12l[?25h[?25l^[?12l[?25h[?25lX[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l^[?12l[?25h[?25lX[?12l[?25h[?25l[6d[?12l[?25h[?25le[?12l[?25h[?25lx[?12l[?25h[?25li[?12l[?25h[?25lt[?12l[?25h[?25l[7d[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l^[?12l[?25h[?25lX[?12l[?25h[?25l[8d[?12l[?25h[?25l:[?12l[?25h[?25lw[?12l[?25h[?25lq[?12l[?25h[?25l[9d[?12l[?25h[?25l[A:wq[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l[A^X[?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l[Aexit[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l[A^X[?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l[A[?12l[?25h[?25l[A^X[?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l^[?12l[?25h[?25lX[?12l[?25h[?25l[6d[?12l[?25h[?25lCtrl-d[?12l[?25h[?25l[7d[?12l[?25h[?25l[6;7H[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l[A^X[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[4d[?12l[?25h[?25l[3;47r[47;1H
+[1;49r[3;1H[?12l[?25h[?25l7[3;47r8M[1;49r[4;1H[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[47d(B[0;7mSave modified buffer?                                                                                                                                                                                              [48;1H Y(B[m Yes[K[49d(B[0;7m N(B[m No  [49;17H(B[0;7m^C(B[m Cancel[K[47;23H[?12l[?25h[?25l[48d(B[0;7m^G(B[m Get Help[48;53H(B[0;7mM-D(B[m DOS Format[48;105H(B[0;7mM-A(B[m Append[48;157H(B[0;7mM-B(B[m Backup File[49d(B[0;7m^C(B[m Cancel[17G         [49;53H(B[0;7mM-M(B[m Mac Format[49;105H(B[0;7mM-P(B[m Prepend[49;157H(B[0;7m^T(B[m To Files[47d(B[0;7mFile Name to Write: draft.txt(B[m[47;30H[?12l[?25h[?25l[47;30H[?12l[?25h[?25l(B[0;7mc(B[m[47;31H[?12l[?25h[?25l(B[0;7m (B[m[47;30H[?12l[?25h[?25l[47;98H[1K (B[0;7m[ Writing... ](B[m[K[1;202H(B[0;7m        (B[m[47;98H(B[0;7m[ Wrote 4 lines ](B[m[J[49d[?12l[?25h[49;1H[?1049l[23;0;0t[?1l>[?2004l]0;aditya1308@TIGER03848: /mnt/c/users/aditya.regundwar/desktop/practice[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users/aditya.regundwar/desktop/practice[00m$ ls
+[0m[01;32mdraft.txt[0m
+]0;aditya1308@TIGER03848: /mnt/c/users/aditya.regundwar/desktop/practice[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users/aditya.regundwar/desktop/practice[00m$ vi draft.txt
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;49r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[49;1H"draft.txt" 3L, 32C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1Hthis is for practice session
+
+
+[94m~                                                                                                                                                                                                                  [5;1H~                                                                                                                                                                                                                  [6;1H~                                                                                                                                                                                                                  [7;1H~                                                                                                                                                                                                                  [8;1H~                                                                                                                                                                                                                  [9;1H~                                                                                                                                                                                                                  [10;1H~                                                                                                                                                                                                                  [11;1H~                                                                                                                                                                                                                  [12;1H~                                                                                                                                                                                                                  [13;1H~                                                                                                                                                                                                                  [14;1H~                                                                                                                                                                                                                  [15;1H~                                                                                                                                                                                                                  [16;1H~                                                                                                                                                                                                                  [17;1H~                                                                                                                                                                                                                  [18;1H~                                                                                                                                                                                                                  [19;1H~                                                                                                                                                                                                                  [20;1H~                                                                                                                                                                                                                  [21;1H~                                                                                                                                                                                                                  [22;1H~                                                                                                                                                                                                                  [23;1H~                                                                                                                                                                                                                  [24;1H~                                                                                                                                                                                                                  [25;1H~                                                                                                                                                                                                                  [26;1H~                                                                                                                                                                                                                  [27;1H~                                                                                                                                                                                                                  [28;1H~                                                                                                                                                                                                                  [29;1H~                                                                                                                                                                                                                  [30;1H~                                                                                                                                                                                                                  [31;1H~                                                                                                                                                                                                                  [32;1H~                                                                                                                                                                                                                  [33;1H~                                                                                                                                                                                                                  [34;1H~                                                                                                                                                                                                                  [35;1H~                                                                                                                                                                                                                  [36;1H~                                                                                                                                                                                                                  [37;1H~                                                                                                                                                                                                                  [38;1H~                                                                                                                                                                                                                  [39;1H~                                                                                                                                                                                                                  [40;1H~                                                                                                                                                                                                                  [41;1H~                                                                                                                                                                                                                  [42;1H~                                                                                                                                                                                                                  [43;1H~                                                                                                                                                                                                                  [44;1H~                                                                                                                                                                                                                  [45;1H~                                                                                                                                                                                                                  [46;1H~                                                                                                                                                                                                                  [47;1H~                                                                                                                                                                                                                  [48;1H~                                                                                                                                                                                                                  [m[49;194H1,1[11CAll[1;1H[?25h[?25l[49;184H:[1;1H[49;1H[K[49;1H:[?2004h[?25hwq[?25l[?2004l"draft.txt" 3L, 32C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;aditya1308@TIGER03848: /mnt/c/users/aditya.regundwar/desktop/practice[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users/aditya.regundwar/desktop/practice[00m$ cp draft.txt draft1.txt
+]0;aditya1308@TIGER03848: /mnt/c/users/aditya.regundwar/desktop/practice[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users/aditya.regundwar/desktop/practice[00m$ ls
+[0m[01;32mdraft.txt[0m  [01;32mdraft1.txt[0m
+]0;aditya1308@TIGER03848: /mnt/c/users/aditya.regundwar/desktop/practice[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users/aditya.regundwar/desktop/practice[00m$ rm draft1.txt
+]0;aditya1308@TIGER03848: /mnt/c/users/aditya.regundwar/desktop/practice[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users/aditya.regundwar/desktop/practice[00m$ ls
+[0m[01;32mdraft.txt[0m
+]0;aditya1308@TIGER03848: /mnt/c/users/aditya.regundwar/desktop/practice[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users/aditya.regundwar/desktop/practice[00m$ ls *.txt
+[0m[01;3
+Script started on 2022-08-16 23:46:52+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="211" LINES="49"]
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ ls
+my_unix_session.txt
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ sort -n script -a ~/my_unix_session.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmy_unix_session.txt
+  -1                         list one file per line.  Avoid '\n' with -q or -b
+
+
+
+
+
+
+
+
+
+
+
+[01;34m'$WinREAgent'[0m    [01;34mConfig.Msi[0m  [01;36m'Documents and Settings'[0m   DumpStack.log.tmp   [01;34mPerfLogs[0m  [01;34m'Program Files (x86)'[0m   [34;42mRecovery[0m      [01;34mUsers[0m                        [01;32mdell.sdr[0m   hiberfil.sys   pagefile.sys   [34;42mtemp[0m
+[0m[01;3
+[0m[01;32m'Aditya - Chrome.lnk'[0m*   [01;32mdesktop.ini[0m*   [34;42mpractice[0m/
+[0m[01;32mdraft.txt[0m
+[0m[01;32mdraft.txt[0m
+[0m[01;32mdraft.txt[0m  [01;32mdraft1.txt[0m
+[0m[01;34m.[0m
+[0m[01;34m.[0m  [01;34m..[0m  [01;36mbin[0m  [01;34mboot[0m  [01;34mdev[0m  [01;34metc[0m  [01;34mhome[0m  [01;32minit[0m  [01;36mlib[0m  [01;36mlib32[0m  [01;36mlib64[0m  [01;36mlibx32[0m  [01;34mlost+found[0m  [01;34mmedia[0m  [01;34mmnt[0m  [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m  [01;34mrun[0m  [01;36msbin[0m  [01;34msnap[0m  [01;34msrv[0m  [01;34msys[0m  [30;42mtmp[0m  [01;34musr[0m  [01;34mvar[0m
+[0m[01;34m.[0m/  [01;34m..[0m/  [01;36mbin[0m@  [01;34mboot[0m/  [01;34mdev[0m/  [01;34metc[0m/  [01;34mhome[0m/  [01;32minit[0m*  [01;36mlib[0m@  [01;36mlib32[0m@  [01;36mlib64[0m@  [01;36mlibx32[0m@  [01;34mlost+found[0m/  [01;34mmedia[0m/  [01;34mmnt[0m/  [01;34mopt[0m/  [01;34mproc[0m/  [01;34mroot[0m/  [01;34mrun[0m/  [01;36msbin[0m@  [01;34msnap[0m/  [01;34msrv[0m/  [01;34msys[0m/  [30;42mtmp[0m/  [01;34musr[0m/  [01;34mvar[0m/
+[0m[01;34maditya1308[0m
+[0m[01;34maditya1308[0m
+[0m[01;34mvar[0m/  [01;34musr[0m/  [30;42mtmp[0m/  [01;34msys[0m/  [01;34msrv[0m/  [01;34msnap[0m/  [01;36msbin[0m@  [01;34mrun[0m/  [01;34mroot[0m/  [01;34mproc[0m/  [01;34mopt[0m/  [01;34mmnt[0m/  [01;34mmedia[0m/  [01;34mlost+found[0m/  [01;36mlibx32[0m@  [01;36mlib64[0m@  [01;36mlib32[0m@  [01;36mlib[0m@  [01;32minit[0m*  [01;34mhome[0m/  [01;34metc[0m/  [01;34mdev[0m/  [01;34mboot[0m/  [01;36mbin[0m@
+[0m[01;36mbin[0m  [01;34mboot[0m  [01;34mdev[0m  [01;34metc[0m  [01;34mhome[0m  [01;32minit[0m  [01;36mlib[0m  [01;36mlib32[0m  [01;36mlib64[0m  [01;36mlibx32[0m  [01;34mlost+found[0m  [01;34mmedia[0m  [01;34mmnt[0m  [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m  [01;34mrun[0m  [01;36msbin[0m  [01;34msnap[0m  [01;34msrv[0m  [01;34msys[0m  [30;42mtmp[0m  [01;34musr[0m  [01;34mvar[0m
+[0m[01;36mbin[0m  [01;34mboot[0m  [01;34mdev[0m  [01;34metc[0m  [01;34mhome[0m  [01;32minit[0m  [01;36mlib[0m  [01;36mlib32[0m  [01;36mlib64[0m  [01;36mlibx32[0m  [01;34mlost+found[0m  [01;34mmedia[0m  [01;34mmnt[0m  [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m  [01;34mrun[0m  [01;36msbin[0m  [01;34msnap[0m  [01;34msrv[0m  [01;34msys[0m  [30;42mtmp[0m  [01;34musr[0m  [01;34mvar[0m
+[0m[01;36mbin[0m  [01;34mboot[0m  [01;34mdev[0m  [01;34metc[0m  [01;34mhome[0m  [01;32minit[0m  [01;36mlib[0m  [01;36mlib32[0m  [01;36mlib64[0m  [01;36mlibx32[0m  [01;34mlost+found[0m  [01;34mmedia[0m  [01;34mmnt[0m  [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m  [01;34mrun[0m  [01;36msbin[0m  [01;34msnap[0m  [01;34msrv[0m  [01;34msys[0m  [30;42mtmp[0m  [01;34musr[0m  [01;34mvar[0m
+[0m[01;36mbin[0m  [01;34mboot[0m  [01;34mdev[0m  [01;34metc[0m  [01;34mhome[0m  [01;32minit[0m  [01;36mlib[0m  [01;36mlib32[0m  [01;36mlib64[0m  [01;36mlibx32[0m  [01;34mlost+found[0m  [01;34mmedia[0m  [01;34mmnt[0m  [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m  [01;34mrun[0m  [01;36msbin[0m  [01;34msnap[0m  [01;34msrv[0m  [01;34msys[0m  [30;42mtmp[0m  [01;34musr[0m  [01;34mvar[0m
+[0m[01;36mbin[0m  [01;34mboot[0m  [01;34mdev[0m  [01;34metc[0m  [01;34mhome[0m  [01;32minit[0m  [01;36mlib[0m  [01;36mlib32[0m  [01;36mlib64[0m  [01;36mlibx32[0m  [01;34mlost+found[0m  [01;34mmedia[0m  [01;34mmnt[0m  [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m  [01;34mrun[0m  [01;36msbin[0m  [01;34msnap[0m  [01;34msrv[0m  [01;34msys[0m  [30;42mtmp[0m  [01;34musr[0m  [01;34mvar[0m
+[0m[01;36mbin[0m  [01;34mboot[0m  [01;34mdev[0m  [01;34metc[0m  [01;34mhome[0m  [01;32minit[0m  [01;36mlib[0m  [01;36mlib32[0m  [01;36mlib64[0m  [01;36mlibx32[0m  [01;34mlost+found[0m  [01;34mmedia[0m  [01;34mmnt[0m  [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m  [01;34mrun[0m  [01;36msbin[0m  [01;34msnap[0m  [01;34msrv[0m  [01;34msys[0m  [30;42mtmp[0m  [01;34musr[0m  [01;34mvar[0m
+[0m[01;36mbin[0m  [01;34mboot[0m  [01;34mdev[0m  [01;34metc[0m  [01;34mhome[0m  [01;32minit[0m  [01;36mlib[0m  [01;36mlib32[0m  [01;36mlib64[0m  [01;36mlibx32[0m  [01;34mlost+found[0m  [01;34mmedia[0m  [01;34mmnt[0m  [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m  [01;34mrun[0m  [01;36msbin[0m  [01;34msnap[0m  [01;34msrv[0m  [01;34msys[0m  [30;42mtmp[0m  [01;34musr[0m  [01;34mvar[0m
+[0m[01;36mbin[0m  [01;34mboot[0m  [01;34mdev[0m  [01;34metc[0m  [01;34mhome[0m  [01;32minit[0m  [01;36mlib[0m  [01;36mlib32[0m  [01;36mlib64[0m  [01;36mlibx32[0m  [01;34mlost+found[0m  [01;34mmedia[0m  [01;34mmnt[0m  [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m  [01;34mrun[0m  [01;36msbin[0m  [01;34msnap[0m  [01;34msrv[0m  [01;34msys[0m  [30;42mtmp[0m  [01;34musr[0m  [01;34mvar[0m
+[0m[01;36mbin[0m  [01;34mboot[0m  [01;34mdev[0m  [01;34metc[0m  [01;34mhome[0m  [01;32minit[0m  [01;36mlib[0m  [01;36mlib32[0m  [01;36mlib64[0m  [01;36mlibx32[0m  [01;34mlost+found[0m  [01;34mmedia[0m  [01;34mmnt[0m  [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m  [01;34mrun[0m  [01;36msbin[0m  [01;34msnap[0m  [01;34msrv[0m  [01;34msys[0m  [30;42mtmp[0m  [01;34musr[0m  [01;34mvar[0m
+[0m[01;36mbin[0m  [01;34mboot[0m  [01;34mdev[0m  [01;34metc[0m  [01;34mhome[0m  [01;32minit[0m  [01;36mlib[0m  [01;36mlib32[0m  [01;36mlib64[0m  [01;36mlibx32[0m  [01;34mlost+found[0m  [01;34mmedia[0m  [01;34mmnt[0m  [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m  [01;34mrun[0m  [01;36msbin[0m  [01;34msnap[0m  [01;34msrv[0m  [01;34msys[0m  [30;42mtmp[0m  [01;34musr[0m  [01;34mvar[0m
+[0m[01;36mbin[0m  [01;34mboot[0m  [01;34mdev[0m  [01;34metc[0m  [01;34mhome[0m  [01;32minit[0m  [01;36mlib[0m  [01;36mlib32[0m  [01;36mlib64[0m  [01;36mlibx32[0m  [01;34mlost+found[0m  [01;34mmedia[0m  [01;34mmnt[0m  [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m  [01;34mrun[0m  [01;36msbin[0m  [01;34msnap[0m  [01;34msrv[0m  [01;34msys[0m  [30;42mtmp[0m  [01;34musr[0m  [01;34mvar[0m
+[0m[01;36mbin[0m@  [01;34mboot[0m/  [01;34mdev[0m/  [01;34metc[0m/  [01;34mhome[0m/  [01;32minit[0m*  [01;36mlib[0m@  [01;36mlib32[0m@  [01;36mlib64[0m@  [01;36mlibx32[0m@  [01;34mlost+found[0m/  [01;34mmedia[0m/  [01;34mmnt[0m/  [01;34mopt[0m/  [01;34mproc[0m/  [01;34mroot[0m/  [01;34mrun[0m/  [01;36msbin[0m@  [01;34msnap[0m/  [01;34msrv[0m/  [01;34msys[0m/  [30;42mtmp[0m/  [01;34musr[0m/  [01;34mvar[0m/
+[0m[01;36mbin[0m@  [01;34mboot[0m/  [01;34mdev[0m/  [01;34metc[0m/  [01;34mhome[0m/  [01;32minit[0m*  [01;36mlib[0m@  [01;36mlib32[0m@  [01;36mlib64[0m@  [01;36mlibx32[0m@  [01;34mlost+found[0m/  [01;34mmedia[0m/  [01;34mmnt[0m/  [01;34mopt[0m/  [01;34mproc[0m/  [01;34mroot[0m/  [01;34mrun[0m/  [01;36msbin[0m@  [01;34msnap[0m/  [01;34msrv[0m/  [01;34msys[0m/  [30;42mtmp[0m/  [01;34musr[0m/  [01;34mvar[0m/
+[0m[30;42mtmp[0m  [01;34metc[0m  [01;34mrun[0m  [01;34mdev[0m  [01;34mproc[0m  [01;34msys[0m  [01;34mhome[0m  [01;34mmnt[0m  [01;34mboot[0m  [01;34mmedia[0m  [01;34mopt[0m  [01;34mroot[0m  [01;34msnap[0m  [01;34msrv[0m  [01;34musr[0m  [01;34mvar[0m  [01;36mlib[0m  [01;36mlib32[0m  [01;36mlib64[0m  [01;36mlibx32[0m  [01;36msbin[0m  [01;36mbin[0m  [01;32minit[0m  [01;34mlost+found[0m
+[0m[30;42mtmp[0m/  [01;34metc[0m/  [01;34mrun[0m/  [01;34mdev[0m/  [01;34mproc[0m/  [01;34msys[0m/  [01;34mhome[0m/  [01;34mmnt[0m/  [01;34mboot[0m/  [01;34mmedia[0m/  [01;34mopt[0m/  [01;34mroot[0m/  [01;34msnap[0m/  [01;34msrv[0m/  [01;34musr[0m/  [01;34mvar[0m/  [01;36mlib[0m@  [01;36mlib32[0m@  [01;36mlib64[0m@  [01;36mlibx32[0m@  [01;36msbin[0m@  [01;36mbin[0m@  [01;32minit[0m*  [01;34mlost+found[0m/
+[0m[34;42m'$Recycle.Bin'[0m   [34;42mApps[0m         [34;42mDell[0m                      [34;42mDrivers[0m             [34;42mIntel[0m     [01;34m'Program Files'[0m         [34;42mProgramData[0m  [01;34m'System Volume Information'[0m   [01;34mWindows[0m    [34;42me-logo[0m         [34;42mkworking[0m       swapfile.sys
+[1;49r[3;1H[?12l[?25h[?25l7[3;47r8M[1;49r[4;1H[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[47d(B[0;7mSave modified buffer?                                                                                                                                                                                              [48;1H Y(B[m Yes[K[49d(B[0;7m N(B[m No  [49;17H(B[0;7m^C(B[m Cancel[K[47;23H[?12l[?25h[?25l[48d(B[0;7m^G(B[m Get Help[48;53H(B[0;7mM-D(B[m DOS Format[48;105H(B[0;7mM-A(B[m Append[48;157H(B[0;7mM-B(B[m Backup File[49d(B[0;7m^C(B[m Cancel[17G         [49;53H(B[0;7mM-M(B[m Mac Format[49;105H(B[0;7mM-P(B[m Prepend[49;157H(B[0;7m^T(B[m To Files[47d(B[0;7mFile Name to Write: draft.txt(B[m[47;30H[?12l[?25h[?25l[47;30H[?12l[?25h[?25l(B[0;7mc(B[m[47;31H[?12l[?25h[?25l(B[0;7m (B[m[47;30H[?12l[?25h[?25l[47;98H[1K (B[0;7m[ Writing... ](B[m[K[1;202H(B[0;7m        (B[m[47;98H(B[0;7m[ Wrote 4 lines ](B[m[J[49d[?12l[?25h[49;1H[?1049l[23;0;0t[?1l>[?2004l]0;aditya1308@TIGER03848: /mnt/c/users/aditya.regundwar/desktop/practice[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users/aditya.regundwar/desktop/practice[00m$ ls
+[94m~                                                                                                                                                                                                                  [5;1H~                                                                                                                                                                                                                  [6;1H~                                                                                                                                                                                                                  [7;1H~                                                                                                                                                                                                                  [8;1H~                                                                                                                                                                                                                  [9;1H~                                                                                                                                                                                                                  [10;1H~                                                                                                                                                                                                                  [11;1H~                                                                                                                                                                                                                  [12;1H~                                                                                                                                                                                                                  [13;1H~                                                                                                                                                                                                                  [14;1H~                                                                                                                                                                                                                  [15;1H~                                                                                                                                                                                                                  [16;1H~                                                                                                                                                                                                                  [17;1H~                                                                                                                                                                                                                  [18;1H~                                                                                                                                                                                                                  [19;1H~                                                                                                                                                                                                                  [20;1H~                                                                                                                                                                                                                  [21;1H~                                                                                                                                                                                                                  [22;1H~                                                                                                                                                                                                                  [23;1H~                                                                                                                                                                                                                  [24;1H~                                                                                                                                                                                                                  [25;1H~                                                                                                                                                                                                                  [26;1H~                                                                                                                                                                                                                  [27;1H~                                                                                                                                                                                                                  [28;1H~                                                                                                                                                                                                                  [29;1H~                                                                                                                                                                                                                  [30;1H~                                                                                                                                                                                                                  [31;1H~                                                                                                                                                                                                                  [32;1H~                                                                                                                                                                                                                  [33;1H~                                                                                                                                                                                                                  [34;1H~                                                                                                                                                                                                                  [35;1H~                                                                                                                                                                                                                  [36;1H~                                                                                                                                                                                                                  [37;1H~                                                                                                                                                                                                                  [38;1H~                                                                                                                                                                                                                  [39;1H~                                                                                                                                                                                                                  [40;1H~                                                                                                                                                                                                                  [41;1H~                                                                                                                                                                                                                  [42;1H~                                                                                                                                                                                                                  [43;1H~                                                                                                                                                                                                                  [44;1H~                                                                                                                                                                                                                  [45;1H~                                                                                                                                                                                                                  [46;1H~                                                                                                                                                                                                                  [47;1H~                                                                                                                                                                                                                  [48;1H~                                                                                                                                                                                                                  [m[49;194H1,1[11CAll[1;1H[?25h[?25l[49;184H:[1;1H[49;1H[K[49;1H:[?2004h[?25hwq[?25l[?2004l"draft.txt" 3L, 32C written[23;2t[23;1t
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;49r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[49;1H"draft.txt" 3L, 32C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1Hthis is for practice session
+[?2004h[?1049h[22;0;0t[1;49r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[47;100H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.8                                                                                         draft.txt                                                                                                   [1;210H(B[m[48d(B[0;7m^G(B[m Get Help[18G(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut Text[69G(B[0;7m^J(B[m Justify[86G(B[0;7m^C(B[m Cur Pos[103G(B[0;7mM-U(B[m Undo[48;120H(B[0;7mM-A(B[m Mark Text    (B[0;7mM-](B[m To Bracket   (B[0;7mM-Q(B[m Previous     (B[0;7m^B(B[m Back[48;188H(B[0;7m^◀(B[m Prev Word[49d(B[0;7m^X(B[m Exit[49;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Paste Text    (B[0;7m^T(B[m To Spell[86G(B[0;7m^_(B[m Go To Line    (B[0;7mM-E(B[m Redo[49;120H(B[0;7mM-6(B[m Copy Text    (B[0;7m^Q(B[m Where Was     (B[0;7mM-W(B[m Next[49;171H(B[0;7m^F(B[m Forward[188G(B[0;7m^▶(B[m Next Word[47d[2d[39;49m(B[m[?12l[?25h[?25l[1;202H(B[0;7mModified(B[m[2dt[?12l[?25h[?25lh[?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25l [?12l[?25h[?25lp[?12l[?25h[?25lc[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25lr[?12l[?25h[?25la[?12l[?25h[?25lc[?12l[?25h[?25l [?12l[?25h[?25lc[?12l[?25h[?25lt[?12l[?25h[?25li[47d[K[2;19H[?12l[?25h[?25lc[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25ls[?12l[?25h[?25le[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25ls[?12l[?25h[?25ls[?12l[?25h[?25li[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l [?12l[?25h[?25l[3d[?12l[?25h[?25l^[?12l[?25h[?25lX[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l^[?12l[?25h[?25lX[?12l[?25h[?25l[6d[?12l[?25h[?25le[?12l[?25h[?25lx[?12l[?25h[?25li[?12l[?25h[?25lt[?12l[?25h[?25l[7d[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l^[?12l[?25h[?25lX[?12l[?25h[?25l[8d[?12l[?25h[?25l:[?12l[?25h[?25lw[?12l[?25h[?25lq[?12l[?25h[?25l[9d[?12l[?25h[?25l[A:wq[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l[A^X[?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l[Aexit[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l[A^X[?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l[A[?12l[?25h[?25l[A^X[?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l^[?12l[?25h[?25lX[?12l[?25h[?25l[6d[?12l[?25h[?25lCtrl-d[?12l[?25h[?25l[7d[?12l[?25h[?25l[6;7H[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l[A^X[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[4d[?12l[?25h[?25l[3;47r[47;1H
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;aditya1308@TIGER03848: /mnt/c/users/aditya.regundwar/desktop/practice[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users/aditya.regundwar/desktop/practice[00m$ cp draft.txt draft1.txt
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ cd /ls -r -F
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ ls -F -a[Kc
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ cd .
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ cd ..
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ cd /hone[K[Kme
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ cd /mnt
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ cd C
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ cd c
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ cd c
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ cd home
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ la-[K[Ks -b
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ ls
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ ls
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ ls
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ ls
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ ls
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ ls --help
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ ls -B
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ ls -D
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ ls -F
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ ls -F -a
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ ls -F Desktop
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ ls -a
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ ls -c
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ ls -d
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ ls -f
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ ls -f [K[K[K-F desj[Kktop
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ ls -l
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ ls -l
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ ls -lt
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ ls _[K-C
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ ls _a[K[K-A
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ ls _f[K[K-F
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ ls home/[K[K[K[K[K[K[K[Kls
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ ls north-pacific-gyre/
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ pwd
+]0;aditya1308@TIGER03848: /home[01;32maditya1308@TIGER03848[00m:[01;34m/home[00m$ cd /
+]0;aditya1308@TIGER03848: /home[01;32maditya1308@TIGER03848[00m:[01;34m/home[00m$ cd aditya1308
+]0;aditya1308@TIGER03848: /home[01;32maditya1308@TIGER03848[00m:[01;34m/home[00m$ cd c
+]0;aditya1308@TIGER03848: /home[01;32maditya1308@TIGER03848[00m:[01;34m/home[00m$ ls
+]0;aditya1308@TIGER03848: /home[01;32maditya1308@TIGER03848[00m:[01;34m/home[00m$ ls
+]0;aditya1308@TIGER03848: /home[01;32maditya1308@TIGER03848[00m:[01;34m/home[00m$ pw[K[Kcd /
+]0;aditya1308@TIGER03848: /mnt[01;32maditya1308@TIGER03848[00m:[01;34m/mnt[00m$ cd c
+]0;aditya1308@TIGER03848: /mnt/c[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c[00m$ cd [K[K[Kls
+]0;aditya1308@TIGER03848: /mnt/c[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c[00m$ cd users
+]0;aditya1308@TIGER03848: /mnt/c/users[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users[00m$ cd aditya.regundwar
+]0;aditya1308@TIGER03848: /mnt/c/users[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users[00m$ cd dell
+]0;aditya1308@TIGER03848: /mnt/c/users[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users[00m$ cd desktop
+]0;aditya1308@TIGER03848: /mnt/c/users[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users[00m$ ls
+]0;aditya1308@TIGER03848: /mnt/c/users/aditya.regundwar[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users/aditya.regundwar[00m$ cd desktop
+]0;aditya1308@TIGER03848: /mnt/c/users/aditya.regundwar/desktop[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users/aditya.regundwar/desktop[00m$ cd practice
+]0;aditya1308@TIGER03848: /mnt/c/users/aditya.regundwar/desktop[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users/aditya.regundwar/desktop[00m$ ls -F
+]0;aditya1308@TIGER03848: /mnt/c/users/aditya.regundwar/desktop[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users/aditya.regundwar/desktop[00m$ mkdire= [K[K[K aditya[K[K[K[K[K[Kpractice
+]0;aditya1308@TIGER03848: /mnt/c/users/aditya.regundwar/desktop/practice[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users/aditya.regundwar/desktop/practice[00m$ ls
+]0;aditya1308@TIGER03848: /mnt/c/users/aditya.regundwar/desktop/practice[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users/aditya.regundwar/desktop/practice[00m$ ls
+]0;aditya1308@TIGER03848: /mnt/c/users/aditya.regundwar/desktop/practice[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users/aditya.regundwar/desktop/practice[00m$ ls
+]0;aditya1308@TIGER03848: /mnt/c/users/aditya.regundwar/desktop/practice[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users/aditya.regundwar/desktop/practice[00m$ ls *.txt
+]0;aditya1308@TIGER03848: /mnt/c/users/aditya.regundwar/desktop/practice[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users/aditya.regundwar/desktop/practice[00m$ nano draft.txt
+]0;aditya1308@TIGER03848: /mnt/c/users/aditya.regundwar/desktop/practice[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users/aditya.regundwar/desktop/practice[00m$ rm draft1.txt
+]0;aditya1308@TIGER03848: /mnt/c/users/aditya.regundwar/desktop/practice[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users/aditya.regundwar/desktop/practice[00m$ vi draft.txt
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ cd
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ cd ..
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ cd /
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ exit
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ ls
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ ls
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ ls
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ ls -r -F
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ pwd
+ [0m[01;34mAdmin[0m  [01;36m'All Users'[0m   [01;34mDefault[0m  [01;36m'Default User'[0m   [34;42mPublic[0m   [34;42maditya.regundwar[0m   [01;32mdesktop.ini[0m   [01;34mgaia[0m
+                               (default if omitted), 'auto', or 'never'
+                               (overridden by -a or -A)
+                               (overrides QUOTING_STYLE environment variable)
+                               as sort key if --sort=time (newest first)
+                               can be augmented with a --sort option, but any
+                               ctime or status (-c); also use specified time
+                               e.g., '--block-size=M'; see SIZE format below
+                               file-type (--file-type), classify (-F)
+                               if omitted), 'auto', or 'never'; more info below
+                               link, show information for the file the link
+                               literal, locale, shell, shell-always,
+                               modification of file status information);
+                               modification time: atime or access or use (-u);
+                               none (default), slash (-p),
+                               otherwise: sort by access time, newest first
+                               otherwise: sort by ctime, newest first
+                               references rather than for the link itself
+                               shell-escape, shell-escape-always, c, escape
+                               single-column -1, verbose -l, vertical -C
+                               that points to a directory
+                               time (-t), version (-v), extension (-X)
+                               unless program is 'ls' and output is a terminal)
+                               use of --sort=none (-U) disables grouping
+                               used only with -s and per directory totals
+                               with -l: show access time and sort by name;
+                               with -l: show ctime and sort by name;
+                             append / indicator to directories
+                             follow each command line symbolic link
+                             follow symbolic links listed on the command line
+                             group directories before files;
+      --author               with -l, print the author of each file
+      --block-size=SIZE      with -l, scale sizes by SIZE when printing them;
+      --color[=WHEN]         colorize the output; WHEN can be 'always' (default
+      --dereference-command-line-symlink-to-dir
+      --file-type            likewise, except do not append '*'
+      --format=WORD          across -x, commas -m, horizontal -x, long -l,
+      --full-time            like -l --time-style=full-iso
+      --group-directories-first
+      --help     display this help and exit
+      --hide=PATTERN         do not list implied entries matching shell PATTERN
+      --hyperlink[=WHEN]     hyperlink file names; WHEN can be 'always'
+      --indicator-style=WORD  append indicator with style WORD to entry names:
+      --quoting-style=WORD   use quoting style WORD for entry names:
+      --show-control-chars   show nongraphic characters as-is (the default,
+      --si                   likewise, but use powers of 1000 not 1024
+      --sort=WORD            sort by WORD instead of name: none (-U), size (-S),
+      --time-style=TIME_STYLE  time/date format with -l; see TIME_STYLE below
+      --time=WORD            with -l, show time as WORD instead of default
+      --version  output version information and exit
+  -A, --almost-all           do not list implied . and ..
+  -B, --ignore-backups       do not list implied entries ending with ~
+  -C                         list entries by columns
+  -D, --dired                generate output designed for Emacs' dired mode
+  -F, --classify             append indicator (one of */=>@|) to entries
+  -G, --no-group             in a long listing, don't print group names
+  -H, --dereference-command-line
+  -I, --ignore=PATTERN       do not list implied entries matching shell PATTERN
+  -L, --dereference          when showing file information for a symbolic
+  -N, --literal              print entry names without quoting
+  -Q, --quote-name           enclose entry names in double quotes
+  -R, --recursive            list subdirectories recursively
+  -S                         sort by file size, largest first
+  -T, --tabsize=COLS         assume tab stops at each COLS instead of 8
+  -U                         do not sort; list entries in directory order
+  -X                         sort alphabetically by entry extension
+  -Z, --context              print any security context of each file
+  -a, --all                  do not ignore entries starting with .
+  -b, --escape               print C-style escapes for nongraphic characters
+  -c                         with -lt: sort by, and show, ctime (time of last
+  -d, --directory            list directories themselves, not their contents
+  -f                         do not sort, enable -aU, disable -ls --color
+  -g                         like -l, but do not list owner
+  -h, --human-readable       with -l and -s, print sizes like 1K 234M 2G etc.
+  -i, --inode                print the index number of each file
+  -k, --kibibytes            default to 1024-byte blocks for disk usage;
+  -l                         use a long listing format
+  -m                         fill width with a comma separated list of entries
+  -n, --numeric-uid-gid      like -l, but list numeric user and group IDs
+  -o                         like -l, but do not list group information
+  -p, --indicator-style=slash
+  -q, --hide-control-chars   print ? instead of nongraphic characters
+  -r, --reverse              reverse order while sorting
+  -s, --size                 print the allocated size of each file, in blocks
+  -t                         sort by modification time, newest first
+  -u                         with -lt: sort by, and show, access time;
+  -v                         natural sort of (version) numbers within text
+  -w, --width=COLS           set output width to COLS.  0 means no limit
+  -x                         list entries by lines instead of by columns
+ 0  if OK,
+-rwxr-xr-x   3 root root 1392928 May 28 13:54 [01;32minit[0m
+-rwxr-xr-x   3 root root 1392928 May 28 13:54 [01;32minit[0m
+-rwxr-xr-x   3 root root 1392928 May 28 13:54 [01;32minit[0m
+/
+/home/aditya1308
+:wq 
+Also the TIME_STYLE environment variable sets the default style to use.
+Exit status:
+FORMAT is interpreted like in date(1).  If FORMAT is FORMAT1<newline>FORMAT2,
+Full documentation at: <https://www.gnu.org/software/coreutils/ls>
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+List information about the FILEs (the current directory by default).
+Mandatory arguments to long options are mandatory for short options too.
+Report ls translation bugs to <https://translationproject.org/team/>
+Script done on 2022-08-16 12:21:58+05:30 [COMMAND_EXIT_CODE="0"]
+Script started on 2022-08-16 12:23:42+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="211" LINES="49"]
+See "man sudo_root" for details.
+See "man sudo_root" for details.
+Sort entries alphabetically if none of -cftuvSUX nor --sort is specified.
+TIME_STYLE prefixed with 'posix-' takes effect only outside the POSIX locale.
+The SIZE argument is an integer and optional unit (example: 10K is 10*1024).
+The TIME_STYLE argument can be full-iso, long-iso, iso, locale, or +FORMAT.
+To run a command as administrator (user "root"), use "sudo <command>".
+To run a command as administrator (user "root"), use "sudo <command>".
+Units are K,M,G,T,P,E,Z,Y (powers of 1024) or KB,MB,... (powers of 1000).
+Usage: ls [OPTION]... [FILE]...
+Using color to distinguish file types is disabled both by default and
+bash: cd: C: No such file or directory
+bash: cd: c: No such file or directory
+bash: cd: c: No such file or directory
+bash: cd: c: No such file or directory
+bash: cd: dell: No such file or directory
+bash: cd: desktop: No such file or directory
+dr-xr-xr-x  11 root root       0 Aug 16 12:20 [01;34msys[0m
+dr-xr-xr-x  11 root root       0 Aug 16 12:20 [01;34msys[0m
+dr-xr-xr-x  11 root root       0 Aug 16 12:20 [01;34msys[0m
+dr-xr-xr-x 170 root root       0 Aug 16 12:20 [01;34mproc[0m
+dr-xr-xr-x 171 root root       0 Aug 16 12:20 [01;34mproc[0m
+dr-xr-xr-x 171 root root       0 Aug 16 12:20 [01;34mproc[0m
+drwx------   2 root root    4096 Aug 10 13:40 [01;34mroot[0m
+drwx------   2 root root    4096 Aug 10 13:40 [01;34mroot[0m
+drwx------   2 root root    4096 Aug 10 13:40 [01;34mroot[0m
+drwx------   2 root root   16384 Apr 10  2019 [01;34mlost+found[0m
+drwx------   2 root root   16384 Apr 10  2019 [01;34mlost+found[0m
+drwx------   2 root root   16384 Apr 10  2019 [01;34mlost+found[0m
+drwxr-xr-x   2 root root    4096 Aug 10 13:38 [01;34mmedia[0m
+drwxr-xr-x   2 root root    4096 Aug 10 13:38 [01;34mmedia[0m
+drwxr-xr-x   2 root root    4096 Aug 10 13:38 [01;34mmedia[0m
+drwxr-xr-x   2 root root    4096 Aug 10 13:38 [01;34mopt[0m
+drwxr-xr-x   2 root root    4096 Aug 10 13:38 [01;34mopt[0m
+drwxr-xr-x   2 root root    4096 Aug 10 13:38 [01;34mopt[0m
+drwxr-xr-x   2 root root    4096 Aug 10 13:38 [01;34msrv[0m
+drwxr-xr-x   2 root root    4096 Aug 10 13:38 [01;34msrv[0m
+drwxr-xr-x   2 root root    4096 Aug 10 13:38 [01;34msrv[0m
+drwxr-xr-x   2 root root    4096 Aug 10 13:46 [01;34mboot[0m
+drwxr-xr-x   2 root root    4096 Aug 10 13:46 [01;34mboot[0m
+drwxr-xr-x   2 root root    4096 Aug 10 13:46 [01;34mboot[0m
+drwxr-xr-x   3 root root    4096 Aug 16 10:30 [01;34mhome[0m
+drwxr-xr-x   3 root root    4096 Aug 16 10:30 [01;34mhome[0m
+drwxr-xr-x   3 root root    4096 Aug 16 10:30 [01;34mhome[0m
+drwxr-xr-x   6 root root     120 Aug 16 12:20 [01;34mrun[0m
+drwxr-xr-x   6 root root     120 Aug 16 12:20 [01;34mrun[0m
+drwxr-xr-x   6 root root     120 Aug 16 12:20 [01;34mrun[0m
+drwxr-xr-x   6 root root    4096 Aug 10 13:41 [01;34msnap[0m
+drwxr-xr-x   6 root root    4096 Aug 10 13:41 [01;34msnap[0m
+drwxr-xr-x   6 root root    4096 Aug 10 13:41 [01;34msnap[0m
+drwxr-xr-x   6 root root    4096 Aug 16 10:30 [01;34mmnt[0m
+drwxr-xr-x   6 root root    4096 Aug 16 10:30 [01;34mmnt[0m
+drwxr-xr-x   6 root root    4096 Aug 16 10:30 [01;34mmnt[0m
+drwxr-xr-x   8 root root    2760 Aug 16 12:20 [01;34mdev[0m
+drwxr-xr-x   8 root root    2760 Aug 16 12:20 [01;34mdev[0m
+drwxr-xr-x   8 root root    2760 Aug 16 12:20 [01;34mdev[0m
+drwxr-xr-x  13 root root    4096 Aug 10 13:40 [01;34mvar[0m
+drwxr-xr-x  13 root root    4096 Aug 10 13:40 [01;34mvar[0m
+drwxr-xr-x  13 root root    4096 Aug 10 13:40 [01;34mvar[0m
+drwxr-xr-x  14 root root    4096 Aug 10 13:39 [01;34musr[0m
+drwxr-xr-x  14 root root    4096 Aug 10 13:39 [01;34musr[0m
+drwxr-xr-x  14 root root    4096 Aug 10 13:39 [01;34musr[0m
+drwxr-xr-x  98 root root    4096 Aug 16 12:20 [01;34metc[0m
+drwxr-xr-x  98 root root    4096 Aug 16 12:20 [01;34metc[0m
+drwxr-xr-x  98 root root    4096 Aug 16 12:20 [01;34metc[0m
+drwxrwxrwt   2 root root    4096 Aug 16 12:23 [0m[30;42mtmp[0m
+drwxrwxrwt   2 root root    4096 Aug 16 12:23 [30;42mtmp[0m
+drwxrwxrwt   2 root root    4096 Aug 16 12:23 [30;42mtmp[0m
+exit
+home  srv  etc  opt  root  lib  mnt  usr  media  lib64  sys  dev  sbin  boot  bin  run  lib32  libx32  init  proc  snap  tmp  var  lost+found  ..  .
+lrwxrwxrwx   1 root root       7 Aug 10 13:38 [01;36mbin[0m -> [01;34musr/bin[0m
+lrwxrwxrwx   1 root root       7 Aug 10 13:38 [01;36mlib[0m -> [01;34musr/lib[0m
+lrwxrwxrwx   1 root root       7 Aug 10 13:38 [01;36mlib[0m -> [01;34musr/lib[0m
+lrwxrwxrwx   1 root root       7 Aug 10 13:38 [01;36mlib[0m -> [01;34musr/lib[0m
+lrwxrwxrwx   1 root root       7 Aug 10 13:38 [0m[01;36mbin[0m -> [01;34musr/bin[0m
+lrwxrwxrwx   1 root root       7 Aug 10 13:38 [0m[01;36mbin[0m -> [01;34musr/bin[0m
+lrwxrwxrwx   1 root root       8 Aug 10 13:38 [01;36msbin[0m -> [01;34musr/sbin[0m
+lrwxrwxrwx   1 root root       8 Aug 10 13:38 [01;36msbin[0m -> [01;34musr/sbin[0m
+lrwxrwxrwx   1 root root       8 Aug 10 13:38 [01;36msbin[0m -> [01;34musr/sbin[0m
+lrwxrwxrwx   1 root root       9 Aug 10 13:38 [01;36mlib32[0m -> [01;34musr/lib32[0m
+lrwxrwxrwx   1 root root       9 Aug 10 13:38 [01;36mlib32[0m -> [01;34musr/lib32[0m
+lrwxrwxrwx   1 root root       9 Aug 10 13:38 [01;36mlib32[0m -> [01;34musr/lib32[0m
+lrwxrwxrwx   1 root root       9 Aug 10 13:38 [01;36mlib64[0m -> [01;34musr/lib64[0m
+lrwxrwxrwx   1 root root       9 Aug 10 13:38 [01;36mlib64[0m -> [01;34musr/lib64[0m
+lrwxrwxrwx   1 root root       9 Aug 10 13:38 [01;36mlib64[0m -> [01;34musr/lib64[0m
+lrwxrwxrwx   1 root root      10 Aug 10 13:38 [01;36mlibx32[0m -> [01;34musr/libx32[0m
+lrwxrwxrwx   1 root root      10 Aug 10 13:38 [01;36mlibx32[0m -> [01;34musr/libx32[0m
+lrwxrwxrwx   1 root root      10 Aug 10 13:38 [01;36mlibx32[0m -> [01;34musr/libx32[0m
+ls: cannot access 'Desktop': No such file or directory
+ls: cannot access 'DumpStack.log.tmp': Permission denied
+ls: cannot access 'desktop': No such file or directory
+ls: cannot access 'hiberfil.sys': Permission denied
+ls: cannot access 'north-pacific-gyre/': No such file or directory
+ls: cannot access 'pagefile.sys': Permission denied
+ls: cannot access 'swapfile.sys': Permission denied
+my_unix_session.txt
+my_unix_session.txt
+my_unix_session.txt
+my_unix_session.txt
+or available locally via: info '(coreutils) ls invocation'
+standard output is connected to a terminal.  The LS_COLORS environment
+started on 2022-08-16 12:21:39+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="211" LINES="49"]
+then FORMAT1 applies to non-recent files and FORMAT2 to recent files.
+total 1428
+total 1428
+total 1428
+variable can change the settings.  Use the dircolors command to set it.
+with --color=never.  With --color=auto, ls emits color codes only when
+ 1  if minor problems (e.g., cannot access subdirectory),
+ 2  if serious trouble (e.g., cannot access command-line argument).
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ 2R0;10;1c
+2R0: command not found
+10: command not found
+1c: command not found
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ ls
+my_unix_session.txt
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ cd 
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ cd mnt/us[K[Kc/users
+bash: cd: mnt/c/users: No such file or directory
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ cd mnt
+bash: cd: mnt: No such file or directory
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ ls
+my_unix_session.txt
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ cd /
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ cd mnt/c/users/desktop
+bash: cd: mnt/c/users/desktop: No such file or directory
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ my_unix_session.txtmy_unix_session.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd mnt/c/users/desktop[K[K[K[K[K[K[K[K
+]0;aditya1308@TIGER03848: /mnt/c/users[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users[00m$ cd Desktop
+bash: cd: Desktop: No such file or directory
+]0;aditya1308@TIGER03848: /mnt/c/users[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users[00m$ ls
+ [0m[01;34mAdmin[0m  [01;36m'All Users'[0m   [01;34mDefault[0m  [01;36m'Default User'[0m   [34;42mPublic[0m   [34;42maditya.regundwar[0m   [01;32mdesktop.ini[0m   [01;34mgaia[0m
+]0;aditya1308@TIGER03848: /mnt/c/users[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users[00m$ cd aditya.regundwar
+]0;aditya1308@TIGER03848: /mnt/c/users/aditya.regundwar[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users/aditya.regundwar[00m$ cd desktop
+]0;aditya1308@TIGER03848: /mnt/c/users/aditya.regundwar/desktop[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users/aditya.regundwar/desktop[00m$ ls
+[0m[01;32m'Aditya - Chrome.lnk'[0m   [01;32mdesktop.ini[0m   [34;42mpractice[0m
+]0;aditya1308@TIGER03848: /mnt/c/users/aditya.regundwar/desktop[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users/aditya.regundwar/desktop[00m$ cd -n[K[K[K[K[Ksort -n 
+
+
+
+my_unix_session.txtScript started on 2022-08-16 23:52:05+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="211" LINES="49"]
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ ls
+my_unix_session.txt
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ lssort -n ls[Kcd desktopaditya.regundwarls[Kcd Desktopls[Kcd aditya.regundwar[9Pdesktopls[Ksort -n ls[K[Kc[Kwc my_unix_session.txt
+  696  5581 94875 my_unix_session.txt
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ head -n [K[K2 my_unix_session.txt
+:wq 
+started on 2022-08-16 12:21:39+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="211" LINES="49"]
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ head -2 my_unix_session.txt[1P my_unix_session.txt5 my_unix_session.txt
+:wq 
+started on 2022-08-16 12:21:39+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="211" LINES="49"]
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ tail -5 my_unix_session.txt
+]0;aditya1308@TIGER03848: /mnt/c/users/aditya.regundwar/desktop[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users/aditya.regundwar/desktop[00m$ cd -n[K[K[K[K[Ksort -n 
+
+
+
+my_unix_session.txt]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ cd mnt [K
+bash: cd: mnt: No such file or directory
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ ls /
+[0m[01;36mbin[0m  [01;34mboot[0m  [01;34mdev[0m  [01;34metc[0m  [01;34mhome[0m  [01;32minit[0m  [01;36mlib[0m  [01;36mlib32[0m  [01;36mlib64[0m  [01;36mlibx32[0m  [01;34mlost+found[0m  [01;34mmedia[0m  [01;34mmnt[0m  [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m  [01;34mrun[0m  [01;36msbin[0m  [01;34msnap[0m  [01;34msrv[0m  [01;34msys[0m  [30;42mtmp[0m  [01;34musr[0m  [01;34mvar[0m
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ cd mnt
+bash: cd: mnt: No such file or directory
+]0;aditya1308@TIGER03848: ~[01;32maditya1308@TIGER03848[00m:[01;34m~[00m$ cd /
+]0;aditya1308@TIGER03848: /[01;32maditya1308@TIGER03848[00m:[01;34m/[00m$ cd mnt/
+]0;aditya1308@TIGER03848: /mnt[01;32maditya1308@TIGER03848[00m:[01;34m/mnt[00m$ cd [K[K[Kls
+[0m[34;42mc[0m  [34;42md[0m  [34;42mg[0m  [30;42mwsl[0m
+]0;aditya1308@TIGER03848: /mnt[01;32maditya1308@TIGER03848[00m:[01;34m/mnt[00m$ cd c
+]0;aditya1308@TIGER03848: /mnt/c[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c[00m$ cd [K[K[Kla[Ks
+ls: cannot access 'DumpStack.log.tmp': Permission denied
+ls: cannot access 'hiberfil.sys': Permission denied
+ls: cannot access 'pagefile.sys': Permission denied
+ls: cannot access 'swapfile.sys': Permission denied
+[0m[34;42m'$Recycle.Bin'[0m   [34;42mApps[0m         [34;42mDell[0m                      [34;42mDrivers[0m             [34;42mIntel[0m     [01;34m'Program Files'[0m         [34;42mProgramData[0m  [01;34m'System Volume Information'[0m   [01;34mWindows[0m    [34;42me-logo[0m         [34;42mkworking[0m       swapfile.sys
+[01;34m'$WinREAgent'[0m    [01;34mConfig.Msi[0m  [01;36m'Documents and Settings'[0m   DumpStack.log.tmp   [01;34mPerfLogs[0m  [01;34m'Program Files (x86)'[0m   [34;42mRecovery[0m      [01;34mUsers[0m                        [01;32mdell.sdr[0m   hiberfil.sys   pagefile.sys   [34;42mtemp[0m
+]0;aditya1308@TIGER03848: /mnt/c[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c[00m$ cd desktop
+bash: cd: desktop: No such file or directory
+]0;aditya1308@TIGER03848: /mnt/c[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c[00m$ cd users
+]0;aditya1308@TIGER03848: /mnt/c/users[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users[00m$ cd aditya.regundwar
+]0;aditya1308@TIGER03848: /mnt/c/users/aditya.regundwar[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users/aditya.regundwar[00m$ cd desktop
+]0;aditya1308@TIGER03848: /mnt/c/users/aditya.regundwar/desktop[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users/aditya.regundwar/desktop[00m$ ls
+[0m[01;32m'Aditya - Chrome.lnk'[0m   [01;32mdesktop.ini[0m   [34;42mpractice[0m
+]0;aditya1308@TIGER03848: /mnt/c/users/aditya.regundwar/desktop[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users/aditya.regundwar/desktop[00m$ cd practice
+]0;aditya1308@TIGER03848: /mnt/c/users/aditya.regundwar/desktop/practice[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users/aditya.regundwar/desktop/practice[00m$ ls
+[0m[01;32mdraft.txt[0m
+]0;aditya1308@TIGER03848: /mnt/c/users/aditya.regundwar/desktop/practice[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users/aditya.regundwar/desktop/practice[00m$ grep the draft.txt
+]0;aditya1308@TIGER03848: /mnt/c/users/aditya.regundwar/desktop/practice[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users/aditya.regundwar/desktop/practice[00m$ grep pre[Kactice draft.txt
+this is for [01;31m[Kpractice[m[K session 
+]0;aditya1308@TIGER03848: /mnt/c/users/aditya.regundwar/desktop/practice[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users/aditya.regundwar/desktop/practice[00m$ grep practice draft.txt[C[1@ [1@-[C[1@ [1P[1@w
+this is for [01;31m[Kpractice[m[K session 
+]0;aditya1308@TIGER03848: /mnt/c/users/aditya.regundwar/desktop/practice[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users/aditya.regundwar/desktop/practice[00m$ grep -w practice draft.txt[1P[1@n
+[32m[K1[m[K[36m[K:[m[Kthis is for [01;31m[Kpractice[m[K session 
+]0;aditya1308@TIGER03848: /mnt/c/users/aditya.regundwar/desktop/practice[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users/aditya.regundwar/desktop/practice[00m$ grep --help
+Usage: grep [OPTION]... PATTERNS [FILE]...
+Search for PATTERNS in each FILE.
+Example: grep -i 'hello world' menu.h main.c
+PATTERNS can contain multiple patterns separated by newlines.
+
+Pattern selection and interpretation:
+  -E, --extended-regexp     PATTERNS are extended regular expressions
+  -F, --fixed-strings       PATTERNS are strings
+  -G, --basic-regexp        PATTERNS are basic regular expressions
+  -P, --perl-regexp         PATTERNS are Perl regular expressions
+  -e, --regexp=PATTERNS     use PATTERNS for matching
+  -f, --file=FILE           take PATTERNS from FILE
+  -i, --ignore-case         ignore case distinctions in patterns and data
+      --no-ignore-case      do not ignore case distinctions (default)
+  -w, --word-regexp         match only whole words
+  -x, --line-regexp         match only whole lines
+  -z, --null-data           a data line ends in 0 byte, not newline
+
+Miscellaneous:
+  -s, --no-messages         suppress error messages
+  -v, --invert-match        select non-matching lines
+  -V, --version             display version information and exit
+      --help                display this help text and exit
+
+Output control:
+  -m, --max-count=NUM       stop after NUM selected lines
+  -b, --byte-offset         print the byte offset with output lines
+  -n, --line-number         print line number with output lines
+      --line-buffered       flush output on every line
+  -H, --with-filename       print file name with output lines
+  -h, --no-filename         suppress the file name prefix on output
+      --label=LABEL         use LABEL as the standard input file name prefix
+  -o, --only-matching       show only nonempty parts of lines that match
+  -q, --quiet, --silent     suppress all normal output
+      --binary-files=TYPE   assume that binary files are TYPE;
+                            TYPE is 'binary', 'text', or 'without-match'
+  -a, --text                equivalent to --binary-files=text
+  -I                        equivalent to --binary-files=without-match
+  -d, --directories=ACTION  how to handle directories;
+                            ACTION is 'read', 'recurse', or 'skip'
+  -D, --devices=ACTION      how to handle devices, FIFOs and sockets;
+                            ACTION is 'read' or 'skip'
+  -r, --recursive           like --directories=recurse
+  -R, --dereference-recursive  likewise, but follow all symlinks
+      --include=GLOB        search only files that match GLOB (a file pattern)
+      --exclude=GLOB        skip files that match GLOB
+      --exclude-from=FILE   skip files that match any file pattern from FILE
+      --exclude-dir=GLOB    skip directories that match GLOB
+  -L, --files-without-match  print only names of FILEs with no selected lines
+  -l, --files-with-matches  print only names of FILEs with selected lines
+  -c, --count               print only a count of selected lines per FILE
+  -T, --initial-tab         make tabs line up (if needed)
+  -Z, --null                print 0 byte after FILE name
+
+Context control:
+  -B, --before-context=NUM  print NUM lines of leading context
+  -A, --after-context=NUM   print NUM lines of trailing context
+  -C, --context=NUM         print NUM lines of output context
+  -NUM                      same as --context=NUM
+      --color[=WHEN],
+      --colour[=WHEN]       use markers to highlight the matching strings;
+                            WHEN is 'always', 'never', or 'auto'
+  -U, --binary              do not strip CR characters at EOL (MSDOS/Windows)
+
+When FILE is '-', read standard input.  With no FILE, read '.' if
+recursive, '-' otherwise.  With fewer than two FILEs, assume -h.
+Exit status is 0 if any line (or file if -L) is selected, 1 otherwise;
+if any error occurs and -q is not given, the exit status is 2.
+
+Report bugs to: bug-grep@gnu.org
+GNU grep home page: <http://www.gnu.org/software/grep/>
+General help using GNU software: <https://www.gnu.org/gethelp/>
+]0;aditya1308@TIGER03848: /mnt/c/users/aditya.regundwar/desktop/practice[01;32maditya1308@TIGER03848[00m:[01;34m/mnt/c/users/aditya.regundwar/desktop/practice[00m$ exit
+exit
+
+Script done on 2022-08-17 00:39:12+05:30 [COMMAND_EXIT_CODE="0"]
